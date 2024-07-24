@@ -40,7 +40,7 @@ const App = () => {
     setSeriesName('Select One');
     setModelName('Select One');
     setActiveTab('manufacturer');
-    navigate(`/${category.code}`);
+    navigate(`/cross-reference/${category.code}`);
   };
 
   const handleSelectManufacturer = (categoryCode, manufacturerCode) => {
@@ -52,7 +52,7 @@ const App = () => {
     setSeriesName('Select One');
     setModelName('Select One');
     setActiveTab('series');
-    navigate(`/${categoryCode}/${manufacturerCode}`);
+    navigate(`/cross-reference/${categoryCode}/${manufacturerCode}`);
   };
 
   const handleSelectSeries = (categoryCode, manufacturerCode, seriesId) => {
@@ -62,20 +62,20 @@ const App = () => {
     setModel('');
     setModelName('Select One');
     setActiveTab('model');
-    navigate(`/${categoryCode}/${manufacturerCode}/${seriesId}`);
+    navigate(`/cross-reference/${categoryCode}/${manufacturerCode}/${seriesId}`);
   };
 
   const handleSelectModel = (model) => {
     setModel(model.id);
     setModelName(model.name);
     setActiveTab('alternative');
-    navigate(`/${category}/${manufacturer}/${series}/${model.id}/alternatives`);
+    navigate(`/cross-reference/${category}/${manufacturer}/${series}/${model.id}/alternatives`);
   };
 
   const handleTabClick = (tab) => {
     if (tab === 'category') {
       resetSelections();
-      navigate('/');
+      navigate('/cross-reference/');
     } else if (tab === 'manufacturer' && category) {
       setActiveTab('manufacturer');
       setManufacturer('');
@@ -84,19 +84,19 @@ const App = () => {
       setSeriesName('Select One');
       setModel('');
       setModelName('Select One');
-      navigate(`/${category}`);
+      navigate(`/cross-reference/${category}`);
     } else if (tab === 'series' && manufacturer) {
       setActiveTab('series');
       setSeries('');
       setSeriesName('Select One');
       setModel('');
       setModelName('Select One');
-      navigate(`/${category}/${manufacturer}`);
+      navigate(`/cross-reference/${category}/${manufacturer}`);
     } else if (tab === 'model' && series) {
       setActiveTab('model');
       setModel('');
       setModelName('Select One');
-      navigate(`/${category}/${manufacturer}/${series}`);
+      navigate(`/cross-reference/${category}/${manufacturer}/${series}`);
     }
   };
 
@@ -128,11 +128,11 @@ const App = () => {
         handleTabClick={handleTabClick}
       />
       <Routes>
-        <Route path="/" element={<Home onSelectCategory={handleSelectCategory} />} />
-        <Route path="/:categoryCode" element={<Manufacturer onSelectManufacturer={handleSelectManufacturer} />} />
-        <Route path="/:categoryCode/:manufacturerCode" element={<Series onSelectSeries={handleSelectSeries} />} />
-        <Route path="/:categoryCode/:manufacturerCode/:seriesId" element={<Models onSelectModel={handleSelectModel} />} />
-        <Route path="/:categoryCode/:manufacturerCode/:seriesId/:modelId/alternatives" element={<Alternatives onRestart={resetSelections} />} />
+        <Route path="/cross-reference/" element={<Home onSelectCategory={handleSelectCategory} />} />
+        <Route path="/cross-reference/:categoryCode" element={<Manufacturer onSelectManufacturer={handleSelectManufacturer} />} />
+        <Route path="/cross-reference/:categoryCode/:manufacturerCode" element={<Series onSelectSeries={handleSelectSeries} />} />
+        <Route path="/cross-reference/:categoryCode/:manufacturerCode/:seriesId" element={<Models onSelectModel={handleSelectModel} />} />
+        <Route path="/cross-reference/:categoryCode/:manufacturerCode/:seriesId/:modelId/alternatives" element={<Alternatives onRestart={resetSelections} />} />
       </Routes>
       <Footer />
     </div>
