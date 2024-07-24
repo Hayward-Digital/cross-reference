@@ -1,0 +1,131 @@
+{
+    "HCP3020VSP": {
+        "id": 134141,
+        "sku": "HCP3020VSP",
+        "name": "TriStar® XL",
+        "attribute_set_id": 110,
+        "price": 3649.12,
+        "status": 1,
+        "visibility": 4,
+        "type_id": "simple",
+        "created_at": "2023-06-22 12:49:58",
+        "updated_at": "2024-07-14 23:13:00",
+        "weight": 75,
+        "media_gallery_entries": [
+            {
+                "id": 1737,
+                "media_type": "image",
+                "label": null,
+                "position": 0,
+                "disabled": false,
+                "types": [
+                    "image",
+                    "small_image",
+                    "thumbnail",
+                    "swatch_image"
+                ],
+                "file": "https://hayward.com/media/catalog/product//T/r/TriStarXL_Large_fa04.jpg"
+            }
+        ],
+        "custom_attributes": [
+            {
+                "attribute_code": "image",
+                "value": "https://hayward.com/media/catalog/product//T/r/TriStarXL_Large_fa04.jpg"
+            },
+            {
+                "attribute_code": "url_key",
+                "value": "https://hayward.com/tristarr-xl"
+            },
+            {
+                "attribute_code": "description",
+                "value": "<p>Powerful Design. Versatile Performance. The TriStar XL is a game changer for large residential pools, feature-rich pools or complex pool pad configurations. Engineered for performance and versatility, the TriStar XL delivers increased flow from extra-large 3\" unions, the removable strainer housing allows for more adaptable pump configurations, and the oversized strainer basket reduces cleaning and maintenance.</p><ul>\n<li>Versatile strainer housing and motor can be plumbed separate for complex pool pad configurations (Flange Kit sold separately)</li>\n<li>Removable, oversized strainer basket for reduced cleaning and maintenance</li>\n<li>Increased flow from included 3\" unions</li>\n<li>2.5\" x 3\" unions for easy drop-in replacement</li>\n<li>WEF 9.9 rating that blows the competition out of the water</li>\n<li>Easy pump control from digital touchscreen interface</li>\n<li>Remote pump control with Omni® automation to manage speed, scheduling and more</li>\n<li>Digital control interface that can be rotated or wall-mounted</li>\n<li>Totally enclosed fan-cooled (TEFC) motor maximizes energy efficiency</li>\n<li>Chemical-resistant Viton® seal for long-term durability</li>\n<li>ENERGY STAR approved – may be eligible for local utility rebates</li>\n<li>4-year warranty</li>\n</ul>"
+            }
+        ]
+    },
+    "SP32900VSP": {
+        "id": 134195,
+        "sku": "SP32900VSP",
+        "name": "TriStar VS 900",
+        "attribute_set_id": 110,
+        "price": 2874.79,
+        "status": 1,
+        "visibility": 4,
+        "type_id": "simple",
+        "created_at": "2023-06-22 12:49:58",
+        "updated_at": "2024-07-14 23:13:00",
+        "weight": 56,
+        "media_gallery_entries": [
+            {
+                "id": 4965,
+                "media_type": "image",
+                "label": null,
+                "position": 0,
+                "disabled": false,
+                "types": [
+                    "image",
+                    "small_image",
+                    "thumbnail",
+                    "swatch_image"
+                ],
+                "file": "https://hayward.com/media/catalog/product//t/r/tristar_vs_950_2019_side_e8d1.jpg"
+            }
+        ],
+        "custom_attributes": [
+            {
+                "attribute_code": "image",
+                "value": "https://hayward.com/media/catalog/product//t/r/tristar_vs_950_2019_side_e8d1.jpg"
+            },
+            {
+                "attribute_code": "url_key",
+                "value": "https://hayward.com/tristar-vs-900"
+            },
+            {
+                "attribute_code": "description",
+                "value": "<p>Powered by advanced hydraulics and boasting the industry's leading energy efficiency WEF rating, the TriStar VS 900 delivers unmatched performance, reliability and savings for both new and existing pools. The side/rear conduit entries and standard union connections make it easy to integrate ENERGY STAR-rated efficiency—saving up to $1,500 a year on energy costs—without sacrificing performance from the powerful, yet quiet motor drive. And with a 3-year extended warranty and a chemical-resistant Viton® seal, pool owners can rest easy knowing that their TriStar VS 900 provides the top-notch durability and reliability they need.</p><p>Features & Benefits</p><ul>\n<li>Rated with the industry's best Weighted Energy Factor (WEF) of 12.9. The higher the WEF, the more efficient the pump. Learn more about WEF here</li>\n<li>Advanced hydraulic design replaces most high-performance pumps (up to 1.5 full-rate / 2.0 max-rate HP)</li>\n<li>Upgraded dual-voltage motor drive delivers 30% quieter high-speed operation than other models</li>\n<li>Permanent magnet totally enclosed fan-cooled motor provides better pump reliability and efficiency</li>\n<li>No-rib strainer basket with see-through cover offers easy debris removal</li>\n<li>Side and rear conduit entry accommodates both high and low voltage connections for simple installation</li>\n</ul>"
+            }
+        ]
+    },
+    "HL32900VSP": {
+        "id": 134197,
+        "sku": "HL32900VSP",
+        "name": "TriStar VS 900 Omni",
+        "attribute_set_id": 110,
+        "price": 4435.44,
+        "status": 1,
+        "visibility": 4,
+        "type_id": "simple",
+        "created_at": "2023-06-22 12:49:58",
+        "updated_at": "2024-07-14 23:13:00",
+        "weight": 62,
+        "media_gallery_entries": [
+            {
+                "id": 2342,
+                "media_type": "image",
+                "label": null,
+                "position": 0,
+                "disabled": false,
+                "types": [
+                    "image",
+                    "small_image",
+                    "thumbnail",
+                    "swatch_image"
+                ],
+                "file": "https://hayward.com/media/catalog/product//H/a/Hayward_Website_Product_Image_TriStar_VS_950_Omni_e293.png"
+            }
+        ],
+        "custom_attributes": [
+            {
+                "attribute_code": "image",
+                "value": "https://hayward.com/media/catalog/product//H/a/Hayward_Website_Product_Image_TriStar_VS_950_Omni_e293.png"
+            },
+            {
+                "attribute_code": "url_key",
+                "value": "https://hayward.com/tristar-vs-900-omni-hl32900vsp"
+            },
+            {
+                "attribute_code": "description",
+                "value": "<p>VS Omni variable-speed pool pumps are the easiest, most affordable way to add convenient scheduling and smart control to existing pools and spas. VS Omni controls virtually every kind of pool and spa equipment, including pumps, heaters, lighting, sanitization, water features and more. VS Omni variable-speed pumps seamlessly integrate with most equipment brands and include a choice of four models that provide a simple replacement for existing pump:</p><p>TriStar® VS 950 Omni</p><p>TriStar® VS 900 Omni</p><p>MaxFlo™ VS 500 Omni</p><p>Super Pump® VS 700 Omni</p><p>Features:</p><ul>\n<li>All models include: Wiring Base Unit, Smart Relay and Control Pad</li>\n<li>Pool and spa control and scheduling from anywhere with a smartphone or tablet</li>\n<li>Voice Assistant Control: Omni works with Amazon® Alexa and Google Home voice control, allowing pool owners the convenience of hands-free pool control.</li>\n<li>Controls a full range of equipment, including pumps, heaters, lighting, sanitization, water features and more (connect up to three Smart Relays for total control)</li>\n<li>Conveniently adjust pump speed, set water temperature, turn pool lights on/off with the touch of a button</li>\n<li>Industry-leading energy efficiency— save up to 90% in energy costs</li>\n<li>Permanent magnet, totally enclosed fan-cooled motors feature EnduraDrive™ and Viton® seal to ensure long-lasting performance and reliability</li>\n</ul>"
+            }
+        ]
+    }
+}

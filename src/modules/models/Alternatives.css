@@ -1,0 +1,135 @@
+/* Alternatives.css */
+.alternatives-container {
+  margin: 20px;
+}
+
+.alternatives-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.title{
+  color: var(--primary-color) !important;
+}
+
+.model-card {
+  border: 1px solid var(--black-30);
+  border-radius: 20px;
+  padding: 30px;
+  text-align: left;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+  flex: 1 1 100%; /* Default to 100% width for mobile */
+}
+.model-card:hover{
+  box-shadow:  0px 0px 30px rgba(0,0,0,0.05) !important;
+}
+.model-card img{
+  height: 300px !important;
+  width: auto !important;
+}
+.model-card p, .model-card h3, .model-card h4{
+  width: 100%;
+}
+.model-card p.description{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* Número de líneas visibles */
+  overflow: hidden;
+}
+
+.model-card h3 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.model-card.best {
+  border: 2px solid var(--primary-color);
+  background-color: #fff;
+  box-shadow:  0px 0px 20px rgba(0,0,0,0.05);
+  
+}
+.model-card.best:hover{
+  box-shadow:  0px 0px 30px rgba(0,0,0,0.2) !important;
+}
+.model-card.best h3{
+  color: #00b4ee ;
+  font-size: 36px;
+}
+
+
+.model-card.good, .model-card.better {
+  border: 2px solid #fafafa;
+  background-color: #fff;
+}
+
+.model-card.good img, .model-card.better img{
+  height: 200px !important;
+  width: auto !important;
+}
+
+
+
+
+.model-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  text-decoration: none;
+  transition: background-color 0.3s;
+  height: fit-content;
+}
+
+.model-card a:hover {
+  background-color: var(--black-80);
+}
+
+
+
+.start-again-btn:hover {
+  background-color: var(--black-80);
+}
+
+@media (min-width: 1025px) {
+  .model-card.good {
+    order: 1;
+    flex: 1 1 calc(33.33% - 40px); /* 33% width for desktop */
+  }
+
+  .model-card.best {
+    order: 2;
+    flex: 1 1 calc(33.33% - 40px); /* Center best card */
+  }
+
+  .model-card.better {
+    order: 3;
+    flex: 1 1 calc(33.33% - 40px); /* 33% width for desktop */
+  }
+}
+
+@media (max-width: 1024px) {
+  .model-card.best {
+    order: 1;
+    flex: 1 1 100%; /* Best first */
+  }
+
+  .model-card.better {
+    order: 2;
+    flex: 1 1 50%; /* Better second */
+  }
+
+  .model-card.good {
+    order: 3;
+    flex: 1 1 50%; /* Good third */
+  }
+}

@@ -1,0 +1,73 @@
+/* Styles for the model cards */
+.card.model {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.card.model.active {
+  border: 2px solid var(--primary-color);
+  background-color: #e9f5ff;
+  color: var(--primary-color);
+}
+
+/* Styles for the attribute options */
+.option {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.option.selected {
+  border: 2px solid var(--primary-color);
+  background-color: #e9f5ff;
+}
+
+/* Container for the attribute sections */
+.attribute-section {
+  margin-bottom: 20px;
+}
+
+/* Options container */
+.options {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-container {
+  max-width: 300px;
+  position: relative;
+}
+
+.filter-container input[type="text"] {
+  width: 100%;
+  padding: 10px 40px 10px 10px; /* Añade padding derecho para el icono */
+  border: none;
+  border-bottom: 1px solid #ccc; /* Línea inferior */
+  outline: none;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.filter-container input[type="text"]:focus {
+  border-bottom-color: var(--primary-color); /* Cambia de color al enfocar */
+}
+
+.filter-container .bi-search {
+  position: absolute;
+  right: 10px; /* Posiciona el icono a la derecha */
+  top: 10px;
+  cursor: pointer;
+  color: #ccc; /* Color del icono */
+  transition: color 0.3s;
+}
+
+.filter-container input[type="text"]:focus + .bi-search {
+  color: var(--primary-color); /* Cambia de color al enfocar */
+}
+

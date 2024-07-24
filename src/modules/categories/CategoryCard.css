@@ -1,0 +1,26 @@
+.card.category {
+    height: 100%;
+    cursor: pointer;
+  }
+.card.category:hover{
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Aquí replicas la clase shadow de Bootstrap */
+}
+.card.category .svg-icon svg{
+    max-width: 100% !important;
+    max-height: 50px;
+}
+.card.category .svg-icon svg path  {
+    fill: none;
+    stroke: black; /* Color inicial del SVG */
+    transition: stroke 0.3s; /* Transición suave */
+  }
+
+  .card.category:hover .svg-icon svg path{
+    stroke: #00B4EE; /* Color al pasar el cursor */
+
+}
+
+
+

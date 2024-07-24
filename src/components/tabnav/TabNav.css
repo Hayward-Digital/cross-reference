@@ -1,0 +1,43 @@
+/* TabNav styles */
+.tab-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tab-item {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  color: var(--black-60);
+  transition: all 0.3s;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.tab-item.active > .tab-subtitle {
+  color: var(--primary-color);
+  border-top: 1px solid var(--primary-color);
+}
+
+.tab-item:hover .tab-subtitle {
+  border-top: 1px solid var(--primary-color);
+}
+
+.tab-item.disabled {
+  cursor: not-allowed;
+    opacity: 0.5;
+    filter: grayscale(100);
+}
+
+.tab-subtitle {
+  display: block;
+  color: var(--black-60);
+  border-top: solid 1px var(--black-30);
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}

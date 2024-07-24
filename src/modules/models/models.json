@@ -1,0 +1,3994 @@
+{
+  "models": [
+      {
+          "id": 1,
+          "name": "VSSHP220AUT",
+          "sku": "VSSHP220AUT",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 1,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": "HCP3020VSP",
+              "better": "HL32900VSP",
+              "best": "SP32900VSP"
+          }
+      },
+      {
+          "id": 2,
+          "name": "VSSHP270AUT",
+          "sku": "VSSHP270AUT",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 1,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 3,
+          "name": "2.2HP with 2 Relays + SpeedSet Controller",
+          "sku": "VSSHP220DV2AS",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 1,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 4,
+          "name": "2.2HP With 2 Relays",
+          "sku": "VSSHP220DV2A",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 1,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 5,
+          "name": "2.7HP with 2 Relays + SpeedSet Controller",
+          "sku": "VSSHP270DV2AS",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 1,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 6,
+          "name": "2.7HP With 2 Relays",
+          "sku": "VSSHP270DV2A",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 1,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 7,
+          "name": "FHPM1.0",
+          "sku": "FHPM1.0",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 2,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 8,
+          "name": "FHPM1.5",
+          "sku": "FHPM1.5",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 2,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 9,
+          "name": "FHPM2.0",
+          "sku": "FHPM2.0",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 2,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 10,
+          "name": "FHPM.75",
+          "sku": "FHPM.75",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 2,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 11,
+          "name": "FHPM1.0-2",
+          "sku": "FHPM1.0-2",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 2,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 12,
+          "name": "FHPM1.5-2",
+          "sku": "FHPM1.5-2",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 2,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 13,
+          "name": "FHPM2.0-2",
+          "sku": "FHPM2.0-2",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 2,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 14,
+          "name": "PHPF.50",
+          "sku": "PHPF.50",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 15,
+          "name": "PHPF.75",
+          "sku": "PHPF.75",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 16,
+          "name": "PHPF1.0",
+          "sku": "PHPF1.0",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 17,
+          "name": "PHPF1.5",
+          "sku": "PHPF1.5",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 18,
+          "name": "PHPF2.0",
+          "sku": "PHPF2.0",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 19,
+          "name": "PHPF1.0-2",
+          "sku": "PHPF1.0-2",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 20,
+          "name": "PHPF1.5-2",
+          "sku": "PHPF1.5-2",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 21,
+          "name": "PHPF2.0-2",
+          "sku": "PHPF2.0-2",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 22,
+          "name": "PHPM.75",
+          "sku": "PHPM.75",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 23,
+          "name": "PHPM1.0",
+          "sku": "PHPM1.0",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 24,
+          "name": "PHPM1.5",
+          "sku": "PHPM1.5",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 25,
+          "name": "PHPM2.0",
+          "sku": "PHPM2.0",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 26,
+          "name": "PHPM2.5",
+          "sku": "PHPM2.5",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 27,
+          "name": "PHPM1.5-2",
+          "sku": "PHPM1.5-2",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 28,
+          "name": "PHPU2.0-2",
+          "sku": "PHPU2.0-2",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 29,
+          "name": "PHPM2.5-2",
+          "sku": "PHPM2.5-2",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 30,
+          "name": "1 hp Full Rate Two Speed",
+          "sku": "SHPF1.0-2",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 31,
+          "name": "1.5 hp Full Rate Two Speed",
+          "sku": "SHPF1.5-2",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 32,
+          "name": "2 hp Full Rate Two Speed",
+          "sku": "SHPF2.0-2",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 33,
+          "name": "1.5 hp Max Rate Two Speed",
+          "sku": "SHPM1.5-2",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 34,
+          "name": "2 hp Max Rate Two Speed",
+          "sku": "SHPM2.0-2",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 35,
+          "name": "2.5 hp Max Rate Two Speed",
+          "sku": "SHPM2.5-2",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 36,
+          "name": "1 hp Full Rate",
+          "sku": "SHPF1.0",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 37,
+          "name": "1.5 hp Full Rate",
+          "sku": "SHPF1.5",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 38,
+          "name": "2 hp Full Rate",
+          "sku": "SHPF2.0",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 39,
+          "name": "3 hp Full Rate",
+          "sku": "SHPF3.0",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 40,
+          "name": "5 hp Full Rate",
+          "sku": "SHPF5.0",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 41,
+          "name": ".5 hp Full Rate",
+          "sku": "SHPF.50",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 42,
+          "name": ".75 hp Full Rate",
+          "sku": "SHPF.75",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 43,
+          "name": "1 hp Max Rate",
+          "sku": "SHPM1.0",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 44,
+          "name": "1.5 hp Max Rate",
+          "sku": "SHPM1.5",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 45,
+          "name": "2 hp Max Rate",
+          "sku": "SHPM2.0",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 46,
+          "name": "2.5 hp Max Rate",
+          "sku": "SHPM2.5",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 47,
+          "name": ".75 hp Max Rate",
+          "sku": "SHPM.75",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 3,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 48,
+          "name": "VSFHP165JEP",
+          "sku": "VSFHP165JEP",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 4,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 49,
+          "name": "VSFHP270JEP",
+          "sku": "VSFHP270JEP",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 4,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 50,
+          "name": "2.7HP With 2 Relays+SpeedSet Controller",
+          "sku": "VSFHP270DV2AS",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 4,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 51,
+          "name": "2.7HP With 2 Relays",
+          "sku": "VSFHP270DV2A",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 4,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 52,
+          "name": "2.7HP With SpeedSet Controller",
+          "sku": "VSFHP270DVS",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 4,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 53,
+          "name": "2.7HP",
+          "sku": "VSFHP270DV",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 4,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 54,
+          "name": "1.85HP With 2 Relays+SpeedSet Controller",
+          "sku": "VSFHP185DV2AS",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 4,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 55,
+          "name": "1.85HP With 2 Relays",
+          "sku": "VSFHP185DV2A",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 4,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 56,
+          "name": "1.85HP With SpeedSet Controller",
+          "sku": "VSFHP185DVS",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 4,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 57,
+          "name": "1.85HP",
+          "sku": "VSFHP185DV",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 4,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 58,
+          "name": "1.65HP With 2 Relays+SpeedSet Controller",
+          "sku": "VSFHP165DV2AS",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 4,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 59,
+          "name": "1.65HP With 2 Relays",
+          "sku": "VSFHP165DV2A",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 4,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 60,
+          "name": "1.65HP With SpeedSet Controller",
+          "sku": "VSFHP165DVS",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 4,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 61,
+          "name": "1.65HP",
+          "sku": "VSFHP165DV",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 4,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 62,
+          "name": "1.3HP With 2 Relays+SpeedSet Controller",
+          "sku": "VSFHP130DV2AS",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 4,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 63,
+          "name": "1.3HP With 2 Relays",
+          "sku": "VSFHP130DV2A",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 4,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 64,
+          "name": "1.3HP With SpeedSet Controller",
+          "sku": "VSFHP130DVS",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 4,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 65,
+          "name": "1.3HP",
+          "sku": "VSFHP130DV",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 4,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 66,
+          "name": "2.7HP With 2 Relays+SpeedSet Controller",
+          "sku": "VSPHP270DV2AS",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 5,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 67,
+          "name": "2.7HP With 2 Relays",
+          "sku": "VSPHP270DV2A",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 5,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 68,
+          "name": "VSPHP270AUT",
+          "sku": "VSPHP270AUT",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 5,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 69,
+          "name": "VSPHP270JEP",
+          "sku": "VSPHP270JEP",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 5,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 70,
+          "name": "as",
+          "sku": "asd",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 6,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 71,
+          "name": "CFII-NI-1FE",
+          "sku": "342235",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 7,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 72,
+          "name": "CFII-NI-1-1/2FE",
+          "sku": "342236",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 7,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 73,
+          "name": "CFII-NI-2FE ",
+          "sku": "342238",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 7,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 74,
+          "name": "CFII-NI- 1/2F",
+          "sku": "342232",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 7,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 75,
+          "name": "CFII-NI- 3/4F",
+          "sku": "342233",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 7,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 76,
+          "name": "CFII-NI-1F",
+          "sku": "342234",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 7,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 77,
+          "name": "CFII-NI-1-1/2F",
+          "sku": "342231",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 7,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 78,
+          "name": "CFII-NI-2F",
+          "sku": "342248",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 7,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 79,
+          "name": "CFII-NI- 3/4A",
+          "sku": "343232",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 7,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 80,
+          "name": "CFII-NI-1A",
+          "sku": "343233",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 7,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 81,
+          "name": "CFII-NI-1-1/2A",
+          "sku": "343234",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 7,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 82,
+          "name": "CFII-NI-2A",
+          "sku": "343240",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 7,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 83,
+          "name": "CFII-NI-2-1/2A",
+          "sku": "343229",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 7,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 84,
+          "name": "CHII-NI 1/2F",
+          "sku": "345202",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 8,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 85,
+          "name": "CHII-NI- 3/4F",
+          "sku": "345203",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 8,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 86,
+          "name": "CHII-NI-1F",
+          "sku": "345204",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 8,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 87,
+          "name": "CHII-NI-1-1/2F",
+          "sku": "345201",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 8,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 88,
+          "name": "CHII-NI-2F",
+          "sku": "345218",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 8,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 89,
+          "name": "CHII-NI-3F",
+          "sku": "345219",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 8,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 90,
+          "name": "CHII-NI- 3/4A",
+          "sku": "346203",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 8,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 91,
+          "name": "CHII-NI-1A",
+          "sku": "346204",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 8,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 92,
+          "name": "CHII-NI-1-1/2A",
+          "sku": "346206",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 8,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 93,
+          "name": "CHII-NI-2A",
+          "sku": "346201",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 8,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 94,
+          "name": "CHII-NI-2-1/2A",
+          "sku": "346249",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 8,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 95,
+          "name": "CHII-NI- 1/2FE",
+          "sku": "345212",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 8,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 96,
+          "name": "CHII-NI- 3/4FE",
+          "sku": "345213",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 8,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 97,
+          "name": "CHII-NI-1FE",
+          "sku": "345205",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 8,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 98,
+          "name": "CHII-NI-1-1/2FE",
+          "sku": "345206",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 8,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 99,
+          "name": "CHII-NI-2FE",
+          "sku": "345208",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 8,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 100,
+          "name": "CHII-NI-3FE",
+          "sku": "345209",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 8,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 101,
+          "name": "CHII-NI-2-1/2AE",
+          "sku": "346209",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 8,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 102,
+          "name": "011018",
+          "sku": "011018",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 9,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 103,
+          "name": "011013",
+          "sku": "011013",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 9,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 104,
+          "name": "011055",
+          "sku": "011055",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 10,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 105,
+          "name": "011056",
+          "sku": "011056",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 11,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 106,
+          "name": "011059",
+          "sku": "011059",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 12,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 107,
+          "name": "011060",
+          "sku": "011060",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 13,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 108,
+          "name": "011028",
+          "sku": "011028",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 14,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 109,
+          "name": "011057",
+          "sku": "011057",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 15,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 110,
+          "name": "013002",
+          "sku": "013002",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 16,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 111,
+          "name": "3HP",
+          "sku": "011075",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 17,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 112,
+          "name": "3HP with I/O Board",
+          "sku": "011076",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 17,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 113,
+          "name": "3HP with Touchscreen",
+          "sku": "011077",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 17,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 114,
+          "name": "3HP with Touchscreen + I/O Board",
+          "sku": "011078",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 17,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 115,
+          "name": "1.5HP",
+          "sku": "011065",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 17,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 116,
+          "name": "1.5HP with I/O Board",
+          "sku": "011066",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 17,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 117,
+          "name": "1.5HP with Touchscreen",
+          "sku": "011067",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 17,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 118,
+          "name": "1.5HP with Touchscreen + I/O Board",
+          "sku": "011068",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 17,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 119,
+          "name": "3HP",
+          "sku": "013075",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 18,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 120,
+          "name": "3HP with I/O Board",
+          "sku": "013076",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 18,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 121,
+          "name": "3HP with Touchscreen",
+          "sku": "013077",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 18,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 122,
+          "name": "3HP with Touchscreen + I/O Board",
+          "sku": "013078",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 18,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 123,
+          "name": "1.5HP",
+          "sku": "013065",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 18,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 124,
+          "name": "1.5HP with I/O Board",
+          "sku": "013066",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 18,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 125,
+          "name": "1.5HP with Touchscreen",
+          "sku": "013067",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 18,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 126,
+          "name": "1.5HP with Touchscreen + I/O Board",
+          "sku": "013068",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 18,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 127,
+          "name": "PFII-PI- 3/4",
+          "sku": "342853",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 19,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 128,
+          "name": "PFII-PI-1",
+          "sku": "342854",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 19,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 129,
+          "name": "PFII-PI-1-1/2",
+          "sku": "342856",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 19,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 130,
+          "name": "PFII-PI-2",
+          "sku": "342355",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 19,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 131,
+          "name": "SF-N1-1/2F",
+          "sku": "340036",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 20,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 132,
+          "name": "SF- N1-3/4A",
+          "sku": "340037",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 20,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 133,
+          "name": "SF-N1-1A",
+          "sku": "340038",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 20,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 134,
+          "name": "SF-N1 1-1/2A",
+          "sku": "340039",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 20,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 135,
+          "name": "SF- N1-2A",
+          "sku": "340040",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 20,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 136,
+          "name": "SF-N1-2-1/2",
+          "sku": "340041",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 20,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 137,
+          "name": "SF-N2-1A",
+          "sku": "340042",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 20,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 138,
+          "name": "SF-N2-1-1/2A",
+          "sku": "340043",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 20,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 139,
+          "name": "SF-N2-2A",
+          "sku": "340044",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 20,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 140,
+          "name": "SF-NI-1/2FE",
+          "sku": "348021",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 20,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 141,
+          "name": "SF-NI-3/4FE",
+          "sku": "348022",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 20,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 142,
+          "name": "SF-NI-1AE",
+          "sku": "348023",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 20,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 143,
+          "name": "SF-NI-1-1/2AE",
+          "sku": "348024",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 20,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 144,
+          "name": "SF-NI-2AE",
+          "sku": "348025",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 20,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 145,
+          "name": "SF-NI-2-1/2AE",
+          "sku": "348026",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 20,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 146,
+          "name": "342001",
+          "sku": "342001",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 21,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 147,
+          "name": "342000",
+          "sku": "342000",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 21,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 148,
+          "name": "342002",
+          "sku": "342002",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 21,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 149,
+          "name": "343001",
+          "sku": "343001",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 22,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 150,
+          "name": "343000",
+          "sku": "343000",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 22,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 151,
+          "name": "WFE-2",
+          "sku": "011511",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 152,
+          "name": "WFE-3",
+          "sku": "011512",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 153,
+          "name": "WFE-4",
+          "sku": "011513",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 154,
+          "name": "WFE-6",
+          "sku": "011514",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 155,
+          "name": "WFE-8",
+          "sku": "011515",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 156,
+          "name": "WFE-12",
+          "sku": "011516",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 157,
+          "name": "WFE-24",
+          "sku": "011517",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 158,
+          "name": "WFE-26",
+          "sku": "011518",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 159,
+          "name": "WFE-28",
+          "sku": "011519",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 160,
+          "name": "WFE-30",
+          "sku": "011520",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 161,
+          "name": "WF-2",
+          "sku": "011578",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 162,
+          "name": "WF-3",
+          "sku": "011579",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 163,
+          "name": "WF-4",
+          "sku": "011580",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 164,
+          "name": "WF-6",
+          "sku": "011581",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 165,
+          "name": "WF-8",
+          "sku": "011582",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 166,
+          "name": "WF-12",
+          "sku": "011583",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 167,
+          "name": "WF-23",
+          "sku": "011771",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 168,
+          "name": "WF-24",
+          "sku": "011772",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 169,
+          "name": "WF-26",
+          "sku": "011773",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 170,
+          "name": "WF-28",
+          "sku": "011774",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 171,
+          "name": "WF-30",
+          "sku": "011775",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 172,
+          "name": "WFDS-3",
+          "sku": "012530",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 173,
+          "name": "WFDS-4",
+          "sku": "011486",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 174,
+          "name": "WFDS-6",
+          "sku": "011152",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 175,
+          "name": "WFDS-8",
+          "sku": "011523",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 176,
+          "name": "WFDS-24",
+          "sku": "012485",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 177,
+          "name": "WFDS-26",
+          "sku": "012518",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 178,
+          "name": "WFDS-28",
+          "sku": "011524",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 179,
+          "name": "WFDS-30",
+          "sku": "011525",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 23,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 180,
+          "name": "011533",
+          "sku": "011533",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 24,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 181,
+          "name": "PB4-60",
+          "sku": "PB4-60",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 25,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 182,
+          "name": "P2RA5C-179L",
+          "sku": "P2RA5C-179L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 26,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 183,
+          "name": "P2RA5D-180L",
+          "sku": "P2RA5D-180L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 26,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 184,
+          "name": "P2RA5E-181L",
+          "sku": "P2RA5E-181L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 26,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 185,
+          "name": "P2RA5F-182L",
+          "sku": "P2RA5F-182L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 26,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 186,
+          "name": "P2RA5YE-181L",
+          "sku": "P2RA5YE-181L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 26,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 187,
+          "name": "P2RA5YF-182L",
+          "sku": "P2RA5YF-182L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 26,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 188,
+          "name": "P2RA5YG-183L",
+          "sku": "P2RA5YG-183L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 26,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 189,
+          "name": "MPRA6D-204L",
+          "sku": "MPRA6D-204L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 27,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 190,
+          "name": "MPRA6E-205L",
+          "sku": "MPRA6E-205L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 27,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 191,
+          "name": "MPRA6F-206L",
+          "sku": "MPRA6F-206L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 27,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 192,
+          "name": "MPRA6G-207L",
+          "sku": "MPRA6G-207L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 27,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 193,
+          "name": "MPRA6YF-206L",
+          "sku": "MPRA6YF-206L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 27,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 194,
+          "name": "MPE6C-204L",
+          "sku": "MPE6C-204L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 27,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 195,
+          "name": "MPE6D-205L",
+          "sku": "MPE6D-205L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 27,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 196,
+          "name": "MPE6E-206L",
+          "sku": "MPE6E-206L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 27,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 197,
+          "name": "MPE6F-207L",
+          "sku": "MPE6F-207L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 27,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 198,
+          "name": "MPE6G-208L",
+          "sku": "MPE6G-208L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 27,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 199,
+          "name": "MPEA6D-204L",
+          "sku": "MPEA6D-204L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 27,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 200,
+          "name": "MPEA6E-205L",
+          "sku": "MPEA6E-205L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 27,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 201,
+          "name": "MPEA6F-206L",
+          "sku": "MPEA6F-206L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 27,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 202,
+          "name": "MPEA6G-207L",
+          "sku": "MPEA6G-207L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 27,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 203,
+          "name": "MPEAA6G-208L",
+          "sku": "MPEAA6G-208L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 27,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 204,
+          "name": "MPEA6YG-207L",
+          "sku": "MPEA6YG-207L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 27,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 205,
+          "name": "P6E6VS4H-209L",
+          "sku": "P6E6VS4H-209L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 28,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 206,
+          "name": "P6E6Y4H-209L",
+          "sku": "P6E6Y4H-209L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 28,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 207,
+          "name": "013001",
+          "sku": "013001",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 29,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 208,
+          "name": "PE5C-180L",
+          "sku": "PE5C-180L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 30,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 209,
+          "name": "PE5D-181L",
+          "sku": "PE5D-181L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 30,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 210,
+          "name": "PE5E-182L",
+          "sku": "PE5E-182L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 30,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 211,
+          "name": "P6E6C-204L",
+          "sku": "P6E6C-204L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 31,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 212,
+          "name": "P6E6D-205L",
+          "sku": "P6E6D-205L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 31,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 213,
+          "name": "P6E6E-206L",
+          "sku": "P6E6E-206L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 31,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 214,
+          "name": "P6E6F-207L",
+          "sku": "P6E6F-207L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 31,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 215,
+          "name": "P6E6G-208L",
+          "sku": "P6E6G-208L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 31,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 216,
+          "name": "P6E6H-209L",
+          "sku": "P6E6H-209L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 31,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 217,
+          "name": "P6EA6E-205L",
+          "sku": "P6EA6E-205L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 31,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 218,
+          "name": "P6EA6F-206L",
+          "sku": "P6EA6F-206L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 31,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 219,
+          "name": "P6EAA6F-216L",
+          "sku": "P6EAA6F-216L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 31,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 220,
+          "name": "P6EA6G-207L",
+          "sku": "P6EA6G-207L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 31,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 221,
+          "name": "P6EAA6G-208L",
+          "sku": "P6EAA6G-208L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 31,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 222,
+          "name": "P6RA6E-205L",
+          "sku": "P6RA6E-205L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 31,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 223,
+          "name": "P6RA6F-206L",
+          "sku": "P6RA6F-206L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 31,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 224,
+          "name": "P6RAA6F-216L",
+          "sku": "P6RAA6F-216L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 31,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 225,
+          "name": "P6RA6G-207L",
+          "sku": "P6RA6G-207L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 31,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 226,
+          "name": "P6RA6YF-206L",
+          "sku": "P6RA6YF-206L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 31,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 227,
+          "name": "P6RA6YG-207L",
+          "sku": "P6RA6YG-207L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 31,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 228,
+          "name": "N1-1/2F- HP",
+          "sku": "PHK2RA6C-100L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 32,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 229,
+          "name": "N1-3/4A-HP",
+          "sku": "PHK2RA6D-101L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 32,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 230,
+          "name": "N1-1A-HP",
+          "sku": "PHK2RA6E-102L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 32,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 231,
+          "name": "N1-1-1/2A-HP",
+          "sku": "PHK2RA6F-103L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 32,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 232,
+          "name": "N1-2A-HP",
+          "sku": "PHK2RA6G-104L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 32,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 233,
+          "name": "N1-2-1/2A-HP",
+          "sku": "PHK2RAA6G-105L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 32,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 234,
+          "name": "N2-1A-HP",
+          "sku": "PHK2RAY6E-102L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 32,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 235,
+          "name": "N2-1-1/2A-HP",
+          "sku": "PHK2RAY6F-103L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 32,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 236,
+          "name": "N2-2A-HP",
+          "sku": "PHK2RAY6G-104L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 32,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 237,
+          "name": "N1-1/2AE-HP",
+          "sku": "PHK2E6C-100L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 32,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 238,
+          "name": "N1-3/4AE-HP",
+          "sku": "PHK2E6D-101L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 32,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 239,
+          "name": "N1-1AE-HP",
+          "sku": "PHK2E6E102L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 32,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 240,
+          "name": "N1-1-1/2AE-HP",
+          "sku": "PHK2E6F-103L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 32,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 241,
+          "name": "N1-2AE-HP",
+          "sku": "PHK2E6G-104L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 32,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 242,
+          "name": "N1-2-1/2AE-HP",
+          "sku": "PHK2EAA6G-105L",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 32,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 243,
+          "name": "DYNII-NI- 3/4 HP",
+          "sku": "340194",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 33,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 244,
+          "name": "DYNII-NI- 3/4 HP",
+          "sku": "340314",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 33,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 245,
+          "name": "DYNII-NI-1 HP",
+          "sku": "340197",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 33,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 246,
+          "name": "DYNII-NI-1 HP",
+          "sku": "340316",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 33,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 247,
+          "name": "DYNII-NI-1-1/2 HP",
+          "sku": "340210",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 33,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 248,
+          "name": "DYNII-N-1-1/2 HP",
+          "sku": "351230",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 33,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 249,
+          "name": "347982",
+          "sku": "347982",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 35,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 250,
+          "name": "347985",
+          "sku": "347985",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 35,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 251,
+          "name": "347983",
+          "sku": "347983",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 35,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 252,
+          "name": "347986",
+          "sku": "347986",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 35,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 253,
+          "name": "347988",
+          "sku": "347988",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 35,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 254,
+          "name": "347987",
+          "sku": "347987",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 35,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 255,
+          "name": "347989",
+          "sku": "347989",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 35,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 256,
+          "name": "370067",
+          "sku": "370067",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 35,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 257,
+          "name": "347982SR",
+          "sku": "347982SR",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 35,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 258,
+          "name": "347983SR",
+          "sku": "347983SR",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 35,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 259,
+          "name": "347988SR",
+          "sku": "347988SR",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 35,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 260,
+          "name": "347989SR",
+          "sku": "347989SR",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 35,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 261,
+          "name": "PH1100-3",
+          "sku": "PH1100-3",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 36,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 262,
+          "name": "PH1150-3",
+          "sku": "PH1150-3",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 36,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 263,
+          "name": "PH1100-6",
+          "sku": "PH1100-6",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 36,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 264,
+          "name": "PH1150-6",
+          "sku": "PH1150-6",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 36,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 265,
+          "name": "PSP1075-3",
+          "sku": "PSP1075-3",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 37,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 266,
+          "name": "PSP1100-3",
+          "sku": "PSP1100-3",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 37,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 267,
+          "name": "PSP1150-3",
+          "sku": "PSP1150-3",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 37,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 268,
+          "name": "PSP1075-6",
+          "sku": "PSP1075-6",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 37,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 269,
+          "name": "PSP1100-6",
+          "sku": "PSP1100-6",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 37,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 270,
+          "name": "PSP1150-6",
+          "sku": "PSP1150-6",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 37,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 271,
+          "name": "PSP2100-6",
+          "sku": "PSP2100-6",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 37,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 272,
+          "name": "PSP2150-6",
+          "sku": "PSP2150-6",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 37,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 273,
+          "name": "PAG100",
+          "sku": "PAG100",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 38,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 274,
+          "name": "PAG150",
+          "sku": "PAG150",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 38,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 275,
+          "name": "PAG100T",
+          "sku": "PAG100T",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 38,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 276,
+          "name": "PAG150T",
+          "sku": "PAG150T",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 38,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 277,
+          "name": "5-3195-003",
+          "sku": "5-3195-003",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 39,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 278,
+          "name": "5-3196-003",
+          "sku": "5-3196-003",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 39,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 279,
+          "name": "5-3197-003",
+          "sku": "5-3197-003",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 39,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 280,
+          "name": "NE6181",
+          "sku": "NE6181",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 40,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 281,
+          "name": "NE6183",
+          "sku": "NE6183",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 40,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 282,
+          "name": "75117",
+          "sku": "75117",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 41,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 283,
+          "name": "75131",
+          "sku": "75131",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 41,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 284,
+          "name": "75171",
+          "sku": "75171",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 41,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      },
+      {
+          "id": 285,
+          "name": "75722",
+          "sku": "75722",
+          "description": "",
+          "productDetailUrl": "#",
+          "seriesId": 41,
+          "additionalAttribute": {},
+          "relatedModels": {
+              "good": 1,
+              "better": 1,
+              "best": 1
+          }
+      }
+  ]
+}
