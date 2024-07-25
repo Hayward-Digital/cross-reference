@@ -2,11 +2,7 @@
   "name": "cross-reference",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Hayward-Digital.github.io/cross-reference/",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "react": "^18.3.1",
@@ -21,14 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "predeploy": "npm run build"
   },
   "browserslist": {
     "production": [
@@ -41,9 +30,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "gh-pages": "^6.1.1"
   }
 }
