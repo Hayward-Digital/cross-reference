@@ -1,17 +1,21 @@
 import React from 'react';
 import CategoryCard from './CategoryCard';
 import './Category.css';
+import categoriesData from './categories.json';
 
-const Category = ({ categories, onSelect }) => {
-  const activeCategories = categories.filter(category => category.active)
-    .sort((a, b) => a.name.localeCompare(b.name)); // Ordenar alfabéticamente por nombre
-  
+const Category = ({ onSelect }) => {
   return (
     <div className="container-fluid mb-5">
-      <div className="row"><h3>Select One Category</h3> <p>Discover Your Perfect Match: Choose a Category to Kickstart Your Product Search!</p></div>
+      <div className="row">
+        <h4>Select <span className='fw-bold'>Category</span></h4>
+      </div>
       <div className="row d-flex flex-wrap p-2">
-        {activeCategories.map(category => (
-          <CategoryCard key={category.id} category={category} onSelect={onSelect} />
+        {categoriesData.categories.map(category => (
+          <CategoryCard
+            key={category.id}
+            category={category}
+            onSelect={() => onSelect(category)}
+          />
         ))}
       </div>
     </div>

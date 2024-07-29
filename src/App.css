@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #00B4EE;
+  --primary-color: #0071ad;
   --black-60: #666666;
   --black-80: #333333;
   --black-30: #b2b2b2;
@@ -7,4 +7,6 @@
   --black: #000;
   --font-lato: 'Lato', sans-serif;
 }
-
+.text-primary{
+  color: var(--primary-color) !important;
+}

@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "JANDY",
-      "logo": "assets/logos/jandy.jpg",
+      "logo": "/assets/logos/jandy.jpg",
       "code": "jandy",
       "categories": [
         { "id": 1, "name": "Pumps", "active": true, "code": "pumps" },
@@ -14,7 +14,7 @@
     {
       "id": 2,
       "name": "PENTAIR",
-      "logo": "assets/logos/pentair.jpg",
+      "logo": "/assets/logos/pentair.jpg",
       "code": "pentair",
       "categories": [
         { "id": 1, "name": "Pumps", "active": true, "code": "pumps" },
@@ -25,7 +25,7 @@
     {
       "id": 3,
       "name": "POLARIS",
-      "logo": "assets/logos/polaris.jpg",
+      "logo": "/assets/logos/polaris.jpg",
       "code": "polaris",
       "categories": [
         { "id": 1, "name": "Pumps", "active": true, "code": "pumps" },
@@ -36,7 +36,7 @@
     {
       "id": 4,
       "name": "STA-RITE",
-      "logo": "assets/logos/sta-rite.jpg",
+      "logo": "/assets/logos/sta-rite.jpg",
       "code": "sta-rite",
       "categories": [
         { "id": 1, "name": "Pumps", "active": true, "code": "pumps" },
@@ -47,7 +47,7 @@
     {
       "id": 5,
       "name": "WATERWAY",
-      "logo": "assets/logos/waterway.jpg",
+      "logo": "/assets/logos/waterway.jpg",
       "code": "waterway",
       "categories": [
         { "id": 1, "name": "Pumps", "active": true, "code": "pumps" },
@@ -58,7 +58,7 @@
     {
       "id": 6,
       "name": "DOUGHBOY",
-      "logo": "assets/logos/doughboy.jpg",
+      "logo": "/assets/logos/doughboy.jpg",
       "code": "doughboy",
       "categories": [
         { "id": 1, "name": "Pumps", "active": true, "code": "pumps" },
@@ -69,7 +69,7 @@
     {
       "id": 7,
       "name": "XTREMEPOWERUS",
-      "logo": "assets/logos/xtremepowerus.jpg",
+      "logo": "/assets/logos/xtremepowerus.jpg",
       "code": "xtremepowerus",
       "categories": [
         { "id": 1, "name": "Pumps", "active": true, "code": "pumps" },
@@ -80,7 +80,7 @@
     {
       "id": 8,
       "name": "JANDY / ZODIAC",
-      "logo": "assets/logos/jandy-zodiac.jpg",
+      "logo": "/assets/logos/jandy-zodiac.jpg",
       "code": "jandy-zodiac",
       "categories": [
         { "id": 1, "name": "Pumps", "active": false, "code": "pumps" },
@@ -91,7 +91,7 @@
     {
       "id": 9,
       "name": "RAYPAK",
-      "logo": "assets/logos/raypak.jpg",
+      "logo": "/assets/logos/raypak.jpg",
       "code": "raypak",
       "categories": [
         { "id": 1, "name": "Pumps", "active": false, "code": "pumps" },
@@ -102,7 +102,7 @@
     {
       "id": 10,
       "name": "HAYWARD",
-      "logo": "assets/logos/hayward.jpg",
+      "logo": "/assets/logos/hayward.jpg",
       "code": "hayward",
       "categories": [
         { "id": 1, "name": "Pumps", "active": false, "code": "pumps" },
@@ -113,7 +113,7 @@
     {
       "id": 11,
       "name": "AQUACAL",
-      "logo": "assets/logos/aquacal.jpg",
+      "logo": "/assets/logos/aquacal.jpg",
       "code": "aquacal",
       "categories": [
         { "id": 1, "name": "Pumps", "active": false, "code": "pumps" },
@@ -124,7 +124,7 @@
     {
       "id": 12,
       "name": "GULF STREAM",
-      "logo": "assets/logos/gulf-stream.jpg",
+      "logo": "/assets/logos/gulf-stream.jpg",
       "code": "gulf-stream",
       "categories": [
         { "id": 1, "name": "Pumps", "active": false, "code": "pumps" },
@@ -135,7 +135,7 @@
     {
       "id": 13,
       "name": "THERMEAU",
-      "logo": "assets/logos/thermeau.jpg",
+      "logo": "/assets/logos/thermeau.jpg",
       "code": "thermeau",
       "categories": [
         { "id": 1, "name": "Pumps", "active": false, "code": "pumps" },
@@ -146,7 +146,7 @@
     {
       "id": 14,
       "name": "FIBROPOOL",
-      "logo": "assets/logos/fibropool.jpg",
+      "logo": "/assets/logos/fibropool.jpg",
       "code": "fibropool",
       "categories": [
         { "id": 1, "name": "Pumps", "active": false, "code": "pumps" },
@@ -157,7 +157,7 @@
     {
       "id": 15,
       "name": "TTIFAB",
-      "logo": "assets/logos/ttifab.jpg",
+      "logo": "/assets/logos/ttifab.jpg",
       "code": "ttifab",
       "categories": [
         { "id": 1, "name": "Pumps", "active": false, "code": "pumps" },
@@ -168,7 +168,7 @@
     {
       "id": 16,
       "name": "WHITE KNIGHT USA",
-      "logo": "assets/logos/white-knight-usa.jpg",
+      "logo": "/assets/logos/white-knight-usa.jpg",
       "code": "white-knight-usa",
       "categories": [
         { "id": 1, "name": "Pumps", "active": false, "code": "pumps" },
@@ -179,7 +179,7 @@
     {
       "id": 17,
       "name": "INTEX",
-      "logo": "assets/logos/intex.jpg",
+      "logo": "/assets/logos/intex.jpg",
       "code": "intex",
       "categories": [
         { "id": 1, "name": "Pumps", "active": false, "code": "pumps" },

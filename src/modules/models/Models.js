@@ -3,6 +3,9 @@ import { useParams } from 'react-router-dom';
 import ModelsCard from './ModelsCard';
 import ModelDetails from './ModelDetails';
 import modelsData from './models.json';
+import seriesData from '../series/series.json'; // Importar datos de series
+import manufacturersData from '../manufacturers/manufacturers.json'; // Importar datos de fabricantes
+import Pagination from '../../components/pagination/Pagination';
 import './Models.css';
 
 const Models = ({ onSelectModel }) => {
@@ -11,11 +14,15 @@ const Models = ({ onSelectModel }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [searchTerm, setSearchTerm] = useState('');
 
-  const modelsPerPage = 12; // Número de modelos por página
+  const modelsPerPage = 12;
 
   useEffect(() => {
-    setCurrentPage(1); // Resetear a la primera página al cambiar de serie
+    setCurrentPage(1);
   }, [seriesId]);
+
+  // Obtener el fabricante y la serie
+  const series = seriesData.series.find(s => s.id === parseInt(seriesId));
+  const manufacturer = manufacturersData.manufacturers.find(m => m.id === series?.manufacturerId);
 
   const filteredModels = modelsData.models.filter(
     (model) => model.seriesId === parseInt(seriesId)
@@ -23,7 +30,7 @@ const Models = ({ onSelectModel }) => {
     (model) => searchTerm.length < 3 || 
     model.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
     model.sku.toLowerCase().includes(searchTerm.toLowerCase())
-  ).sort((a, b) => a.name.localeCompare(b.name)); // Ordenar alfabéticamente por nombre
+  ).sort((a, b) => a.name.localeCompare(b.name));
 
   const totalPages = Math.ceil(filteredModels.length / modelsPerPage);
   const displayedModels = filteredModels.slice((currentPage - 1) * modelsPerPage, currentPage * modelsPerPage);
@@ -48,12 +55,12 @@ const Models = ({ onSelectModel }) => {
 
   const handleSearchChange = (e) => {
     setSearchTerm(e.target.value);
-    setCurrentPage(1); // Resetear a la primera página en cada búsqueda
+    setCurrentPage(1);
   };
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
-    setSelectedModel(null); // Deseleccionar modelo al cambiar de página
+    setSelectedModel(null);
   };
 
   const startModel = (currentPage - 1) * modelsPerPage + 1;
@@ -62,15 +69,18 @@ const Models = ({ onSelectModel }) => {
   return (
     <div className="container-fluid mb-5">
       <div className="row d-flex align-items-end">
-        <div className="col-6">
-          <h3>Select Model</h3>
-          <p>We find {filteredModels.length} elements</p>
+        <div className="col-6 d-flex flex-wrap align-items-center">
+          <img src={manufacturer?.logo} alt={manufacturer?.name} className="img-fluid me-2 border" style={{ height: '100px' }} />
+          <div className='ps-2'>
+          <h4 className='m-0'>{manufacturer?.name} <span className='fw-bold'>Models</span></h4>
+          <p className='w-100 m-0'>We found {filteredModels.length} elements</p>
+          </div>
         </div>
         <div className="col-6 d-flex justify-content-end">
           <div className="filter-container">
             <input
               type="text"
-              placeholder="Search..."
+              placeholder="Filter..."
               value={searchTerm}
               onChange={handleSearchChange}
               className="search-input"
@@ -92,20 +102,7 @@ const Models = ({ onSelectModel }) => {
       <div className="row">
         <div className='col-12'>
           {filteredModels.length > modelsPerPage && (
-            <div className="pagination">
-              <span>This page: {startModel} - {endModel} of {filteredModels.length}</span>
-              <div>
-                {Array.from({ length: totalPages }, (_, index) => (
-                  <button
-                    key={index + 1}
-                    onClick={() => handlePageChange(index + 1)}
-                    className={currentPage === index + 1 ? 'active' : ''}
-                  >
-                    {index + 1}
-                  </button>
-                ))}
-              </div>
-            </div>
+            <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
           )}
         </div>
       </div>

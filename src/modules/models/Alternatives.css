@@ -61,7 +61,7 @@
   box-shadow:  0px 0px 30px rgba(0,0,0,0.2) !important;
 }
 .model-card.best h3{
-  color: #00b4ee ;
+  color: var(--primary-color) ;
   font-size: 36px;
 }
 

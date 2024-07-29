@@ -3,6 +3,9 @@ import { useNavigate, useParams } from 'react-router-dom';
 import './Alternatives.css';
 import modelsData from './models.json';
 import mockData from './mockData.json'; // Importa el archivo JSON con los datos simulados
+import categoriesData from '../categories/categories.json';
+import manufacturersData from '../manufacturers/manufacturers.json';
+import seriesData from '../series/series.json';
 
 const Alternatives = ({ onRestart }) => {
   const { modelId } = useParams();
@@ -41,11 +44,6 @@ const Alternatives = ({ onRestart }) => {
     fetchRelatedModels();
   }, [model]);
 
-  const handleRestart = () => {
-    onRestart();
-    navigate('/');
-  };
-
   if (loading) {
     return <div>Loading...</div>;
   }
@@ -54,9 +52,13 @@ const Alternatives = ({ onRestart }) => {
     return <div>Error: {error}</div>;
   }
 
+  const category = categoriesData.categories.find(category => category.id === model.categoryId);
+  const manufacturer = manufacturersData.manufacturers.find(manufacturer => manufacturer.id === model.manufacturerId);
+  const series = seriesData.series.find(series => series.id === model.seriesId);
+
   return (
     <div className="alternatives-container">
-      <h2 className='title'>Best-in-Class Hayward Options</h2>
+      <h2 className='title mt-3 mb-5'>Our Best-in-Class Options</h2>
       <div className="flex-container">
         {relatedModels.map((relatedModel, index) => (
           <div key={index} className={`model-card ${['good', 'better', 'best'][index]} d-flex flex-wrap justify-content-center`}>
@@ -69,8 +71,18 @@ const Alternatives = ({ onRestart }) => {
           </div>
         ))}
       </div>
-      <div className='d-flex justify-content-center mt-5'>
-      <button className='btn btn-dark rounded-pill px-5 py-3' onClick={handleRestart}>NEW SEARCH</button>
+      <div className="col-12 p-5 mt-4 bg-light d-flex flex-wrap">
+        <h3 className='w-100'>Current Product to Replace</h3>
+        <p className='w-100'>The product you wish to replace is shown below. We have listed on top the alternatives for your selection</p>
+        <div className='d-flex align-items-center'>
+          <img src={manufacturer?.logo} alt={manufacturer?.name} className="manufacturer-logo p-3 bg-white rounded shadow-sm mb-3"/>
+        </div>
+        <div className='d-flex flex-column justify-content-center ps-3 flex-fill '>
+          <p className='m-0'><strong>Category:</strong> {category?.name}</p>
+          <p className='m-0'><strong>Manufacturer:</strong> {manufacturer?.name}</p>
+          <p className='m-0'><strong>Series:</strong> {series?.name}</p>
+          <p className='m-0'><strong>Model:</strong> {model?.name}</p>
+        </div>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 {
   "categories": [
-    { "id": 1, "name": "Pumps", "active": true, "code": "pumps", "icon": "{`${process.env.PUBLIC_URL}/assets/icons/pumps.svg`}" },
-    { "id": 2, "name": "Heaters", "active": true, "code": "heaters" , "icon": "{`${process.env.PUBLIC_URL}assets/icons/heaters.svg`}"},
-    { "id": 3, "name": "Filters", "active": true, "code": "filters" , "icon": "{`${process.env.PUBLIC_URL}assets/icons/filters.svg`}"}
+    { "id": 1, "name": "Pumps", "active": true, "code": "pumps", "icon": "/assets/icons/pumps.svg" },
+    { "id": 2, "name": "Heaters", "active": true, "code": "heaters" , "icon": "/assets/icons/heaters.svg"},
+    { "id": 3, "name": "Filters", "active": true, "code": "filters" , "icon": "/assets/icons/filters.svg"}
    ]
 }

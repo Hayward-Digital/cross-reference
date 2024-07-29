@@ -1,0 +1,19 @@
+.sku-search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-form {
+    display: flex;
+  }
+  
+  .search-input {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .btn-primary {
+    padding: 10px 20px;
+  }

@@ -1,0 +1,13 @@
+.home-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-option {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
