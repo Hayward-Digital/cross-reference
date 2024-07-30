@@ -14,16 +14,16 @@ const SkuSearch = () => {
   };
 
   return (
-    <div className="sku-search-container">
+    <div className="col-12 sku-search-container">
       <form onSubmit={handleSearch} className="search-form">
         <input
           type="text"
           value={sku}
           onChange={(e) => setSku(e.target.value)}
-          placeholder="Enter SKU"
-          className="search-input"
+          placeholder="Type here"
+          className="search-input rounded-pill border px-3"
         />
-        <button type="submit" className="btn btn-primary">Search</button>
+        <button type="submit" className="btn btn-dark px-5 rounded-pill">Search</button>
       </form>
     </div>
   );
