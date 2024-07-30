@@ -146,55 +146,55 @@
     },
     {
       "id": 25,
+      "name": "Booster Pump",
+      "categoryId": 1,
+      "manufacturerId": 3
+    },
+    {
+      "id": 26,
       "name": "Dura-Glas",
       "categoryId": 1,
       "manufacturerId": 4
     },
     {
-      "id": 26,
+      "id": 27,
       "name": "DynaPro",
       "categoryId": 1,
       "manufacturerId": 4
     },
     {
-      "id": 27,
+      "id": 28,
       "name": "IntelliPro",
       "categoryId": 1,
       "manufacturerId": 4
     },
     {
-      "id": 28,
+      "id": 29,
       "name": "IntelliPro2 VST",
       "categoryId": 1,
       "manufacturerId": 4
     },
     {
-      "id": 29,
+      "id": 30,
       "name": "Max-E-Glas",
       "categoryId": 1,
       "manufacturerId": 4
     },
     {
-      "id": 30,
+      "id": 31,
       "name": "Max-E-Pro",
       "categoryId": 1,
       "manufacturerId": 4
     },
     {
-      "id": 31,
+      "id": 32,
       "name": "SuperMax",
       "categoryId": 1,
       "manufacturerId": 4
     },
     {
-      "id": 32,
-      "name": "Dynamo",
-      "categoryId": 1,
-      "manufacturerId": 2
-    },
-    {
       "id": 33,
-      "name": "OptiFlo",
+      "name": "Dynamo",
       "categoryId": 1,
       "manufacturerId": 2
     },
@@ -202,352 +202,796 @@
       "id": 34,
       "name": "OptiFlo",
       "categoryId": 1,
-      "manufacturerId": 4
+      "manufacturerId": 2
     },
     {
       "id": 35,
+      "name": "OptiFlo",
+      "categoryId": 1,
+      "manufacturerId": 4
+    },
+    {
+      "id": 36,
       "name": "Hi-Flo II",
       "categoryId": 1,
       "manufacturerId": 5
     },
     {
-      "id": 36,
+      "id": 37,
       "name": "Supreme",
       "categoryId": 1,
       "manufacturerId": 5
     },
     {
-      "id": 37,
+      "id": 38,
       "name": "Forza",
       "categoryId": 1,
       "manufacturerId": 3
     },
     {
-      "id": 38,
+      "id": 39,
       "name": "CaliMar",
       "categoryId": 1,
       "manufacturerId": 6
     },
     {
-      "id": 39,
+      "id": 40,
       "name": "TidalWave 2",
       "categoryId": 1,
       "manufacturerId": 6
     },
     {
-      "id": 40,
-      "name": "XtremePowerUS",
+      "id": 41,
+      "name": "XtremePowerUS Series",
       "categoryId": 1,
       "manufacturerId": 7
     },
     {
-      "id": 41,
-      "name": "Pentair",
+      "id": 42,
+      "name": "MasterTemp",
       "categoryId": 2,
       "manufacturerId": 2
     },
     {
-      "id": 42,
-      "name": "Jandy / Zodiac",
+      "id": 43,
+      "name": "JXi",
       "categoryId": 2,
       "manufacturerId": 8
     },
     {
-      "id": 43,
-      "name": "RAYPAK",
+      "id": 44,
+      "name": "LXi",
+      "categoryId": 2,
+      "manufacturerId": 8
+    },
+    {
+      "id": 45,
+      "name": "Legacy",
+      "categoryId": 2,
+      "manufacturerId": 8
+    },
+    {
+      "id": 46,
+      "name": "DIGITAL ELECTRONIC",
       "categoryId": 2,
       "manufacturerId": 9
     },
     {
-      "id": 44,
-      "name": "HAYWARD",
+      "id": 47,
+      "name": "LOW NOx DIGITAL",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 48,
+      "name": "Avia",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 49,
+      "name": "Universal H-Series",
       "categoryId": 2,
       "manufacturerId": 10
     },
     {
-      "id": 45,
-      "name": "AQUACAL",
+      "id": 50,
+      "name": "Model 106",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 51,
+      "name": "90K ULTRATEMP",
+      "categoryId": 2,
+      "manufacturerId": 2
+    },
+    {
+      "id": 52,
+      "name": "110K ULTRATEMP",
+      "categoryId": 2,
+      "manufacturerId": 2
+    },
+    {
+      "id": 53,
+      "name": "122K ULTRATEMP",
+      "categoryId": 2,
+      "manufacturerId": 2
+    },
+    {
+      "id": 54,
+      "name": "127K ULTRATEMP",
+      "categoryId": 2,
+      "manufacturerId": 2
+    },
+    {
+      "id": 55,
+      "name": "140K ULTRATEMP",
+      "categoryId": 2,
+      "manufacturerId": 2
+    },
+    {
+      "id": 56,
+      "name": "145K ULTRATEMP",
+      "categoryId": 2,
+      "manufacturerId": 2
+    },
+    {
+      "id": 57,
+      "name": "125K ULTRATEMP Heat/Cool",
+      "categoryId": 2,
+      "manufacturerId": 2
+    },
+    {
+      "id": 58,
+      "name": "140K ULTRATEMP Heat/Cool",
+      "categoryId": 2,
+      "manufacturerId": 2
+    },
+    {
+      "id": 59,
+      "name": "108K Jandy / Zodiac",
+      "categoryId": 2,
+      "manufacturerId": 8
+    },
+    {
+      "id": 60,
+      "name": "119K Jandy / Zodiac",
+      "categoryId": 2,
+      "manufacturerId": 8
+    },
+    {
+      "id": 61,
+      "name": "137K Jandy / Zodiac",
+      "categoryId": 2,
+      "manufacturerId": 8
+    },
+    {
+      "id": 62,
+      "name": "137K Jandy / Zodiac Heat/Cool",
+      "categoryId": 2,
+      "manufacturerId": 8
+    },
+    {
+      "id": 63,
+      "name": "95K RUUD",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 64,
+      "name": "103K RUUD",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 65,
+      "name": "110K RUUD",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 66,
+      "name": "117K RUUD",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 67,
+      "name": "119K RUUD",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 68,
+      "name": "133K RUUD",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 69,
+      "name": "140K RUUD",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 70,
+      "name": "110K RUUD Heat/Cool",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 71,
+      "name": "133K RUUD Heat/Cool",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 72,
+      "name": "137K RUUD Heat/Cool",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 73,
+      "name": "95K RHEEM",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 74,
+      "name": "103K RHEEM",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 75,
+      "name": "110K RHEEM",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 76,
+      "name": "117K RHEEM",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 77,
+      "name": "119K RHEEM",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 78,
+      "name": "133K RHEEM",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 79,
+      "name": "140K RHEEM",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 80,
+      "name": "110K RHEEM Heat/Cool",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 81,
+      "name": "133K RHEEM Heat/Cool",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 82,
+      "name": "137K RHEEM Heat/Cool",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 83,
+      "name": "95K RAYPAK",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 84,
+      "name": "117K RAYPAK",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 85,
+      "name": "110K PERFECTEMP",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 86,
+      "name": "117K PERFECTEMP",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 87,
+      "name": "110K PERFECTEMP Heat/Cool",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 88,
+      "name": "96K TROPICAL",
       "categoryId": 2,
       "manufacturerId": 11
     },
     {
-      "id": 46,
-      "name": "Gulf Stream",
+      "id": 89,
+      "name": "112K TROPICAL",
+      "categoryId": 2,
+      "manufacturerId": 11
+    },
+    {
+      "id": 90,
+      "name": "132K TROPICAL",
+      "categoryId": 2,
+      "manufacturerId": 11
+    },
+    {
+      "id": 91,
+      "name": "101K HEATWAVE SUPERQUIET",
+      "categoryId": 2,
+      "manufacturerId": 11
+    },
+    {
+      "id": 92,
+      "name": "119K HEATWAVE SUPERQUIET",
+      "categoryId": 2,
+      "manufacturerId": 11
+    },
+    {
+      "id": 93,
+      "name": "143K HEATWAVE SUPERQUIET",
+      "categoryId": 2,
+      "manufacturerId": 11
+    },
+    {
+      "id": 94,
+      "name": "110K HEATWAVE SUPERQUIET",
+      "categoryId": 2,
+      "manufacturerId": 11
+    },
+    {
+      "id": 95,
+      "name": "126K HEATWAVE SUPERQUIET",
+      "categoryId": 2,
+      "manufacturerId": 11
+    },
+    {
+      "id": 96,
+      "name": "96K AQUATHERM",
+      "categoryId": 2,
+      "manufacturerId": 11
+    },
+    {
+      "id": 97,
+      "name": "110K AQUATHERM",
+      "categoryId": 2,
+      "manufacturerId": 11
+    },
+    {
+      "id": 98,
+      "name": "129K AQUATHERM",
+      "categoryId": 2,
+      "manufacturerId": 11
+    },
+    {
+      "id": 99,
+      "name": "96K LEISURE TEMP (LT)",
+      "categoryId": 2,
+      "manufacturerId": 11
+    },
+    {
+      "id": 100,
+      "name": "110K LEISURE TEMP (LT)",
+      "categoryId": 2,
+      "manufacturerId": 11
+    },
+    {
+      "id": 101,
+      "name": "129K LEISURE TEMP (LT)",
+      "categoryId": 2,
+      "manufacturerId": 11
+    },
+    {
+      "id": 102,
+      "name": "HeatPro",
+      "categoryId": 2,
+      "manufacturerId": 10
+    },
+    {
+      "id": 103,
+      "name": "142K GulfStream",
       "categoryId": 2,
       "manufacturerId": 12
     },
     {
-      "id": 47,
-      "name": "Thermeau",
+      "id": 104,
+      "name": "115K GulfStream",
+      "categoryId": 2,
+      "manufacturerId": 12
+    },
+    {
+      "id": 105,
+      "name": "125K GulfStream",
+      "categoryId": 2,
+      "manufacturerId": 12
+    },
+    {
+      "id": 106,
+      "name": "105k Prestige",
       "categoryId": 2,
       "manufacturerId": 13
     },
     {
-      "id": 48,
-      "name": "FibroPool",
+      "id": 107,
+      "name": "125K Prestige",
+      "categoryId": 2,
+      "manufacturerId": 13
+    },
+    {
+      "id": 108,
+      "name": "133K Prestige",
+      "categoryId": 2,
+      "manufacturerId": 13
+    },
+    {
+      "id": 109,
+      "name": "105K Signature",
+      "categoryId": 2,
+      "manufacturerId": 13
+    },
+    {
+      "id": 110,
+      "name": "121K Signature",
+      "categoryId": 2,
+      "manufacturerId": 13
+    },
+    {
+      "id": 111,
+      "name": "133K Signature",
+      "categoryId": 2,
+      "manufacturerId": 13
+    },
+    {
+      "id": 112,
+      "name": "85k CrossWind V",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 113,
+      "name": "102K CrossWind V",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 114,
+      "name": "118K CrossWind V",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 115,
+      "name": "138K CrossWind V",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 116,
+      "name": "115K CrossWind V",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 117,
+      "name": "137K CrossWind V",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 118,
+      "name": "50K CrossWinds",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 119,
+      "name": "70K CrossWinds",
+      "categoryId": 2,
+      "manufacturerId": 9
+    },
+    {
+      "id": 120,
+      "name": "TropiCal",
+      "categoryId": 2,
+      "manufacturerId": 11
+    },
+    {
+      "id": 121,
+      "name": "FibroPool Series",
       "categoryId": 2,
       "manufacturerId": 14
     },
     {
-      "id": 49,
-      "name": "XtremePowerUS",
+      "id": 122,
+      "name": "Utra Quiet",
       "categoryId": 2,
       "manufacturerId": 7
     },
     {
-      "id": 50,
-      "name": "TTIFAB",
+      "id": 123,
+      "name": "Digital",
+      "categoryId": 2,
+      "manufacturerId": 7
+    },
+    {
+      "id": 124,
+      "name": "Feuillet",
       "categoryId": 2,
       "manufacturerId": 15
     },
     {
-      "id": 51,
-      "name": "White Knight USA",
+      "id": 125,
+      "name": "White Knight",
       "categoryId": 2,
       "manufacturerId": 16
     },
     {
-      "id": 52,
+      "id": 126,
       "name": "Clean & Clear",
       "categoryId": 3,
       "manufacturerId": 2
     },
     {
-      "id": 53,
+      "id": 127,
       "name": "Clean & Clear RP",
       "categoryId": 3,
       "manufacturerId": 2
     },
     {
-      "id": 54,
+      "id": 128,
       "name": "Posi-Clear RP",
       "categoryId": 3,
       "manufacturerId": 2
     },
     {
-      "id": 55,
+      "id": 129,
       "name": "Clean & Clear Plus",
       "categoryId": 3,
       "manufacturerId": 2
     },
     {
-      "id": 56,
+      "id": 130,
       "name": "FNS Plus",
       "categoryId": 3,
       "manufacturerId": 2
     },
     {
-      "id": 57,
+      "id": 131,
       "name": "Meteor",
       "categoryId": 3,
       "manufacturerId": 2
     },
     {
-      "id": 58,
+      "id": 132,
       "name": "Sand Dollar",
       "categoryId": 3,
       "manufacturerId": 2
     },
     {
-      "id": 59,
+      "id": 133,
       "name": "Cristal Flo II",
       "categoryId": 3,
       "manufacturerId": 2
     },
     {
-      "id": 60,
+      "id": 134,
       "name": "SMPW 4000 Series",
       "categoryId": 3,
       "manufacturerId": 2
     },
     {
-      "id": 61,
+      "id": 135,
       "name": "System: 3 - SD Series",
       "categoryId": 3,
       "manufacturerId": 2
     },
     {
-      "id": 62,
+      "id": 136,
       "name": "Tagelus",
       "categoryId": 3,
       "manufacturerId": 2
     },
     {
-      "id": 63,
+      "id": 137,
       "name": "Triton II",
       "categoryId": 3,
       "manufacturerId": 2
     },
     {
-      "id": 64,
+      "id": 138,
       "name": "Warrior",
       "categoryId": 3,
       "manufacturerId": 2
     },
     {
-      "id": 65,
+      "id": 139,
       "name": "Quad DE",
       "categoryId": 3,
       "manufacturerId": 2
     },
     {
-      "id": 66,
+      "id": 140,
       "name": "PRD Series",
       "categoryId": 3,
       "manufacturerId": 4
     },
     {
-      "id": 67,
+      "id": 141,
       "name": "Carefree",
       "categoryId": 3,
       "manufacturerId": 5
     },
     {
-      "id": 68,
+      "id": 142,
       "name": "ClearWater II (DE)",
       "categoryId": 3,
       "manufacturerId": 5
     },
     {
-      "id": 69,
+      "id": 143,
       "name": "Crystal Water - D.E.",
       "categoryId": 3,
       "manufacturerId": 5
     },
     {
-      "id": 70,
+      "id": 144,
       "name": "Crystal Water - Cartridge",
       "categoryId": 3,
       "manufacturerId": 5
     },
     {
-      "id": 71,
+      "id": 145,
       "name": "ProClean Plus",
       "categoryId": 3,
       "manufacturerId": 5
     },
     {
-      "id": 72,
+      "id": 146,
       "name": "Prestige",
       "categoryId": 3,
       "manufacturerId": 3
     },
     {
-      "id": 73,
+      "id": 147,
       "name": "Pro Series",
       "categoryId": 3,
       "manufacturerId": 1
     },
     {
-      "id": 74,
+      "id": 148,
       "name": "SFSM",
       "categoryId": 3,
       "manufacturerId": 1
     },
     {
-      "id": 75,
+      "id": 149,
       "name": "SFTM",
       "categoryId": 3,
       "manufacturerId": 1
     },
     {
-      "id": 76,
+      "id": 150,
       "name": "CL Series",
       "categoryId": 3,
       "manufacturerId": 1
     },
     {
-      "id": 77,
+      "id": 151,
       "name": "CS Series",
       "categoryId": 3,
       "manufacturerId": 1
     },
     {
-      "id": 78,
+      "id": 152,
       "name": "CV Series",
       "categoryId": 3,
       "manufacturerId": 1
     },
     {
-      "id": 79,
+      "id": 153,
       "name": "DEV Series",
       "categoryId": 3,
       "manufacturerId": 1
     },
     {
-      "id": 80,
+      "id": 154,
       "name": "Cristal Flo II",
       "categoryId": 3,
       "manufacturerId": 4
     },
     {
-      "id": 81,
+      "id": 155,
       "name": "PLD Series",
       "categoryId": 3,
       "manufacturerId": 4
     },
     {
-      "id": 82,
+      "id": 156,
       "name": "PLM Series",
       "categoryId": 3,
       "manufacturerId": 4
     },
     {
-      "id": 83,
+      "id": 157,
       "name": "PXC Series",
       "categoryId": 3,
       "manufacturerId": 4
     },
     {
-      "id": 84,
+      "id": 158,
       "name": "Waterford",
       "categoryId": 3,
       "manufacturerId": 4
     },
     {
-      "id": 85,
+      "id": 159,
       "name": "Carefree (Deluxe)",
       "categoryId": 3,
       "manufacturerId": 5
     },
     {
-      "id": 86,
+      "id": 160,
       "name": "Carefree (Standard)",
       "categoryId": 3,
       "manufacturerId": 5
     },
     {
-      "id": 87,
-      "name": "Clearwater II (Cartridge Deluxe)",
+      "id": 161,
+      "name": "Clearwater II (Cartidge Deluxe)",
       "categoryId": 3,
       "manufacturerId": 5
     },
     {
-      "id": 88,
-      "name": "Clearwater II (Cartridge Standard)",
+      "id": 162,
+      "name": "Clearwater II (Cartidge Standard)",
       "categoryId": 3,
       "manufacturerId": 5
     },
     {
-      "id": 89,
+      "id": 163,
       "name": "ClearWater II (DE Deluxe)",
       "categoryId": 3,
       "manufacturerId": 5
     },
     {
-      "id": 90,
+      "id": 164,
       "name": "ClearWater II (DE Standard)",
       "categoryId": 3,
       "manufacturerId": 5
     },
     {
-      "id": 91,
+      "id": 165,
       "name": "Included with Pool",
       "categoryId": 3,
       "manufacturerId": 17
     },
     {
-      "id": 92,
+      "id": 166,
       "name": "TWM-30",
       "categoryId": 3,
       "manufacturerId": 5
