@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Jandy",
-      "logo": "/assets/logos/jandy.jpg",
+      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/jandy.jpg",
       "code": "jandy",
       "categories": [
         {
@@ -29,7 +29,7 @@
     {
       "id": 2,
       "name": "Pentair",
-      "logo": "/assets/logos/pentair.jpg",
+      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/pentair.jpg",
       "code": "pentair",
       "categories": [
         {
@@ -55,7 +55,7 @@
     {
       "id": 3,
       "name": "Polaris",
-      "logo": "/assets/logos/polaris.jpg",
+      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/polaris.jpg",
       "code": "polaris",
       "categories": [
         {
@@ -81,7 +81,7 @@
     {
       "id": 4,
       "name": "Sta-Rite",
-      "logo": "/assets/logos/sta-rite.jpg",
+      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/sta-rite.jpg",
       "code": "sta-rite",
       "categories": [
         {
@@ -107,7 +107,7 @@
     {
       "id": 5,
       "name": "Waterway",
-      "logo": "/assets/logos/waterway.jpg",
+      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/waterway.jpg",
       "code": "waterway",
       "categories": [
         {
@@ -133,7 +133,7 @@
     {
       "id": 6,
       "name": "Doughboy",
-      "logo": "/assets/logos/doughboy.jpg",
+      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/doughboy.jpg",
       "code": "doughboy",
       "categories": [
         {
@@ -159,7 +159,7 @@
     {
       "id": 7,
       "name": "XtremePowerUS",
-      "logo": "/assets/logos/xtremepowerus.jpg",
+      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/xtremepowerus.jpg",
       "code": "xtremepowerus",
       "categories": [
         {
@@ -185,7 +185,7 @@
     {
       "id": 8,
       "name": "Jandy / Zodiac",
-      "logo": "/assets/logos/jandy-zodiac.jpg",
+      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/jandy-zodiac.jpg",
       "code": "jandy-zodiac",
       "categories": [
         {
@@ -211,7 +211,7 @@
     {
       "id": 9,
       "name": "RAYPAK",
-      "logo": "/assets/logos/raypak.jpg",
+      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/raypak.jpg",
       "code": "raypak",
       "categories": [
         {
@@ -237,7 +237,7 @@
     {
       "id": 10,
       "name": "HAYWARD",
-      "logo": "/assets/logos/hayward.jpg",
+      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/hayward.jpg",
       "code": "hayward",
       "categories": [
         {
@@ -263,7 +263,7 @@
     {
       "id": 11,
       "name": "AQUACAL",
-      "logo": "/assets/logos/aquacal.jpg",
+      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/aquacal.jpg",
       "code": "aquacal",
       "categories": [
         {
@@ -289,7 +289,7 @@
     {
       "id": 12,
       "name": "Gulf Stream",
-      "logo": "/assets/logos/gulf-stream.jpg",
+      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/gulf-stream.jpg",
       "code": "gulf-stream",
       "categories": [
         {
@@ -315,7 +315,7 @@
     {
       "id": 13,
       "name": "Thermeau",
-      "logo": "/assets/logos/thermeau.jpg",
+      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/thermeau.jpg",
       "code": "thermeau",
       "categories": [
         {
@@ -341,7 +341,7 @@
     {
       "id": 14,
       "name": "FibroPool",
-      "logo": "/assets/logos/fibropool.jpg",
+      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/fibropool.jpg",
       "code": "fibropool",
       "categories": [
         {
@@ -367,7 +367,7 @@
     {
       "id": 15,
       "name": "TTIFAB",
-      "logo": "/assets/logos/ttifab.jpg",
+      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/ttifab.jpg",
       "code": "ttifab",
       "categories": [
         {
@@ -393,7 +393,7 @@
     {
       "id": 16,
       "name": "White Knight USA",
-      "logo": "/assets/logos/white-knight-usa.jpg",
+      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/white-knight-usa.jpg",
       "code": "white-knight-usa",
       "categories": [
         {
@@ -419,7 +419,7 @@
     {
       "id": 17,
       "name": "Intex",
-      "logo": "/assets/logos/intex.jpg",
+      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/intex.jpg",
       "code": "intex",
       "categories": [
         {

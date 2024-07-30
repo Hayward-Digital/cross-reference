@@ -5,21 +5,21 @@
       "name": "Pumps",
       "active": true,
       "code": "pumps",
-      "icon": "assets/icons/pumps.svg"
+      "icon": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/pumps.svg"
     },
     {
       "id": 2,
       "name": "Heaters",
       "active": true,
       "code": "heaters",
-      "icon": "assets/icons/heaters.svg"
+      "icon": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/heaters.svg"
     },
     {
       "id": 3,
       "name": "Filters",
       "active": true,
       "code": "filters",
-      "icon": "assets/icons/filters.svg"
+      "icon": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/filters.svg"
     }
   ]
 }

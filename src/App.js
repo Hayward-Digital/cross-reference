@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Routes, Route, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import Category from './modules/categories/Category';
 import Manufacturer from './modules/manufacturers/Manufacturer';
 import Series from './modules/series/Series';
@@ -195,33 +195,35 @@ const App = () => {
   };
 
   return (
-    <div className="content-with-footer">
-      {isTabNavVisible() && (
-        <TabNav
-          activeTab={activeTab}
-          category={category}
-          manufacturer={manufacturer}
-          series={series}
-          model={model}
-          categoryName={categoryName}
-          manufacturerName={manufacturerName}
-          seriesName={seriesName}
-          modelName={modelName}
-          setActiveTab={setActiveTab}
-          handleTabClick={handleTabClick}
-        />
-      )}
-      <Routes>
-        <Route path="/" element={<Home onSelectCategory={() => { resetSelections(); setActiveTab('category'); navigate('/categories'); }} />} />
-        <Route path="/categories" element={<Category onSelect={handleSelectCategory} />} />
-        <Route path="/:categoryCode" element={<Manufacturer onSelectManufacturer={handleSelectManufacturer} />} />
-        <Route path="/:categoryCode/:manufacturerCode" element={<Series manufacturerName={manufacturerName} manufacturerLogo={manufacturerLogo} onSelectSeries={handleSelectSeries} />} />
-        <Route path="/:categoryCode/:manufacturerCode/:seriesId" element={<Models onSelectModel={handleSelectModel} />} />
-        <Route path="/:categoryCode/:manufacturerCode/:seriesId/:modelId/alternatives" element={<Alternatives onRestart={resetSelections} />} />
-        <Route path="/sku/:sku" element={<SkuSearchResults onSelectModel={handleSkuSelectModel} />} />
-      </Routes>
-      <Footer onRestart={resetSelections} />
-    </div>
+    
+      <div className="content-with-footer">
+        {isTabNavVisible() && (
+          <TabNav
+            activeTab={activeTab}
+            category={category}
+            manufacturer={manufacturer}
+            series={series}
+            model={model}
+            categoryName={categoryName}
+            manufacturerName={manufacturerName}
+            seriesName={seriesName}
+            modelName={modelName}
+            setActiveTab={setActiveTab}
+            handleTabClick={handleTabClick}
+          />
+        )}
+        <Routes>
+          <Route path="/" element={<Home onSelectCategory={() => { resetSelections(); setActiveTab('category'); navigate('/categories'); }} />} />
+          <Route path="/categories" element={<Category onSelect={handleSelectCategory} />} />
+          <Route path="/:categoryCode" element={<Manufacturer onSelectManufacturer={handleSelectManufacturer} />} />
+          <Route path="/:categoryCode/:manufacturerCode" element={<Series manufacturerName={manufacturerName} manufacturerLogo={manufacturerLogo} onSelectSeries={handleSelectSeries} />} />
+          <Route path="/:categoryCode/:manufacturerCode/:seriesId" element={<Models onSelectModel={handleSelectModel} />} />
+          <Route path="/:categoryCode/:manufacturerCode/:seriesId/:modelId/alternatives" element={<Alternatives onRestart={resetSelections} />} />
+          <Route path="/sku/:sku" element={<SkuSearchResults onSelectModel={handleSkuSelectModel} />} />
+        </Routes>
+        <Footer onRestart={resetSelections} />
+      </div>
+
   );
 };
 
