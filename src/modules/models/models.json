@@ -1123,7 +1123,7 @@
     {
       "id": 71,
       "name": "CFII-NI-1FE",
-      "sku": 342235,
+      "sku": "342235",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1139,7 +1139,7 @@
     {
       "id": 72,
       "name": "CFII-NI-1-1/2FE",
-      "sku": 342236,
+      "sku": "342236",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1155,7 +1155,7 @@
     {
       "id": 73,
       "name": "CFII-NI-2FE ",
-      "sku": 342238,
+      "sku": "342238",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1171,7 +1171,7 @@
     {
       "id": 74,
       "name": "CFII-NI- 1/2F",
-      "sku": 342232,
+      "sku": "342232",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1187,7 +1187,7 @@
     {
       "id": 75,
       "name": "CFII-NI- 3/4F",
-      "sku": 342233,
+      "sku": "342233",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1203,7 +1203,7 @@
     {
       "id": 76,
       "name": "CFII-NI-1F",
-      "sku": 342234,
+      "sku": "342234",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1219,7 +1219,7 @@
     {
       "id": 77,
       "name": "CFII-NI-1-1/2F",
-      "sku": 342231,
+      "sku": "342231",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1235,7 +1235,7 @@
     {
       "id": 78,
       "name": "CFII-NI-2F",
-      "sku": 342248,
+      "sku": "342248",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1251,7 +1251,7 @@
     {
       "id": 79,
       "name": "CFII-NI- 3/4A",
-      "sku": 343232,
+      "sku": "343232",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1267,7 +1267,7 @@
     {
       "id": 80,
       "name": "CFII-NI-1A",
-      "sku": 343233,
+      "sku": "343233",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1283,7 +1283,7 @@
     {
       "id": 81,
       "name": "CFII-NI-1-1/2A",
-      "sku": 343234,
+      "sku": "343234",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1299,7 +1299,7 @@
     {
       "id": 82,
       "name": "CFII-NI-2A",
-      "sku": 343240,
+      "sku": "343240",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1315,7 +1315,7 @@
     {
       "id": 83,
       "name": "CFII-NI-2-1/2A",
-      "sku": 343229,
+      "sku": "343229",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1331,7 +1331,7 @@
     {
       "id": 84,
       "name": "CHII-NI 1/2F",
-      "sku": 345202,
+      "sku": "345202",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1347,7 +1347,7 @@
     {
       "id": 85,
       "name": "CHII-NI- 3/4F",
-      "sku": 345203,
+      "sku": "345203",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1363,7 +1363,7 @@
     {
       "id": 86,
       "name": "CHII-NI-1F",
-      "sku": 345204,
+      "sku": "345204",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1379,7 +1379,7 @@
     {
       "id": 87,
       "name": "CHII-NI-1-1/2F",
-      "sku": 345201,
+      "sku": "345201",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1395,7 +1395,7 @@
     {
       "id": 88,
       "name": "CHII-NI-2F",
-      "sku": 345218,
+      "sku": "345218",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1411,7 +1411,7 @@
     {
       "id": 89,
       "name": "CHII-NI-3F",
-      "sku": 345219,
+      "sku": "345219",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1427,7 +1427,7 @@
     {
       "id": 90,
       "name": "CHII-NI- 3/4A",
-      "sku": 346203,
+      "sku": "346203",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1443,7 +1443,7 @@
     {
       "id": 91,
       "name": "CHII-NI-1A",
-      "sku": 346204,
+      "sku": "346204",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1459,7 +1459,7 @@
     {
       "id": 92,
       "name": "CHII-NI-1-1/2A",
-      "sku": 346206,
+      "sku": "346206",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1475,7 +1475,7 @@
     {
       "id": 93,
       "name": "CHII-NI-2A",
-      "sku": 346201,
+      "sku": "346201",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1491,7 +1491,7 @@
     {
       "id": 94,
       "name": "CHII-NI-2-1/2A",
-      "sku": 346249,
+      "sku": "346249",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1507,7 +1507,7 @@
     {
       "id": 95,
       "name": "CHII-NI- 1/2FE",
-      "sku": 345212,
+      "sku": "345212",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1523,7 +1523,7 @@
     {
       "id": 96,
       "name": "CHII-NI- 3/4FE",
-      "sku": 345213,
+      "sku": "345213",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1539,7 +1539,7 @@
     {
       "id": 97,
       "name": "CHII-NI-1FE",
-      "sku": 345205,
+      "sku": "345205",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1555,7 +1555,7 @@
     {
       "id": 98,
       "name": "CHII-NI-1-1/2FE",
-      "sku": 345206,
+      "sku": "345206",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1571,7 +1571,7 @@
     {
       "id": 99,
       "name": "CHII-NI-2FE",
-      "sku": 345208,
+      "sku": "345208",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1587,7 +1587,7 @@
     {
       "id": 100,
       "name": "CHII-NI-3FE",
-      "sku": 345209,
+      "sku": "345209",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -1603,7 +1603,7 @@
     {
       "id": 101,
       "name": "CHII-NI-2-1/2AE",
-      "sku": 346209,
+      "sku": "346209",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2019,7 +2019,7 @@
     {
       "id": 127,
       "name": "PFII-PI- 3/4",
-      "sku": 342853,
+      "sku": "342853",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2035,7 +2035,7 @@
     {
       "id": 128,
       "name": "PFII-PI-1",
-      "sku": 342854,
+      "sku": "342854",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2051,7 +2051,7 @@
     {
       "id": 129,
       "name": "PFII-PI-1-1/2",
-      "sku": 342856,
+      "sku": "342856",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2067,7 +2067,7 @@
     {
       "id": 130,
       "name": "PFII-PI-2",
-      "sku": 342355,
+      "sku": "342355",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2083,7 +2083,7 @@
     {
       "id": 131,
       "name": "SF-N1-1/2F",
-      "sku": 340036,
+      "sku": "340036",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2099,7 +2099,7 @@
     {
       "id": 132,
       "name": "SF- N1-3/4A",
-      "sku": 340037,
+      "sku": "340037",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2115,7 +2115,7 @@
     {
       "id": 133,
       "name": "SF-N1-1A",
-      "sku": 340038,
+      "sku": "340038",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2131,7 +2131,7 @@
     {
       "id": 134,
       "name": "SF-N1 1-1/2A",
-      "sku": 340039,
+      "sku": "340039",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2147,7 +2147,7 @@
     {
       "id": 135,
       "name": "SF- N1-2A",
-      "sku": 340040,
+      "sku": "340040",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2163,7 +2163,7 @@
     {
       "id": 136,
       "name": "SF-N1-2-1/2",
-      "sku": 340041,
+      "sku": "340041",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2179,7 +2179,7 @@
     {
       "id": 137,
       "name": "SF-N2-1A",
-      "sku": 340042,
+      "sku": "340042",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2195,7 +2195,7 @@
     {
       "id": 138,
       "name": "SF-N2-1-1/2A",
-      "sku": 340043,
+      "sku": "340043",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2211,7 +2211,7 @@
     {
       "id": 139,
       "name": "SF-N2-2A",
-      "sku": 340044,
+      "sku": "340044",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2227,7 +2227,7 @@
     {
       "id": 140,
       "name": "SF-NI-1/2FE",
-      "sku": 348021,
+      "sku": "348021",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2243,7 +2243,7 @@
     {
       "id": 141,
       "name": "SF-NI-3/4FE",
-      "sku": 348022,
+      "sku": "348022",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2259,7 +2259,7 @@
     {
       "id": 142,
       "name": "SF-NI-1AE",
-      "sku": 348023,
+      "sku": "348023",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2275,7 +2275,7 @@
     {
       "id": 143,
       "name": "SF-NI-1-1/2AE",
-      "sku": 348024,
+      "sku": "348024",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2291,7 +2291,7 @@
     {
       "id": 144,
       "name": "SF-NI-2AE",
-      "sku": 348025,
+      "sku": "348025",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2307,7 +2307,7 @@
     {
       "id": 145,
       "name": "SF-NI-2-1/2AE",
-      "sku": 348026,
+      "sku": "348026",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2322,8 +2322,8 @@
     },
     {
       "id": 146,
-      "name": 342001,
-      "sku": 342001,
+      "name": "342001",
+      "sku": "342001",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2338,8 +2338,8 @@
     },
     {
       "id": 147,
-      "name": 342000,
-      "sku": 342000,
+      "name": "342000",
+      "sku": "342000",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2354,8 +2354,8 @@
     },
     {
       "id": 148,
-      "name": 342002,
-      "sku": 342002,
+      "name": "342002",
+      "sku": "342002",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2370,8 +2370,8 @@
     },
     {
       "id": 149,
-      "name": 343001,
-      "sku": 343001,
+      "name": "343001",
+      "sku": "343001",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -2386,8 +2386,8 @@
     },
     {
       "id": 150,
-      "name": 343000,
-      "sku": 343000,
+      "name": "343000",
+      "sku": "343000",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -3875,7 +3875,7 @@
     {
       "id": 243,
       "name": "DYNII-NI- 3/4 HP",
-      "sku": 340194,
+      "sku": "340194",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -3891,7 +3891,7 @@
     {
       "id": 244,
       "name": "DYNII-NI- 3/4 HP",
-      "sku": 340314,
+      "sku": "340314",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -3907,7 +3907,7 @@
     {
       "id": 245,
       "name": "DYNII-NI-1 HP",
-      "sku": 340197,
+      "sku": "340197",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -3923,7 +3923,7 @@
     {
       "id": 246,
       "name": "DYNII-NI-1 HP",
-      "sku": 340316,
+      "sku": "340316",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -3939,7 +3939,7 @@
     {
       "id": 247,
       "name": "DYNII-NI-1-1/2 HP",
-      "sku": 340210,
+      "sku": "340210",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -3955,7 +3955,7 @@
     {
       "id": 248,
       "name": "DYNII-N-1-1/2 HP",
-      "sku": 351230,
+      "sku": "351230",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -3970,8 +3970,8 @@
     },
     {
       "id": 249,
-      "name": 347982,
-      "sku": 347982,
+      "name": "347982",
+      "sku": "347982",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -3986,8 +3986,8 @@
     },
     {
       "id": 250,
-      "name": 347985,
-      "sku": 347985,
+      "name": "347985",
+      "sku": "347985",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -4002,8 +4002,8 @@
     },
     {
       "id": 251,
-      "name": 347983,
-      "sku": 347983,
+      "name": "347983",
+      "sku": "347983",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -4018,8 +4018,8 @@
     },
     {
       "id": 252,
-      "name": 347986,
-      "sku": 347986,
+      "name": "347986",
+      "sku": "347986",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -4034,8 +4034,8 @@
     },
     {
       "id": 253,
-      "name": 347988,
-      "sku": 347988,
+      "name": "347988",
+      "sku": "347988",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -4050,8 +4050,8 @@
     },
     {
       "id": 254,
-      "name": 347987,
-      "sku": 347987,
+      "name": "347987",
+      "sku": "347987",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -4066,8 +4066,8 @@
     },
     {
       "id": 255,
-      "name": 347989,
-      "sku": 347989,
+      "name": "347989",
+      "sku": "347989",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -4082,8 +4082,8 @@
     },
     {
       "id": 256,
-      "name": 370067,
-      "sku": 370067,
+      "name": "370067",
+      "sku": "370067",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -4498,8 +4498,8 @@
     },
     {
       "id": 282,
-      "name": 75117,
-      "sku": 75117,
+      "name": "75117",
+      "sku": "75117",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -4514,8 +4514,8 @@
     },
     {
       "id": 283,
-      "name": 75131,
-      "sku": 75131,
+      "name": "75131",
+      "sku": "75131",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -4530,8 +4530,8 @@
     },
     {
       "id": 284,
-      "name": 75171,
-      "sku": 75171,
+      "name": "75171",
+      "sku": "75171",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -4546,8 +4546,8 @@
     },
     {
       "id": 285,
-      "name": 75722,
-      "sku": 75722,
+      "name": "75722",
+      "sku": "75722",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 1,
@@ -4562,8 +4562,8 @@
     },
     {
       "id": 286,
-      "name": 460792,
-      "sku": 460792,
+      "name": "460792",
+      "sku": "460792",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 2,
@@ -4578,8 +4578,8 @@
     },
     {
       "id": 287,
-      "name": 460793,
-      "sku": 460793,
+      "name": "460793",
+      "sku": "460793",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 2,
@@ -4594,8 +4594,8 @@
     },
     {
       "id": 288,
-      "name": 460730,
-      "sku": 460730,
+      "name": "460730",
+      "sku": "460730",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 2,
@@ -4610,8 +4610,8 @@
     },
     {
       "id": 289,
-      "name": 460731,
-      "sku": 460731,
+      "name": "460731",
+      "sku": "460731",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 2,
@@ -4626,8 +4626,8 @@
     },
     {
       "id": 290,
-      "name": 460732,
-      "sku": 460732,
+      "name": "460732",
+      "sku": "460732",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 2,
@@ -4642,8 +4642,8 @@
     },
     {
       "id": 291,
-      "name": 460733,
-      "sku": 460733,
+      "name": "460733",
+      "sku": "460733",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 2,
@@ -4658,8 +4658,8 @@
     },
     {
       "id": 292,
-      "name": 460734,
-      "sku": 460734,
+      "name": "460734",
+      "sku": "460734",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 2,
@@ -4674,8 +4674,8 @@
     },
     {
       "id": 293,
-      "name": 460735,
-      "sku": 460735,
+      "name": "460735",
+      "sku": "460735",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 2,
@@ -4690,8 +4690,8 @@
     },
     {
       "id": 294,
-      "name": 460736,
-      "sku": 460736,
+      "name": "460736",
+      "sku": "460736",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 2,
@@ -4706,8 +4706,8 @@
     },
     {
       "id": 295,
-      "name": 460737,
-      "sku": 460737,
+      "name": "460737",
+      "sku": "460737",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 2,
@@ -4722,8 +4722,8 @@
     },
     {
       "id": 296,
-      "name": 460806,
-      "sku": 460806,
+      "name": "460806",
+      "sku": "460806",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 2,
@@ -4738,8 +4738,8 @@
     },
     {
       "id": 297,
-      "name": 460805,
-      "sku": 460805,
+      "name": "460805",
+      "sku": "460805",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 2,
@@ -4754,8 +4754,8 @@
     },
     {
       "id": 298,
-      "name": 461000,
-      "sku": 461000,
+      "name": "461000",
+      "sku": "461000",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 2,
@@ -4765,13 +4765,13 @@
       "relatedModels": {
         "good": " ",
         "better": "H250FDNASME",
-        "best": "H250FDNASME"
+        "best": ""
       }
     },
     {
       "id": 299,
-      "name": 461001,
-      "sku": 461001,
+      "name": "461001",
+      "sku": "461001",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 2,
@@ -4781,13 +4781,13 @@
       "relatedModels": {
         "good": " ",
         "better": "H250FDPASME",
-        "best": "H250FDPASME"
+        "best": ""
       }
     },
     {
       "id": 300,
-      "name": 460771,
-      "sku": 460771,
+      "name": "460771",
+      "sku": "460771",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 2,
@@ -4797,13 +4797,13 @@
       "relatedModels": {
         "good": " ",
         "better": "H250FDNASME",
-        "best": "H250FDNASME"
+        "best": ""
       }
     },
     {
       "id": 301,
-      "name": 461020,
-      "sku": 461020,
+      "name": "461020",
+      "sku": "461020",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 2,
@@ -4813,13 +4813,13 @@
       "relatedModels": {
         "good": " ",
         "better": "H250FDPASME",
-        "best": "H250FDPASME"
+        "best": ""
       }
     },
     {
       "id": 302,
-      "name": 460772,
-      "sku": 460772,
+      "name": "460772",
+      "sku": "460772",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 2,
@@ -4829,13 +4829,13 @@
       "relatedModels": {
         "good": " ",
         "better": "H250FDPASME",
-        "best": "H250FDPASME"
+        "best": ""
       }
     },
     {
       "id": 303,
-      "name": 460775,
-      "sku": 460775,
+      "name": "460775",
+      "sku": "460775",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 2,
@@ -4845,7 +4845,7 @@
       "relatedModels": {
         "good": " ",
         "better": "H400FDNASME",
-        "best": "H400FDNASME"
+        "best": ""
       }
     },
     {
@@ -9298,8 +9298,8 @@
     },
     {
       "id": 582,
-      "name": 75211,
-      "sku": 75211,
+      "name": "75211",
+      "sku": "75211",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 2,
@@ -9314,8 +9314,8 @@
     },
     {
       "id": 583,
-      "name": 75217,
-      "sku": 75217,
+      "name": "75217",
+      "sku": "75217",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 2,
@@ -9362,8 +9362,8 @@
     },
     {
       "id": 586,
-      "name": 203,
-      "sku": 203,
+      "name": "203",
+      "sku": "203",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 2,
@@ -9379,7 +9379,7 @@
     {
       "id": 587,
       "name": "CC 50",
-      "sku": 160314,
+      "sku": "160314",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9395,7 +9395,7 @@
     {
       "id": 588,
       "name": "CC 75",
-      "sku": 160315,
+      "sku": "160315",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9411,7 +9411,7 @@
     {
       "id": 589,
       "name": "CC 100",
-      "sku": 160316,
+      "sku": "160316",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9427,7 +9427,7 @@
     {
       "id": 590,
       "name": "CC 150",
-      "sku": 160317,
+      "sku": "160317",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9443,7 +9443,7 @@
     {
       "id": 591,
       "name": "CC 200",
-      "sku": 160318,
+      "sku": "160318",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9459,7 +9459,7 @@
     {
       "id": 592,
       "name": "CCRP 100",
-      "sku": 160354,
+      "sku": "160354",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9475,7 +9475,7 @@
     {
       "id": 593,
       "name": "CCRP 150",
-      "sku": 160355,
+      "sku": "160355",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9491,7 +9491,7 @@
     {
       "id": 594,
       "name": "CCRP 200",
-      "sku": 160353,
+      "sku": "160353",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9507,7 +9507,7 @@
     {
       "id": 595,
       "name": "PXCRP100",
-      "sku": 160351,
+      "sku": "160351",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9523,7 +9523,7 @@
     {
       "id": 596,
       "name": "PXCRP150",
-      "sku": 160352,
+      "sku": "160352",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9539,7 +9539,7 @@
     {
       "id": 597,
       "name": "PXCRP200",
-      "sku": 160350,
+      "sku": "160350",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9555,7 +9555,7 @@
     {
       "id": 598,
       "name": "CCP240",
-      "sku": 160310,
+      "sku": "160310",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9571,7 +9571,7 @@
     {
       "id": 599,
       "name": "CCP320",
-      "sku": 160340,
+      "sku": "160340",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9587,7 +9587,7 @@
     {
       "id": 600,
       "name": "CCP420",
-      "sku": 160301,
+      "sku": "160301",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9603,7 +9603,7 @@
     {
       "id": 601,
       "name": "CCP520",
-      "sku": 160332,
+      "sku": "160332",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9619,7 +9619,7 @@
     {
       "id": 602,
       "name": "FNSP24",
-      "sku": 180006,
+      "sku": "180006",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9635,7 +9635,7 @@
     {
       "id": 603,
       "name": "FNSP36",
-      "sku": 1800071,
+      "sku": "1800071",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9651,7 +9651,7 @@
     {
       "id": 604,
       "name": "FNSP48",
-      "sku": 1800081,
+      "sku": "1800081",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9667,7 +9667,7 @@
     {
       "id": 605,
       "name": "FNSP60",
-      "sku": 1800091,
+      "sku": "1800091",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9682,8 +9682,8 @@
     },
     {
       "id": 606,
-      "name": 58931800,
-      "sku": 58931800,
+      "name": "58931800",
+      "sku": "58931800",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9698,8 +9698,8 @@
     },
     {
       "id": 607,
-      "name": 58931900,
-      "sku": 58931900,
+      "name": "58931900",
+      "sku": "58931900",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9714,8 +9714,8 @@
     },
     {
       "id": 608,
-      "name": 58930000,
-      "sku": 58930000,
+      "name": "58930000",
+      "sku": "58930000",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9731,7 +9731,7 @@
     {
       "id": 609,
       "name": "SD 35",
-      "sku": 145315,
+      "sku": "145315",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9747,7 +9747,7 @@
     {
       "id": 610,
       "name": "SD 40",
-      "sku": 145320,
+      "sku": "145320",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9763,7 +9763,7 @@
     {
       "id": 611,
       "name": "SD 60",
-      "sku": 145322,
+      "sku": "145322",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9779,7 +9779,7 @@
     {
       "id": 612,
       "name": "SD 70",
-      "sku": 145367,
+      "sku": "145367",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9795,7 +9795,7 @@
     {
       "id": 613,
       "name": "SD 80 2 in.",
-      "sku": 145386,
+      "sku": "145386",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9811,7 +9811,7 @@
     {
       "id": 614,
       "name": "CF1115",
-      "sku": 145359,
+      "sku": "145359",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9827,7 +9827,7 @@
     {
       "id": 615,
       "name": "CF1119",
-      "sku": 145360,
+      "sku": "145360",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9843,7 +9843,7 @@
     {
       "id": 616,
       "name": "CF1122",
-      "sku": 145361,
+      "sku": "145361",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9859,7 +9859,7 @@
     {
       "id": 617,
       "name": "CF1124",
-      "sku": 145362,
+      "sku": "145362",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9875,7 +9875,7 @@
     {
       "id": 618,
       "name": "CF1126",
-      "sku": 145363,
+      "sku": "145363",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9891,7 +9891,7 @@
     {
       "id": 619,
       "name": "SMBW 4048",
-      "sku": 11555,
+      "sku": "11555",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9907,7 +9907,7 @@
     {
       "id": 620,
       "name": "SMBW 4060",
-      "sku": 147411,
+      "sku": "147411",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9955,7 +9955,7 @@
     {
       "id": 623,
       "name": "TA 40D",
-      "sku": 144126,
+      "sku": "144126",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9971,7 +9971,7 @@
     {
       "id": 624,
       "name": "TA 50D",
-      "sku": 144127,
+      "sku": "144127",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -9987,7 +9987,7 @@
     {
       "id": 625,
       "name": "TA 60D",
-      "sku": 145241,
+      "sku": "145241",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -10003,7 +10003,7 @@
     {
       "id": 626,
       "name": "TA 60D CP",
-      "sku": 145201,
+      "sku": "145201",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -10019,7 +10019,7 @@
     {
       "id": 627,
       "name": "TA 100D",
-      "sku": 145240,
+      "sku": "145240",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -10035,7 +10035,7 @@
     {
       "id": 628,
       "name": "TA 60D 2in",
-      "sku": 145385,
+      "sku": "145385",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -10051,7 +10051,7 @@
     {
       "id": 629,
       "name": "TR 40",
-      "sku": 140236,
+      "sku": "140236",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -10067,7 +10067,7 @@
     {
       "id": 630,
       "name": "TR 50",
-      "sku": 140249,
+      "sku": "140249",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -10083,7 +10083,7 @@
     {
       "id": 631,
       "name": "TR 60",
-      "sku": 140264,
+      "sku": "140264",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -10099,7 +10099,7 @@
     {
       "id": 632,
       "name": "TR 60 CP",
-      "sku": 140212,
+      "sku": "140212",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -10115,7 +10115,7 @@
     {
       "id": 633,
       "name": "TR 100",
-      "sku": 140210,
+      "sku": "140210",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -10131,7 +10131,7 @@
     {
       "id": 634,
       "name": "TR 140",
-      "sku": 140243,
+      "sku": "140243",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -10146,8 +10146,8 @@
     },
     {
       "id": 635,
-      "name": 56408600,
-      "sku": 56408600,
+      "name": "56408600",
+      "sku": "56408600",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -10162,8 +10162,8 @@
     },
     {
       "id": 636,
-      "name": 56408700,
-      "sku": 56408700,
+      "name": "56408700",
+      "sku": "56408700",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -10179,7 +10179,7 @@
     {
       "id": 637,
       "name": "QUAD 60",
-      "sku": 188592,
+      "sku": "188592",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -10195,7 +10195,7 @@
     {
       "id": 638,
       "name": "QUAD 80",
-      "sku": 188593,
+      "sku": "188593",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -10211,7 +10211,7 @@
     {
       "id": 639,
       "name": "QUAD 100",
-      "sku": 188594,
+      "sku": "188594",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -11331,7 +11331,7 @@
     {
       "id": 709,
       "name": "TA40D DYNII-N1-1 hp",
-      "sku": 143145,
+      "sku": "143145",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -11347,7 +11347,7 @@
     {
       "id": 710,
       "name": "TA40D DYNII-N1-1 hp",
-      "sku": 141645,
+      "sku": "141645",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -11363,7 +11363,7 @@
     {
       "id": 711,
       "name": "TA40D DYNII-N1-1.5 hp",
-      "sku": 141646,
+      "sku": "141646",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -11379,7 +11379,7 @@
     {
       "id": 712,
       "name": "TA50D DYNII-N1-1.5 hp",
-      "sku": 143156,
+      "sku": "143156",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -11394,8 +11394,8 @@
     },
     {
       "id": 713,
-      "name": 56344300,
-      "sku": 56344300,
+      "name": "56344300",
+      "sku": "56344300",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -11410,8 +11410,8 @@
     },
     {
       "id": 714,
-      "name": 56366100,
-      "sku": 56366100,
+      "name": "56366100",
+      "sku": "56366100",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,
@@ -11426,8 +11426,8 @@
     },
     {
       "id": 715,
-      "name": 56366300,
-      "sku": 56366300,
+      "name": "56366300",
+      "sku": "56366300",
       "description": " ",
       "productDetailUrl": " ",
       "categoryId": 3,

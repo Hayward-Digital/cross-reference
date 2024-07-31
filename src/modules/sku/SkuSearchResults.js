@@ -1,13 +1,14 @@
-import React, { useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import ModelsCard from '../models/ModelsCard';
 import modelsData from '../models/models.json';
 import Pagination from '../../components/pagination/Pagination';
 import './SkuSearch.css';
 
 const SkuSearchResults = ({ onSelectModel }) => {
-  const { sku } = useParams();
+  const [searchParams] = useSearchParams();
   const navigate = useNavigate();
+  const sku = searchParams.get('sku') || '';
 
   const filteredModels = modelsData.models.filter(model => 
     (model.sku && typeof model.sku === 'string' && model.sku.toLowerCase().includes(sku.toLowerCase())) ||
@@ -25,7 +26,7 @@ const SkuSearchResults = ({ onSelectModel }) => {
   }
 
   const handleSelectModel = (selectedModel) => {
-    navigate(`/sku/${selectedModel.id}/alternatives`);
+    navigate(`/?tab=alternative&model=${selectedModel.id}`);
     onSelectModel(selectedModel);
   };
 

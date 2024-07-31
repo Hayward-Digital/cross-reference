@@ -6,10 +6,11 @@
   
   .search-form {
     display: flex;
+    width: 100%;
   }
   
   .search-input {
-    
+    width: 100%;
     padding: 10px;
     margin-right: 10px;
   }

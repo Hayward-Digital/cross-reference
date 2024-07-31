@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Jandy",
-      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/jandy.jpg",
+      "logo": "/media/wysiwyg/cms/tools/cross-reference/jandy.jpg",
       "code": "jandy",
       "categories": [
         {
@@ -29,7 +29,7 @@
     {
       "id": 2,
       "name": "Pentair",
-      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/pentair.jpg",
+      "logo": "/media/wysiwyg/cms/tools/cross-reference/pentair.jpg",
       "code": "pentair",
       "categories": [
         {
@@ -55,7 +55,7 @@
     {
       "id": 3,
       "name": "Polaris",
-      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/polaris.jpg",
+      "logo": "/media/wysiwyg/cms/tools/cross-reference/polaris.jpg",
       "code": "polaris",
       "categories": [
         {
@@ -81,7 +81,7 @@
     {
       "id": 4,
       "name": "Sta-Rite",
-      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/sta-rite.jpg",
+      "logo": "/media/wysiwyg/cms/tools/cross-reference/sta-rite.jpg",
       "code": "sta-rite",
       "categories": [
         {
@@ -107,7 +107,7 @@
     {
       "id": 5,
       "name": "Waterway",
-      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/waterway.jpg",
+      "logo": "/media/wysiwyg/cms/tools/cross-reference/waterway.jpg",
       "code": "waterway",
       "categories": [
         {
@@ -133,7 +133,7 @@
     {
       "id": 6,
       "name": "Doughboy",
-      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/doughboy.jpg",
+      "logo": "/media/wysiwyg/cms/tools/cross-reference/doughboy.jpg",
       "code": "doughboy",
       "categories": [
         {
@@ -159,7 +159,7 @@
     {
       "id": 7,
       "name": "XtremePowerUS",
-      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/xtremepowerus.jpg",
+      "logo": "/media/wysiwyg/cms/tools/cross-reference/xtremepowerus.jpg",
       "code": "xtremepowerus",
       "categories": [
         {
@@ -185,7 +185,7 @@
     {
       "id": 8,
       "name": "Jandy / Zodiac",
-      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/jandy-zodiac.jpg",
+      "logo": "/media/wysiwyg/cms/tools/cross-reference/jandy-zodiac.jpg",
       "code": "jandy-zodiac",
       "categories": [
         {
@@ -211,7 +211,7 @@
     {
       "id": 9,
       "name": "RAYPAK",
-      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/raypak.jpg",
+      "logo": "/media/wysiwyg/cms/tools/cross-reference/raypak.jpg",
       "code": "raypak",
       "categories": [
         {
@@ -237,7 +237,7 @@
     {
       "id": 10,
       "name": "HAYWARD",
-      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/hayward.jpg",
+      "logo": "/media/wysiwyg/cms/tools/cross-reference/hayward.jpg",
       "code": "hayward",
       "categories": [
         {
@@ -263,7 +263,7 @@
     {
       "id": 11,
       "name": "AQUACAL",
-      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/aquacal.jpg",
+      "logo": "/media/wysiwyg/cms/tools/cross-reference/aquacal.jpg",
       "code": "aquacal",
       "categories": [
         {
@@ -289,7 +289,7 @@
     {
       "id": 12,
       "name": "Gulf Stream",
-      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/gulf-stream.jpg",
+      "logo": "/media/wysiwyg/cms/tools/cross-reference/gulf-stream.jpg",
       "code": "gulf-stream",
       "categories": [
         {
@@ -315,7 +315,7 @@
     {
       "id": 13,
       "name": "Thermeau",
-      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/thermeau.jpg",
+      "logo": "/media/wysiwyg/cms/tools/cross-reference/thermeau.jpg",
       "code": "thermeau",
       "categories": [
         {
@@ -341,7 +341,7 @@
     {
       "id": 14,
       "name": "FibroPool",
-      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/fibropool.jpg",
+      "logo": "/media/wysiwyg/cms/tools/cross-reference/fibropool.jpg",
       "code": "fibropool",
       "categories": [
         {
@@ -367,7 +367,7 @@
     {
       "id": 15,
       "name": "TTIFAB",
-      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/ttifab.jpg",
+      "logo": "/media/wysiwyg/cms/tools/cross-reference/ttifab.jpg",
       "code": "ttifab",
       "categories": [
         {
@@ -393,7 +393,7 @@
     {
       "id": 16,
       "name": "White Knight USA",
-      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/white-knight-usa.jpg",
+      "logo": "/media/wysiwyg/cms/tools/cross-reference/white-knight-usa.jpg",
       "code": "white-knight-usa",
       "categories": [
         {
@@ -419,7 +419,7 @@
     {
       "id": 17,
       "name": "Intex",
-      "logo": "https://mcstaging.hayward.com/media/wysiwyg/cms/tools/cross-reference/intex.jpg",
+      "logo": "/media/wysiwyg/cms/tools/cross-reference/intex.jpg",
       "code": "intex",
       "categories": [
         {

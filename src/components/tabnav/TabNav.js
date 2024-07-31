@@ -15,18 +15,24 @@ const TabNav = ({ activeTab, category, manufacturer, series, model, categoryName
     return true;
   };
 
+  const handleClick = (tab) => {
+    if (isTabEnabled(tab)) {
+      handleTabClick(tab);
+    }
+  };
+
   return (
     <div className="tab-nav">
-      <div className={getTabClassName('category')} onClick={() => handleTabClick('category')}>
+      <div className={getTabClassName('category')} onClick={() => handleClick('category')}>
         Category <span className="tab-subtitle">{categoryName}</span>
       </div>
-      <div className={getTabClassName('manufacturer')} onClick={() => handleTabClick('manufacturer')}>
+      <div className={getTabClassName('manufacturer')} onClick={() => handleClick('manufacturer')}>
         Manufacturer <span className="tab-subtitle">{manufacturerName}</span>
       </div>
-      <div className={getTabClassName('series')} onClick={() => handleTabClick('series')}>
+      <div className={getTabClassName('series')} onClick={() => handleClick('series')}>
         Series <span className="tab-subtitle">{seriesName}</span>
       </div>
-      <div className={getTabClassName('model')} onClick={() => handleTabClick('model')}>
+      <div className={getTabClassName('model')} onClick={() => handleClick('model')}>
         Model <span className="tab-subtitle">{modelName}</span>
       </div>
     </div>

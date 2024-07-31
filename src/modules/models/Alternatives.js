@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams, useLocation } from 'react-router-dom';
 import './Alternatives.css';
 import modelsData from './models.json';
 import mockData from './mockData.json'; // Importa el archivo JSON con los datos simulados
@@ -7,8 +7,43 @@ import categoriesData from '../categories/categories.json';
 import manufacturersData from '../manufacturers/manufacturers.json';
 import seriesData from '../series/series.json';
 
+// Variable para alternar entre mockData y API
+const USE_MOCK_DATA = false; // Cambia esto a true para usar los datos simulados
+
+const fetchHaywardProduct = async (sku) => {
+  try {
+    console.log("Fetching SKU:", sku);
+    const response = await fetch(
+      `https://mcstaging.hayward.com/rest/default/V1/products?searchCriteria[filterGroups][0][filters][0][field]=sku&searchCriteria[filterGroups][0][filters][0][value]=${sku}`,
+      {
+        headers: {
+          Authorization: "Bearer 3b5kg5eu34t3gdmkiph3m1aqcgun8cu6",
+        },
+      }
+    );
+    console.log("Response status:", response.status);
+    if (!response.ok) {
+      const errorText = await response.text();
+      console.log("Response text:", errorText);
+      throw new Error('Network response was not ok');
+    }
+    const result = await response.json();
+    return result.items[0]; // Asumiendo que la respuesta contiene un array llamado "items"
+  } catch (error) {
+    console.error("Fetch error: ", error);
+    throw error;
+  }
+};
+
+const truncateDescription = (description, maxLength) => {
+  if (description.length <= maxLength) return description;
+  return description.slice(0, maxLength) + '...';
+};
+
 const Alternatives = ({ onRestart }) => {
-  const { modelId } = useParams();
+  const { search } = useLocation();
+  const params = new URLSearchParams(search);
+  const modelId = params.get('model');
   const navigate = useNavigate();
   const [relatedModels, setRelatedModels] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -25,15 +60,49 @@ const Alternatives = ({ onRestart }) => {
 
     const fetchRelatedModels = async () => {
       try {
-        const results = ['good', 'better', 'best'].map(key => {
-          const sku = model.relatedModels[key];
-          const result = mockData[sku]; // Usa los datos simulados
-          if (!result) {
-            throw new Error('Data not found for SKU: ' + sku);
+        const results = await Promise.all(
+          ['good', 'better', 'best'].map(async key => {
+            const sku = model.relatedModels[key];
+            if (sku && sku.trim()) {
+              try {
+                if (USE_MOCK_DATA) {
+                  const result = mockData[sku.trim()]; // Usa los datos simulados
+                  if (!result) {
+                    throw new Error('Please try other product');
+                  }
+                  return { key, result };
+                } else {
+                  const result = await fetchHaywardProduct(sku.trim()); // Usa la API
+                  if (!result) {
+                    throw new Error('Please try other product');
+                  }
+                  return { key, result };
+                }
+              } catch (err) {
+                return { key, error: err.message };
+              }
+            }
+            return null;
+          })
+        );
+        const filteredResults = results.filter(result => result !== null);
+        if (filteredResults.length === 0) {
+          throw new Error('No related models found.');
+        }
+
+        // Ensure best is always present
+        if (!filteredResults.some(({ key }) => key === 'best')) {
+          if (filteredResults.length === 1) {
+            filteredResults[0].key = 'best';
+          } else if (filteredResults.length === 2) {
+            filteredResults[1].key = 'best';
+            filteredResults[0].key = 'better';
           }
-          return result;
-        });
-        setRelatedModels(results);
+        } else if (filteredResults.length === 2) {
+          filteredResults[1].key = 'best';
+          filteredResults[0].key = 'better';
+        }
+        setRelatedModels(filteredResults);
       } catch (error) {
         setError(error.message);
       } finally {
@@ -60,16 +129,38 @@ const Alternatives = ({ onRestart }) => {
     <div className="alternatives-container">
       <h2 className='title mt-3 mb-5'>Our Best-in-Class Options</h2>
       <div className="flex-container">
-        {relatedModels.map((relatedModel, index) => (
-          <div key={index} className={`model-card ${['good', 'better', 'best'][index]} d-flex flex-wrap justify-content-center`}>
-            <h3 className='d-flex justify-content-center align-items-center'>{['Good', 'Better', 'Best'][index]}</h3>
-            <img src={`${relatedModel.media_gallery_entries[0]?.file}`} alt={relatedModel.name} />
-            <h4>{relatedModel.name}</h4>
-            <p>SKU: {relatedModel.sku}</p>
-            <p className='description' dangerouslySetInnerHTML={{ __html: relatedModel.custom_attributes.find(attr => attr.attribute_code === 'description').value }}></p>
-            <a className='rounded-pill' href={`/product/${relatedModel.custom_attributes.find(attr => attr.attribute_code === 'url_key').value}`} target="_blank" rel="noopener noreferrer">View Details</a>
-          </div>
-        ))}
+        {relatedModels.map(({ key, result, error }, index) => {
+          if (error) {
+            return (
+              <div key={index} className={`col-12 col-md-3 model-card ${key} d-flex flex-wrap justify-content-center`}>
+                <h3 className='d-flex justify-content-center align-items-center'>{key.charAt(0).toUpperCase() + key.slice(1)}</h3>
+                <p>{error}</p>
+              </div>
+            );
+          }
+
+          const descriptionAttribute = result.custom_attributes.find(attr => attr.attribute_code === 'marketing_short_description');
+          const description = descriptionAttribute ? descriptionAttribute.value : 'No description available';
+          const truncatedDescription = truncateDescription(description, 150); // Limita la descripción a 150 caracteres
+
+          return (
+            <div key={index} className={`col-12 col-md-3 model-card ${key} d-flex flex-wrap justify-content-center`}>
+              <h3 className='d-flex justify-content-center align-items-center'>{key.charAt(0).toUpperCase() + key.slice(1)}</h3>
+              <img src={`/media/catalog/product/${result.media_gallery_entries[0]?.file}`} alt={result.name} />
+              <h4>{result.name}</h4>
+              <p>SKU: {result.sku}</p>
+              <p className='description'>{truncatedDescription}</p>
+              <a 
+                className='rounded-pill' 
+                href={`../../../../../${result.custom_attributes.find(attr => attr.attribute_code === 'url_key')?.value || '#'}-${result.sku}.html`} 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                View Details
+              </a>
+            </div>
+          );
+        })}
       </div>
       <div className="col-12 p-5 mt-4 bg-light d-flex flex-wrap">
         <h3 className='w-100'>Current Product to Replace</h3>

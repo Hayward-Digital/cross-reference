@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import ModelsCard from './ModelsCard';
 import ModelDetails from './ModelDetails';
 import modelsData from './models.json';
@@ -9,7 +9,9 @@ import Pagination from '../../components/pagination/Pagination';
 import './Models.css';
 
 const Models = ({ onSelectModel }) => {
-  const { seriesId } = useParams();
+  const { search } = useLocation();
+  const params = new URLSearchParams(search);
+  const seriesId = params.get('series');
   const [selectedModel, setSelectedModel] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
   const [searchTerm, setSearchTerm] = useState('');
@@ -72,8 +74,8 @@ const Models = ({ onSelectModel }) => {
         <div className="col-6 d-flex flex-wrap align-items-center">
           <img src={manufacturer?.logo} alt={manufacturer?.name} className="img-fluid me-2 border" style={{ height: '100px' }} />
           <div className='ps-2'>
-          <h4 className='m-0'>{manufacturer?.name} <span className='fw-bold'>Models</span></h4>
-          <p className='w-100 m-0'>We found {filteredModels.length} elements</p>
+            <h4 className='m-0'>{manufacturer?.name} <span className='fw-bold'>Models</span></h4>
+            <p className='w-100 m-0'>We found {filteredModels.length} elements</p>
           </div>
         </div>
         <div className="col-6 d-flex justify-content-end">

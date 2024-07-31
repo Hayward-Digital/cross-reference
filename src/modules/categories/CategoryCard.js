@@ -1,5 +1,4 @@
 import React from 'react';
-import { ReactSVG } from 'react-svg';
 import './CategoryCard.css';
 
 const CategoryCard = ({ category, onSelect }) => {
@@ -8,7 +7,7 @@ const CategoryCard = ({ category, onSelect }) => {
       <div className={`card category ${category.code}`} onClick={() => onSelect(category)}>
         <div className="row g-0">
           <div className="col-2 d-flex justify-content-center align-items-center p-3">
-            <ReactSVG src={category.icon} className="svg-icon" />
+            <img src={category.icon} alt={category.name} className="icon-img" />
           </div>
           <div className="col-10 d-flex align-items-center">
             <div className="ps-0 card-body">

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import Category from './modules/categories/Category';
 import Manufacturer from './modules/manufacturers/Manufacturer';
 import Series from './modules/series/Series';
@@ -16,6 +16,8 @@ import './App.css';
 
 const App = () => {
   const navigate = useNavigate();
+  const location = useLocation();
+
   const [activeTab, setActiveTab] = useState('home');
   const [category, setCategory] = useState('');
   const [manufacturer, setManufacturer] = useState('');
@@ -23,6 +25,7 @@ const App = () => {
   const [manufacturerLogo, setManufacturerLogo] = useState('');
   const [series, setSeries] = useState('');
   const [model, setModel] = useState('');
+  const [sku, setSku] = useState('');
   const [categoryName, setCategoryName] = useState('Select One');
   const [seriesName, setSeriesName] = useState('Select One');
   const [modelName, setModelName] = useState('Select One');
@@ -41,6 +44,7 @@ const App = () => {
         categoryName,
         seriesName,
         modelName,
+        sku,
       } = JSON.parse(savedState);
 
       setActiveTab(activeTab);
@@ -53,6 +57,7 @@ const App = () => {
       setCategoryName(categoryName);
       setSeriesName(seriesName);
       setModelName(modelName);
+      setSku(sku);
     }
   }, []);
 
@@ -68,9 +73,27 @@ const App = () => {
       categoryName,
       seriesName,
       modelName,
+      sku,
     };
     localStorage.setItem('appState', JSON.stringify(state));
-  }, [activeTab, category, manufacturer, manufacturerName, manufacturerLogo, series, model, categoryName, seriesName, modelName]);
+  }, [activeTab, category, manufacturer, manufacturerName, manufacturerLogo, series, model, categoryName, seriesName, modelName, sku]);
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const tab = params.get('tab');
+    const categoryParam = params.get('category');
+    const manufacturerParam = params.get('manufacturer');
+    const seriesParam = params.get('series');
+    const modelParam = params.get('model');
+    const skuParam = params.get('sku');
+
+    if (tab) setActiveTab(tab);
+    if (categoryParam) setCategory(categoryParam);
+    if (manufacturerParam) setManufacturer(manufacturerParam);
+    if (seriesParam) setSeries(seriesParam);
+    if (modelParam) setModel(modelParam);
+    if (skuParam) setSku(skuParam);
+  }, [location]);
 
   const handleSelectCategory = (category) => {
     setCategory(category.code);
@@ -81,8 +104,8 @@ const App = () => {
     setManufacturerName('Select One');
     setSeriesName('Select One');
     setModelName('Select One');
-    setActiveTab('category');
-    navigate(`/${category.code}`);
+    setActiveTab('manufacturer');
+    navigate(`/?tab=manufacturer&category=${category.code}`);
   };
 
   const handleSelectManufacturer = (categoryCode, manufacturer) => {
@@ -94,7 +117,7 @@ const App = () => {
     setSeriesName('Select One');
     setModelName('Select One');
     setActiveTab('series');
-    navigate(`/${categoryCode}/${manufacturer.code}`);
+    navigate(`/?tab=series&category=${categoryCode}&manufacturer=${manufacturer.code}`);
   };
 
   const handleSelectSeries = (categoryCode, manufacturerCode, seriesId) => {
@@ -104,14 +127,14 @@ const App = () => {
     setModel('');
     setModelName('Select One');
     setActiveTab('model');
-    navigate(`/${categoryCode}/${manufacturerCode}/${seriesId}`);
+    navigate(`/?tab=model&category=${categoryCode}&manufacturer=${manufacturerCode}&series=${seriesId}`);
   };
 
   const handleSelectModel = (model) => {
     setModel(model.id);
     setModelName(model.name);
     setActiveTab('alternative');
-    navigate(`/${category}/${manufacturer}/${series}/${model.id}/alternatives`);
+    navigate(`/?tab=alternative&category=${category}&manufacturer=${manufacturer}&series=${series}&model=${model.id}`);
   };
 
   const handleSkuSelectModel = (model) => {
@@ -135,8 +158,9 @@ const App = () => {
       setSeriesName(series.name);
       setModel(model.id);
       setModelName(model.name);
+      setSku(model.sku);
       setActiveTab('alternative');
-      navigate(`/${category.code}/${manufacturer.code}/${series.id}/${model.id}/alternatives`);
+      navigate(`/?tab=alternative&category=${category.code}&manufacturer=${manufacturer.code}&series=${series.id}&model=${model.id}&sku=${model.sku}`);
     }
   };
 
@@ -151,7 +175,7 @@ const App = () => {
       setSeriesName('Select One');
       setModel('');
       setModelName('Select One');
-      navigate('/categories');
+      navigate('/?tab=category');
     } else if (tab === 'manufacturer' && category) {
       setActiveTab('manufacturer');
       setManufacturer('');
@@ -160,19 +184,22 @@ const App = () => {
       setSeriesName('Select One');
       setModel('');
       setModelName('Select One');
-      navigate(`/${category}`);
+      navigate(`/?tab=manufacturer&category=${category}`);
     } else if (tab === 'series' && manufacturer) {
       setActiveTab('series');
       setSeries('');
       setSeriesName('Select One');
       setModel('');
       setModelName('Select One');
-      navigate(`/${category}/${manufacturer}`);
+      navigate(`/?tab=series&category=${category}&manufacturer=${manufacturer}`);
     } else if (tab === 'model' && series) {
       setActiveTab('model');
       setModel('');
       setModelName('Select One');
-      navigate(`/${category}/${manufacturer}/${series}`);
+      navigate(`/?tab=model&category=${category}&manufacturer=${manufacturer}&series=${series}`);
+    } else if (tab === 'sku' && sku) {
+      setActiveTab('sku');
+      navigate(`/?tab=sku&sku=${sku}`);
     }
   };
 
@@ -186,44 +213,55 @@ const App = () => {
     setSeriesName('Select One');
     setModel('');
     setModelName('Select One');
+    setSku('');
     setActiveTab('home');
     localStorage.removeItem('appState');
+    navigate('/');
   };
 
   const isTabNavVisible = () => {
     return activeTab !== 'home';
   };
 
-  return (
-    
-      <div className="content-with-footer">
-        {isTabNavVisible() && (
-          <TabNav
-            activeTab={activeTab}
-            category={category}
-            manufacturer={manufacturer}
-            series={series}
-            model={model}
-            categoryName={categoryName}
-            manufacturerName={manufacturerName}
-            seriesName={seriesName}
-            modelName={modelName}
-            setActiveTab={setActiveTab}
-            handleTabClick={handleTabClick}
-          />
-        )}
-        <Routes>
-          <Route path="/" element={<Home onSelectCategory={() => { resetSelections(); setActiveTab('category'); navigate('/categories'); }} />} />
-          <Route path="/categories" element={<Category onSelect={handleSelectCategory} />} />
-          <Route path="/:categoryCode" element={<Manufacturer onSelectManufacturer={handleSelectManufacturer} />} />
-          <Route path="/:categoryCode/:manufacturerCode" element={<Series manufacturerName={manufacturerName} manufacturerLogo={manufacturerLogo} onSelectSeries={handleSelectSeries} />} />
-          <Route path="/:categoryCode/:manufacturerCode/:seriesId" element={<Models onSelectModel={handleSelectModel} />} />
-          <Route path="/:categoryCode/:manufacturerCode/:seriesId/:modelId/alternatives" element={<Alternatives onRestart={resetSelections} />} />
-          <Route path="/sku/:sku" element={<SkuSearchResults onSelectModel={handleSkuSelectModel} />} />
-        </Routes>
-        <Footer onRestart={resetSelections} />
-      </div>
+  const renderComponent = () => {
+    switch (activeTab) {
+      case 'category':
+        return <Category onSelect={handleSelectCategory} />;
+      case 'manufacturer':
+        return <Manufacturer onSelectManufacturer={handleSelectManufacturer} />;
+      case 'series':
+        return <Series manufacturerName={manufacturerName} manufacturerLogo={manufacturerLogo} onSelectSeries={handleSelectSeries} />;
+      case 'model':
+        return <Models onSelectModel={handleSelectModel} />;
+      case 'alternative':
+        return <Alternatives onRestart={resetSelections} />;
+      case 'sku':
+        return <SkuSearchResults onSelectModel={handleSkuSelectModel} />;
+      default:
+        return <Home onSelectCategory={() => { resetSelections(); setActiveTab('category'); navigate('/?tab=category'); }} />;
+    }
+  };
 
+  return (
+    <div className="content-with-footer">
+      {isTabNavVisible() && (
+        <TabNav
+          activeTab={activeTab}
+          category={category}
+          manufacturer={manufacturer}
+          series={series}
+          model={model}
+          categoryName={categoryName}
+          manufacturerName={manufacturerName}
+          seriesName={seriesName}
+          modelName={modelName}
+          setActiveTab={setActiveTab}
+          handleTabClick={handleTabClick}
+        />
+      )}
+      {renderComponent()}
+      <Footer onRestart={resetSelections} />
+    </div>
   );
 };
 

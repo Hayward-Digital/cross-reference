@@ -9,7 +9,7 @@ const SkuSearch = () => {
   const handleSearch = (event) => {
     event.preventDefault();
     if (sku.trim()) {
-      navigate(`/sku/${sku}`);
+      navigate(`/?tab=sku&sku=${sku}`);
     }
   };
 

@@ -1,26 +1,20 @@
 .card.category {
-    height: 100%;
-    cursor: pointer;
-  }
-.card.category:hover{
-    border-color: var(--primary-color);
-    color: var(--primary-color);
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Aquí replicas la clase shadow de Bootstrap */
-}
-.card.category .svg-icon svg{
-    max-width: 100% !important;
-    max-height: 50px;
-}
-.card.category .svg-icon svg path  {
-    fill: none;
-    stroke: black; /* Color inicial del SVG */
-    transition: stroke 0.3s; /* Transición suave */
-  }
-
-  .card.category:hover .svg-icon svg path{
-    stroke: #00B4EE; /* Color al pasar el cursor */
-
+  height: 100%;
+  cursor: pointer;
 }
 
+.card.category:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Aquí replicas la clase shadow de Bootstrap */
+}
 
+.icon-img {
+  max-width: 100%;
+  max-height: 50px;
+  transition: filter 0.3s ease; /* Transición suave para el filtro */
+}
 
+.card.category:hover .icon-img {
+  filter: invert(46%) sepia(71%) saturate(2645%) hue-rotate(155deg) brightness(95%) contrast(105%); /* Filtro para cambiar el color al pasar el cursor */
+}

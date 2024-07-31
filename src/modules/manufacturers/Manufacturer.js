@@ -1,12 +1,14 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import ManufacturerCard from './ManufacturerCard';
 import manufacturersData from './manufacturers.json';
 import categoriesData from '../categories/categories.json'; // Importar datos de categorías
 import './Manufacturer.css';
 
 const Manufacturer = ({ onSelectManufacturer }) => {
-  const { categoryCode } = useParams();
+  const { search } = useLocation();
+  const params = new URLSearchParams(search);
+  const categoryCode = params.get('category');
 
   // Obtener la categoría seleccionada
   const selectedCategory = categoriesData.categories.find(category => category.code === categoryCode);
