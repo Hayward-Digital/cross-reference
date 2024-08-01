@@ -130,3 +130,11 @@
    
   }
 }
+@media print {
+  .btn, .hide {
+    display: none;
+  }
+  .alternatives-container {
+    width: 100%;
+  }
+}

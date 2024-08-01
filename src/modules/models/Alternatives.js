@@ -6,13 +6,14 @@ import mockData from './mockData.json'; // Importa el archivo JSON con los datos
 import categoriesData from '../categories/categories.json';
 import manufacturersData from '../manufacturers/manufacturers.json';
 import seriesData from '../series/series.json';
+import { jsPDF } from "jspdf";
+import html2canvas from 'html2canvas';
 
 // Variable para alternar entre mockData y API
 const USE_MOCK_DATA = false; // Cambia esto a true para usar los datos simulados
 
 const fetchHaywardProduct = async (sku) => {
   try {
-    console.log("Fetching SKU:", sku);
     const response = await fetch(
       `https://mcstaging.hayward.com/rest/default/V1/products?searchCriteria[filterGroups][0][filters][0][field]=sku&searchCriteria[filterGroups][0][filters][0][value]=${sku}`,
       {
@@ -21,10 +22,7 @@ const fetchHaywardProduct = async (sku) => {
         },
       }
     );
-    console.log("Response status:", response.status);
     if (!response.ok) {
-      const errorText = await response.text();
-      console.log("Response text:", errorText);
       throw new Error('Network response was not ok');
     }
     const result = await response.json();
@@ -113,6 +111,18 @@ const Alternatives = ({ onRestart }) => {
     fetchRelatedModels();
   }, [model]);
 
+  const handlePrint = async () => {
+    const input = document.getElementById('pdf-content');
+    const canvas = await html2canvas(input);
+    const imgData = canvas.toDataURL('image/png');
+    const pdf = new jsPDF('p', 'mm', 'a4');
+    const imgProps = pdf.getImageProperties(imgData);
+    const pdfWidth = pdf.internal.pageSize.getWidth();
+    const pdfHeight = (imgProps.height * pdfWidth) / imgProps.width;
+    pdf.addImage(imgData, 'PNG', 0, 0, pdfWidth, pdfHeight);
+    pdf.save('alternatives.pdf');
+  };
+
   if (loading) {
     return <div>Loading...</div>;
   }
@@ -128,51 +138,61 @@ const Alternatives = ({ onRestart }) => {
   return (
     <div className="alternatives-container">
       <h2 className='title mt-3 mb-5'>Our Best-in-Class Options</h2>
-      <div className="flex-container">
-        {relatedModels.map(({ key, result, error }, index) => {
-          if (error) {
+      
+      <div id="pdf-content">
+        <div className="flex-container">
+          {relatedModels.map(({ key, result, error }, index) => {
+            if (error) {
+              return (
+                <div key={index} className={`col-12 col-md-3 model-card ${key} d-flex flex-wrap justify-content-center`}>
+                  <h3 className='d-flex justify-content-center align-items-center'>{key.charAt(0).toUpperCase() + key.slice(1)}</h3>
+                  <p>{error}</p>
+                </div>
+              );
+            }
+
+            const descriptionAttribute = result.custom_attributes.find(attr => attr.attribute_code === 'marketing_short_description');
+            const description = descriptionAttribute ? descriptionAttribute.value : 'No description available';
+            const truncatedDescription = truncateDescription(description, 150); // Limita la descripción a 150 caracteres
+
             return (
               <div key={index} className={`col-12 col-md-3 model-card ${key} d-flex flex-wrap justify-content-center`}>
                 <h3 className='d-flex justify-content-center align-items-center'>{key.charAt(0).toUpperCase() + key.slice(1)}</h3>
-                <p>{error}</p>
+                <img src={`/media/catalog/product/${result.media_gallery_entries[0]?.file}`} alt={result.name} />
+                <h4>{result.name}</h4>
+                <p>SKU: {result.sku}</p>
+                <p className='description'>{truncatedDescription}</p>
+                <a 
+                  className='rounded-pill' 
+                  href={`../../../../../${result.custom_attributes.find(attr => attr.attribute_code === 'url_key')?.value || '#'}-${result.sku}.html`} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  View Details
+                </a>
               </div>
             );
-          }
-
-          const descriptionAttribute = result.custom_attributes.find(attr => attr.attribute_code === 'marketing_short_description');
-          const description = descriptionAttribute ? descriptionAttribute.value : 'No description available';
-          const truncatedDescription = truncateDescription(description, 150); // Limita la descripción a 150 caracteres
-
-          return (
-            <div key={index} className={`col-12 col-md-3 model-card ${key} d-flex flex-wrap justify-content-center`}>
-              <h3 className='d-flex justify-content-center align-items-center'>{key.charAt(0).toUpperCase() + key.slice(1)}</h3>
-              <img src={`/media/catalog/product/${result.media_gallery_entries[0]?.file}`} alt={result.name} />
-              <h4>{result.name}</h4>
-              <p>SKU: {result.sku}</p>
-              <p className='description'>{truncatedDescription}</p>
-              <a 
-                className='rounded-pill' 
-                href={`../../../../../${result.custom_attributes.find(attr => attr.attribute_code === 'url_key')?.value || '#'}-${result.sku}.html`} 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                View Details
-              </a>
-            </div>
-          );
-        })}
-      </div>
-      <div className="col-12 p-5 mt-4 bg-light d-flex flex-wrap">
-        <h3 className='w-100'>Current Product to Replace</h3>
-        <p className='w-100'>The product you wish to replace is shown below. We have listed on top the alternatives for your selection</p>
-        <div className='d-flex align-items-center'>
-          <img src={manufacturer?.logo} alt={manufacturer?.name} className="manufacturer-logo p-3 bg-white rounded shadow-sm mb-3"/>
+          })}
+        
         </div>
-        <div className='d-flex flex-column justify-content-center ps-3 flex-fill '>
-          <p className='m-0'><strong>Category:</strong> {category?.name}</p>
-          <p className='m-0'><strong>Manufacturer:</strong> {manufacturer?.name}</p>
-          <p className='m-0'><strong>Series:</strong> {series?.name}</p>
-          <p className='m-0'><strong>Model:</strong> {model?.name}</p>
+        <div className='col-12 d-flex justify-content-center hide'>
+          <button onClick={handlePrint} className="btn btn-light rounded-pill px-5 py-3 my-3">
+            Download PDF
+            <img src="/media/wysiwyg/cms/tools/cross-reference/print.png" alt="Print" className="ms-3" style={{ width: '16px', height: '16px' }} />
+          </button>
+        </div>
+        <div className="col-12 p-5 mt-4 bg-light d-flex flex-wrap">
+          <h3 className='w-100'>Current Product to Replace</h3>
+          <p className='w-100'>The product you wish to replace is shown below. We have listed on top the alternatives for your selection</p>
+          <div className='d-flex align-items-center'>
+            <img src={manufacturer?.logo} alt={manufacturer?.name} className="manufacturer-logo p-3 bg-white rounded shadow-sm mb-3"/>
+          </div>
+          <div className='d-flex flex-column justify-content-center ps-3 flex-fill '>
+            <p className='m-0'><strong>Category:</strong> {category?.name}</p>
+            <p className='m-0'><strong>Manufacturer:</strong> {manufacturer?.name}</p>
+            <p className='m-0'><strong>Series:</strong> {series?.name}</p>
+            <p className='m-0'><strong>Model:</strong> {model?.name}</p>
+          </div>
         </div>
       </div>
     </div>

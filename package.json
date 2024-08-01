@@ -5,6 +5,8 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.24.1",
@@ -14,8 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build-css": "postcss src/index.css -o src/index.purged.css",
-    "build": "npm run build-css && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build"
@@ -32,11 +33,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "/cross-reference",
-  "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^6.0.0",
-    "autoprefixer": "^10.4.19",
-    "postcss-cli": "^11.0.0",
-    "postcss-import": "^16.1.0"
-  }
+  "homepage": "/cross-reference"
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import './TabNav.css';
 
 const TabNav = ({ activeTab, category, manufacturer, series, model, categoryName, manufacturerName, seriesName, modelName, handleTabClick }) => {
-  
+
   const getTabClassName = (tab) => {
     return `tab-item ${activeTab === tab ? 'active' : ''} ${!isTabEnabled(tab) ? 'disabled' : ''}`;
   };
@@ -21,8 +21,25 @@ const TabNav = ({ activeTab, category, manufacturer, series, model, categoryName
     }
   };
 
+  const handleBackClick = () => {
+    if (activeTab === 'category') {
+      handleTabClick('home');
+    } else if (activeTab === 'manufacturer') {
+      handleTabClick('category');
+    } else if (activeTab === 'series') {
+      handleTabClick('manufacturer');
+    } else if (activeTab === 'model') {
+      handleTabClick('series');
+    } else if (activeTab === 'alternative') {
+      handleTabClick('model');
+    }
+  };
+
   return (
     <div className="tab-nav">
+      <div className="back-button" onClick={handleBackClick}>
+        &larr;
+      </div>
       <div className={getTabClassName('category')} onClick={() => handleClick('category')}>
         Category <span className="tab-subtitle">{categoryName}</span>
       </div>
