@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate, useParams, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import './Alternatives.css';
 import modelsData from './models.json';
-import mockData from './mockData.json'; // Importa el archivo JSON con los datos simulados
+import mockData from './mockData.json';
 import categoriesData from '../categories/categories.json';
 import manufacturersData from '../manufacturers/manufacturers.json';
 import seriesData from '../series/series.json';
-import { jsPDF } from "jspdf";
+import { jsPDF } from 'jspdf';
 import html2canvas from 'html2canvas';
+import QRious from 'qrious';
 
-// Variable para alternar entre mockData y API
-const USE_MOCK_DATA = false; // Cambia esto a true para usar los datos simulados
+const USE_MOCK_DATA = false;
 
 const fetchHaywardProduct = async (sku) => {
   try {
@@ -26,7 +26,7 @@ const fetchHaywardProduct = async (sku) => {
       throw new Error('Network response was not ok');
     }
     const result = await response.json();
-    return result.items[0]; // Asumiendo que la respuesta contiene un array llamado "items"
+    return result.items[0];
   } catch (error) {
     console.error("Fetch error: ", error);
     throw error;
@@ -59,18 +59,18 @@ const Alternatives = ({ onRestart }) => {
     const fetchRelatedModels = async () => {
       try {
         const results = await Promise.all(
-          ['good', 'better', 'best'].map(async key => {
+          ['best', 'better', 'good'].map(async key => {
             const sku = model.relatedModels[key];
             if (sku && sku.trim()) {
               try {
                 if (USE_MOCK_DATA) {
-                  const result = mockData[sku.trim()]; // Usa los datos simulados
+                  const result = mockData[sku.trim()];
                   if (!result) {
                     throw new Error('Please try other product');
                   }
                   return { key, result };
                 } else {
-                  const result = await fetchHaywardProduct(sku.trim()); // Usa la API
+                  const result = await fetchHaywardProduct(sku.trim());
                   if (!result) {
                     throw new Error('Please try other product');
                   }
@@ -87,19 +87,6 @@ const Alternatives = ({ onRestart }) => {
         if (filteredResults.length === 0) {
           throw new Error('No related models found.');
         }
-
-        // Ensure best is always present
-        if (!filteredResults.some(({ key }) => key === 'best')) {
-          if (filteredResults.length === 1) {
-            filteredResults[0].key = 'best';
-          } else if (filteredResults.length === 2) {
-            filteredResults[1].key = 'best';
-            filteredResults[0].key = 'better';
-          }
-        } else if (filteredResults.length === 2) {
-          filteredResults[1].key = 'best';
-          filteredResults[0].key = 'better';
-        }
         setRelatedModels(filteredResults);
       } catch (error) {
         setError(error.message);
@@ -111,16 +98,37 @@ const Alternatives = ({ onRestart }) => {
     fetchRelatedModels();
   }, [model]);
 
-  const handlePrint = async () => {
-    const input = document.getElementById('pdf-content');
-    const canvas = await html2canvas(input);
-    const imgData = canvas.toDataURL('image/png');
+  const createPdfStructure = async () => {
     const pdf = new jsPDF('p', 'mm', 'a4');
+    const content = document.getElementById('pdf-content');
+
+    // Añadir el título
+    pdf.setFontSize(18);
+    pdf.text('Hayward Best-in-Class Options', 10, 20);
+
+    // Capturar el contenido HTML y agregarlo al PDF
+    const canvas = await html2canvas(content, {
+      ignoreElements: (element) => element.classList.contains('no-print')
+    });
+    const imgData = canvas.toDataURL('image/png');
     const imgProps = pdf.getImageProperties(imgData);
     const pdfWidth = pdf.internal.pageSize.getWidth();
     const pdfHeight = (imgProps.height * pdfWidth) / imgProps.width;
-    pdf.addImage(imgData, 'PNG', 0, 0, pdfWidth, pdfHeight);
-    pdf.save('alternatives.pdf');
+
+    pdf.addImage(imgData, 'PNG', 0, 30, pdfWidth, pdfHeight);
+
+    // Generar el código QR
+    const qr = new QRious({
+      value: window.location.href,
+      size: 100
+    });
+    const qrImage = qr.toDataURL('image/jpeg');
+
+    // Añadir el código QR al PDF en la parte inferior derecha
+    pdf.addImage(qrImage, 'JPEG', pdf.internal.pageSize.getWidth() - 40, pdf.internal.pageSize.getHeight() - 40, 30, 30);
+
+    // Guardar el PDF
+    pdf.save('hayward-alternatives.pdf');
   };
 
   if (loading) {
@@ -153,7 +161,8 @@ const Alternatives = ({ onRestart }) => {
 
             const descriptionAttribute = result.custom_attributes.find(attr => attr.attribute_code === 'marketing_short_description');
             const description = descriptionAttribute ? descriptionAttribute.value : 'No description available';
-            const truncatedDescription = truncateDescription(description, 150); // Limita la descripción a 150 caracteres
+            const truncatedDescription = truncateDescription(description, 150);
+            const productUrl = `${window.location.origin}/${result.custom_attributes.find(attr => attr.attribute_code === 'url_key')?.value || '#'}-${result.sku}.html`;
 
             return (
               <div key={index} className={`col-12 col-md-3 model-card ${key} d-flex flex-wrap justify-content-center`}>
@@ -164,7 +173,7 @@ const Alternatives = ({ onRestart }) => {
                 <p className='description'>{truncatedDescription}</p>
                 <a 
                   className='rounded-pill' 
-                  href={`../../../../../${result.custom_attributes.find(attr => attr.attribute_code === 'url_key')?.value || '#'}-${result.sku}.html`} 
+                  href={productUrl} 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
@@ -173,10 +182,9 @@ const Alternatives = ({ onRestart }) => {
               </div>
             );
           })}
-        
         </div>
-        <div className='col-12 d-flex justify-content-center hide'>
-          <button onClick={handlePrint} className="btn btn-light rounded-pill px-5 py-3 my-3">
+        <div className='col-12 d-flex justify-content-center hide no-print'>
+          <button onClick={createPdfStructure} className="btn btn-light rounded-pill px-5 py-3 my-3">
             Download PDF
             <img src="/media/wysiwyg/cms/tools/cross-reference/print.png" alt="Print" className="ms-3" style={{ width: '16px', height: '16px' }} />
           </button>
