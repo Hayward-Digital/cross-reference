@@ -83,11 +83,38 @@ const Alternatives = ({ onRestart }) => {
             return null;
           })
         );
+
         const filteredResults = results.filter(result => result !== null);
         if (filteredResults.length === 0) {
           throw new Error('No related models found.');
         }
-        setRelatedModels(filteredResults);
+
+        // Rearrange the results based on availability
+        const finalResults = { best: null, better: null, good: null };
+        filteredResults.forEach(item => {
+          if (item.key === 'best') finalResults.best = item;
+          if (item.key === 'better') finalResults.better = item;
+          if (item.key === 'good') finalResults.good = item;
+        });
+
+        // Adjust the positions
+        if (!finalResults.best && finalResults.better) {
+          finalResults.best = { ...finalResults.better, key: 'best' };
+          finalResults.better = finalResults.good ? { ...finalResults.good, key: 'better' } : null;
+          finalResults.good = null;
+        }
+
+        if (!finalResults.best && finalResults.good) {
+          finalResults.best = { ...finalResults.good, key: 'best' };
+          finalResults.good = null;
+        }
+
+        if (!finalResults.better && finalResults.good) {
+          finalResults.better = { ...finalResults.good, key: 'better' };
+          finalResults.good = null;
+        }
+
+        setRelatedModels([finalResults.best, finalResults.better].filter(item => item !== null));
       } catch (error) {
         setError(error.message);
       } finally {
@@ -102,11 +129,9 @@ const Alternatives = ({ onRestart }) => {
     const pdf = new jsPDF('p', 'mm', 'a4');
     const content = document.getElementById('pdf-content');
 
-    // Añadir el título
     pdf.setFontSize(18);
     pdf.text('Hayward Best-in-Class Options', 10, 20);
 
-    // Capturar el contenido HTML y agregarlo al PDF
     const canvas = await html2canvas(content, {
       ignoreElements: (element) => element.classList.contains('no-print')
     });
@@ -117,17 +142,14 @@ const Alternatives = ({ onRestart }) => {
 
     pdf.addImage(imgData, 'PNG', 0, 30, pdfWidth, pdfHeight);
 
-    // Generar el código QR
     const qr = new QRious({
       value: window.location.href,
       size: 100
     });
     const qrImage = qr.toDataURL('image/jpeg');
 
-    // Añadir el código QR al PDF en la parte inferior derecha
     pdf.addImage(qrImage, 'JPEG', pdf.internal.pageSize.getWidth() - 40, pdf.internal.pageSize.getHeight() - 40, 30, 30);
 
-    // Guardar el PDF
     pdf.save('hayward-alternatives.pdf');
   };
 

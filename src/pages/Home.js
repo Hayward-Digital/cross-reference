@@ -28,7 +28,7 @@ const Home = ({ onSelectCategory }) => {
         </div>
         <div className='col-12 col-md-5 p-5 d-flex flex-column  justify-content-start'>
           <h3>Search</h3>
-          <p>by Name, SKU or Part Number</p>
+          <p>non-Hayward Name, SKU, Part Numberr</p>
           <SkuSearch />
         </div>
       </div>
