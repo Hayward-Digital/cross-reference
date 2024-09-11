@@ -5,21 +5,24 @@
       "name": "Pumps",
       "active": true,
       "code": "pumps",
-      "icon": "/media/wysiwyg/cms/tools/cross-reference/pumps.png"
+      "icon": "/media/wysiwyg/cms/tools/cross-reference/pumps.png",
+      "icon_local": "/cross-reference/assets/logos/pumps.png"
     },
     {
       "id": 2,
       "name": "Heaters",
       "active": true,
       "code": "heaters",
-      "icon": "/media/wysiwyg/cms/tools/cross-reference/heaters.png"
+      "icon": "/media/wysiwyg/cms/tools/cross-reference/heaters.png",
+      "icon_local": "/cross-reference/assets/logos/heaters.png"
     },
     {
       "id": 3,
       "name": "Filters",
       "active": true,
       "code": "filters",
-      "icon": "/media/wysiwyg/cms/tools/cross-reference/filters.png"
+      "icon": "/media/wysiwyg/cms/tools/cross-reference/filters.png",
+      "icon_local": "/cross-reference/assets/logos/filters.png"
     }
   ]
 }

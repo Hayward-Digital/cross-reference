@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import SeriesCard from './SeriesCard';
+import ItemCard from '../shared/ItemCard';
 import seriesData from './series.json';
 import categoriesData from '../categories/categories.json';
 import manufacturersData from '../manufacturers/manufacturers.json';
-import './Series.css';
+import Pagination from '../../components/pagination/Pagination';
 
 const Series = ({ manufacturerName, manufacturerLogo, onSelectSeries }) => {
   const { search } = useLocation();
@@ -21,6 +21,16 @@ const Series = ({ manufacturerName, manufacturerLogo, onSelectSeries }) => {
       seriesItem.manufacturerId === manufacturerId
   ).sort((a, b) => a.name.localeCompare(b.name));
 
+  // Paginación
+  const [currentPage, setCurrentPage] = useState(1);
+  const seriesPerPage = 12;
+  const totalPages = Math.ceil(filteredSeries.length / seriesPerPage);
+  const displayedSeries = filteredSeries.slice((currentPage - 1) * seriesPerPage, currentPage * seriesPerPage);
+
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+  };
+
   return (
     <div className="container-fluid mb-5">
       <div className="row">
@@ -30,11 +40,11 @@ const Series = ({ manufacturerName, manufacturerLogo, onSelectSeries }) => {
         </div>
       </div>
       <div className="row d-flex flex-wrap p-2">
-        {filteredSeries.length > 0 ? (
-          filteredSeries.map(seriesItem => (
-            <SeriesCard
+        {displayedSeries.length > 0 ? (
+          displayedSeries.map(seriesItem => (
+            <ItemCard
               key={seriesItem.id}
-              series={seriesItem}
+              item={seriesItem}
               onSelect={() => onSelectSeries(categoryCode, manufacturerCode, seriesItem.id)}
             />
           ))
@@ -42,6 +52,11 @@ const Series = ({ manufacturerName, manufacturerLogo, onSelectSeries }) => {
           <div>No series found for the selected category and manufacturer.</div>
         )}
       </div>
+      {filteredSeries.length > seriesPerPage && (
+        <div className="row">
+          <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
+        </div>
+      )}
     </div>
   );
 };

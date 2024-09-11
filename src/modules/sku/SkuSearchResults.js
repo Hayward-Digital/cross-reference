@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import ModelsCard from '../models/ModelsCard';
+import ItemCard from '../shared/ItemCard';
 import modelsData from '../models/models.json';
 import Pagination from '../../components/pagination/Pagination';
 import './SkuSearch.css';
@@ -41,10 +41,9 @@ const SkuSearchResults = ({ onSelectModel }) => {
       </div>
       <div className="row d-flex flex-wrap p-2">
         {displayedModels.map(model => (
-          <ModelsCard
+          <ItemCard
             key={model.id}
-            model={model}
-            isActive={false}
+            item={model}
             onSelect={() => handleSelectModel(model)}
           />
         ))}

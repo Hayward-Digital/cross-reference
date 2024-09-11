@@ -4523,8 +4523,8 @@
       "seriesId": 41,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "SP1581",
-        "better": "SP1580X16",
+        "good": "SP1580",
+        "better": "SP1580X15",
         "best": " "
       }
     },
@@ -4539,8 +4539,8 @@
       "seriesId": 41,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "SP1582",
-        "better": "SP1580X17",
+        "good": "SP1580",
+        "better": "SP1580X15",
         "best": " "
       }
     },
@@ -4555,8 +4555,8 @@
       "seriesId": 41,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "SP1583",
-        "better": "SP1580X18",
+        "good": "SP1580",
+        "better": "SP1580X15",
         "best": " "
       }
     },
@@ -6587,8 +6587,8 @@
       "seriesId": 68,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": " ",
-        "better": " ",
+        "good": "",
+        "better": "HP31405T",
         "best": "HP21405T"
       }
     },
@@ -10987,9 +10987,9 @@
       "seriesId": 126,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "CC100922S",
-        "better": " ",
-        "best": " "
+        "good": "",
+        "better": "",
+        "best": "CC150932S"
       }
     },
     {
@@ -11099,9 +11099,9 @@
       "seriesId": 131,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "S210T92S",
-        "better": " ",
-        "best": " "
+        "good": "",
+        "better": "",
+        "best": "S210T92S"
       }
     },
     {
@@ -11211,9 +11211,9 @@
       "seriesId": 132,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "S180T92",
-        "better": " ",
-        "best": " "
+        "good": "",
+        "better": "",
+        "best": "S180T92"
       }
     },
     {
@@ -11323,9 +11323,9 @@
       "seriesId": 132,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "S210T93STL",
-        "better": " ",
-        "best": " "
+        "good": "",
+        "better": "",
+        "best": "S210T93STL"
       }
     },
     {
@@ -11339,9 +11339,9 @@
       "seriesId": 136,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "S180T92",
-        "better": " ",
-        "best": " "
+        "good": "",
+        "better": "",
+        "best": ""
       }
     },
     {
@@ -11419,9 +11419,9 @@
       "seriesId": 138,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "EC50C80S",
-        "better": "EC50C92S",
-        "best": " "
+        "good": "",
+        "better": "EC50C80S",
+        "best": "EC50C92S"
       }
     },
     {
@@ -11547,9 +11547,9 @@
       "seriesId": 154,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "S210T93STL",
+        "good": "",
         "better": " ",
-        "best": " "
+        "best": "S210T93STL"
       }
     },
     {
@@ -11772,7 +11772,7 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "EC40C80S",
-        "better": "EC40C91S",
+        "better": " ",
         "best": " "
       }
     },
@@ -11835,9 +11835,9 @@
       "seriesId": 157,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "CC100922S",
+        "good": "",
         "better": " ",
-        "best": " "
+        "best": "CC100922S"
       }
     },
     {
@@ -12011,9 +12011,9 @@
       "seriesId": 158,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "S180T92",
+        "good": "",
         "better": " ",
-        "best": " "
+        "best": "S180T92"
       }
     },
     {
@@ -12027,9 +12027,9 @@
       "seriesId": 158,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "S180T92",
+        "good": "",
         "better": " ",
-        "best": " "
+        "best": "S180T92"
       }
     },
     {
@@ -12075,7 +12075,7 @@
       "seriesId": 158,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "S210T92S",
+        "good": "S180T92",
         "better": " ",
         "best": " "
       }
@@ -12299,9 +12299,9 @@
       "seriesId": 159,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "S210T93STL",
+        "good": "",
         "better": " ",
-        "best": " "
+        "best": "S210T93STL"
       }
     },
     {
@@ -12411,9 +12411,9 @@
       "seriesId": 160,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "S210T1585STL",
-        "better": "S210T93STL",
-        "best": " "
+        "good": "",
+        "better": "S210T1585STL",
+        "best": "S210T93STL"
       }
     },
     {
@@ -12715,9 +12715,9 @@
       "seriesId": 162,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "CC15080X5STL",
+        "good": "",
         "better": "CC15093STL",
-        "best": " "
+        "best": "CC15093STL"
       }
     },
     {
@@ -12731,9 +12731,9 @@
       "seriesId": 162,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "CC15080X5STL",
-        "better": "CC15093STL",
-        "best": " "
+        "good": "",
+        "better": "CC15080X5STL",
+        "best": "CC15093STL"
       }
     },
     {
@@ -12747,9 +12747,9 @@
       "seriesId": 161,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "CC100922S",
+        "good": "",
         "better": " ",
-        "best": " "
+        "best": "CC100922S"
       }
     },
     {
@@ -12827,9 +12827,9 @@
       "seriesId": 163,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "EC50C92S",
-        "better": " ",
-        "best": " "
+        "good": "",
+        "better": "",
+        "best": "EC50C92S"
       }
     },
     {
@@ -12923,9 +12923,9 @@
       "seriesId": 164,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "EC40C80S",
-        "better": "EC50C92S",
-        "best": " "
+        "good": "",
+        "better": "",
+        "best": "EC50C92S"
       }
     },
     {
@@ -12939,9 +12939,9 @@
       "seriesId": 164,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "EC50C80S",
-        "better": "EC50C93S",
-        "best": " "
+        "good": "",
+        "better": "",
+        "best": "EC50C93S"
       }
     },
     {
@@ -13003,7 +13003,7 @@
       "seriesId": 165,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "VL Series",
+        "good": " ",
         "better": "VL40T32",
         "best": " "
       }
@@ -13019,7 +13019,7 @@
       "seriesId": 166,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "VL Series",
+        "good": "",
         "better": "VL40T32",
         "best": " "
       }
@@ -13115,9 +13115,9 @@
       "seriesId": 146,
       "additionalAttribute": {},
       "relatedModels": {
-        "good": "S210T93STL",
+        "good": "",
         "better": " ",
-        "best": " "
+        "best": "S210T93STL"
       }
     }
   ]

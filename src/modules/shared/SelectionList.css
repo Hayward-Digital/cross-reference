@@ -1,0 +1,13 @@
+.container-fluid.mb-5 {
+    margin-bottom: 5rem;
+}
+
+.row.d-flex.flex-wrap.p-2 {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h4 span.fw-bold {
+    font-weight: bold;
+}

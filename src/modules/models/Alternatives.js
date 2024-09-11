@@ -9,24 +9,25 @@ import seriesData from '../series/series.json';
 import { jsPDF } from 'jspdf';
 import html2canvas from 'html2canvas';
 import QRious from 'qrious';
-
-const USE_MOCK_DATA = false;
+import { IS_LOCAL } from '../../config';
 
 const fetchHaywardProduct = async (sku) => {
   try {
     const response = await fetch(
-      `https://mcstaging.hayward.com/rest/default/V1/products?searchCriteria[filterGroups][0][filters][0][field]=sku&searchCriteria[filterGroups][0][filters][0][value]=${sku}`,
+      `https://hayward.com/rest/default/V1/products/${sku}`, // Simplificado para buscar directamente por SKU
       {
         headers: {
           Authorization: "Bearer 3b5kg5eu34t3gdmkiph3m1aqcgun8cu6",
         },
       }
     );
+
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
+
     const result = await response.json();
-    return result.items[0];
+    return result; // Devuelve el resultado completo en lugar de `result.items[0]`
   } catch (error) {
     console.error("Fetch error: ", error);
     throw error;
@@ -63,7 +64,7 @@ const Alternatives = ({ onRestart }) => {
             const sku = model.relatedModels[key];
             if (sku && sku.trim()) {
               try {
-                if (USE_MOCK_DATA) {
+                if (IS_LOCAL) {
                   const result = mockData[sku.trim()];
                   if (!result) {
                     throw new Error('Please try other product');
@@ -74,7 +75,7 @@ const Alternatives = ({ onRestart }) => {
                   if (!result) {
                     throw new Error('Please try other product');
                   }
-                  return { key, result };
+                  return { key, result }; // Ajustado para la nueva estructura de respuesta
                 }
               } catch (err) {
                 return { key, error: err.message };
@@ -124,6 +125,18 @@ const Alternatives = ({ onRestart }) => {
 
     fetchRelatedModels();
   }, [model]);
+
+  useEffect(() => {
+    if (model) {
+      const category = categoriesData.categories.find(category => category.id === model.categoryId);
+      const manufacturer = manufacturersData.manufacturers.find(manufacturer => manufacturer.id === model.manufacturerId);
+      const series = seriesData.series.find(series => series.id === model.seriesId);
+
+      if (category && manufacturer && series) {
+        navigate(`/?tab=alternative&category=${category.code}&manufacturer=${manufacturer.code}&series=${series.id}&model=${model.id}&sku=${model.sku}`);
+      }
+    }
+  }, [model, navigate]);
 
   const createPdfStructure = async () => {
     const pdf = new jsPDF('p', 'mm', 'a4');
@@ -189,7 +202,7 @@ const Alternatives = ({ onRestart }) => {
             return (
               <div key={index} className={`col-12 col-md-3 model-card ${key} d-flex flex-wrap justify-content-center`}>
                 <h3 className='d-flex justify-content-center align-items-center'>{key.charAt(0).toUpperCase() + key.slice(1)}</h3>
-                <img src={`/media/catalog/product/${result.media_gallery_entries[0]?.file}`} alt={result.name} />
+                <img src={`/media/catalog/product/${result.media_gallery_entries[0]?.file}`} alt={result.name} className="img-fluid" />
                 <h4>{result.name}</h4>
                 <p>SKU: {result.sku}</p>
                 <p className='description'>{truncatedDescription}</p>
@@ -212,12 +225,12 @@ const Alternatives = ({ onRestart }) => {
           </button>
         </div>
         <div className="col-12 p-5 mt-4 bg-light d-flex flex-wrap">
-          <h3 className='w-100'>Current Product to Replace</h3>
+        <h3 className='w-100'>Current Product to Replace</h3>
           <p className='w-100'>The product you wish to replace is shown below. We have listed on top the alternatives for your selection</p>
           <div className='d-flex align-items-center'>
             <img src={manufacturer?.logo} alt={manufacturer?.name} className="manufacturer-logo p-3 bg-white rounded shadow-sm mb-3"/>
           </div>
-          <div className='d-flex flex-column justify-content-center ps-3 flex-fill '>
+          <div className='d-flex flex-column justify-content-center ps-3 flex-fill'>
             <p className='m-0'><strong>Category:</strong> {category?.name}</p>
             <p className='m-0'><strong>Manufacturer:</strong> {manufacturer?.name}</p>
             <p className='m-0'><strong>Series:</strong> {series?.name}</p>

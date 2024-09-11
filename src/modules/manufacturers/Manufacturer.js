@@ -1,9 +1,8 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import ManufacturerCard from './ManufacturerCard';
 import manufacturersData from './manufacturers.json';
-import categoriesData from '../categories/categories.json'; // Importar datos de categorías
-import './Manufacturer.css';
+import categoriesData from '../categories/categories.json';
+import SelectionList from '../shared/SelectionList';
 
 const Manufacturer = ({ onSelectManufacturer }) => {
   const { search } = useLocation();
@@ -14,6 +13,7 @@ const Manufacturer = ({ onSelectManufacturer }) => {
   const selectedCategory = categoriesData.categories.find(category => category.code === categoryCode);
 
   if (!selectedCategory) {
+    console.error("Category not found");
     return <div>Category not found.</div>;
   }
 
@@ -30,15 +30,11 @@ const Manufacturer = ({ onSelectManufacturer }) => {
           <h4>Select {selectedCategory.name} <span className='fw-bold'>Manufacturers</span></h4>
         </div>
       </div>
-      <div className="row d-flex flex-wrap p-2">
-        {filteredManufacturers.map(manufacturer => (
-          <ManufacturerCard
-            key={manufacturer.id}
-            manufacturer={manufacturer}
-            onSelect={() => onSelectManufacturer(categoryCode, manufacturer)}
-          />
-        ))}
-      </div>
+      <SelectionList
+        data={filteredManufacturers}
+        onSelect={(manufacturer) => onSelectManufacturer(categoryCode, manufacturer)}
+        title={null}  // Eliminar el título "Select Manufacturers"
+      />
     </div>
   );
 };
