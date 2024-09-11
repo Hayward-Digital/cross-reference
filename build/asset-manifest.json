@@ -2,11 +2,16 @@
   "files": {
 <<<<<<< Updated upstream
     "main.css": "/cross-reference/static/css/main.ee12a41b.css",
+<<<<<<< Updated upstream
     "main.js": "/cross-reference/static/js/main.84694155.js",
+=======
+    "main.js": "/cross-reference/static/js/main.4ab8e59b.js",
+>>>>>>> Stashed changes
     "static/js/213.b17d87e4.chunk.js": "/cross-reference/static/js/213.b17d87e4.chunk.js",
     "static/js/732.758560b7.chunk.js": "/cross-reference/static/js/732.758560b7.chunk.js",
     "index.html": "/cross-reference/index.html",
     "main.ee12a41b.css.map": "/cross-reference/static/css/main.ee12a41b.css.map",
+<<<<<<< Updated upstream
     "main.84694155.js.map": "/cross-reference/static/js/main.84694155.js.map",
 =======
     "main.css": "/cross-reference/static/css/main.9c7dd0cb.css",
@@ -17,16 +22,23 @@
     "main.9c7dd0cb.css.map": "/cross-reference/static/css/main.9c7dd0cb.css.map",
     "main.67f76ccf.js.map": "/cross-reference/static/js/main.67f76ccf.js.map",
 >>>>>>> Stashed changes
+=======
+    "main.4ab8e59b.js.map": "/cross-reference/static/js/main.4ab8e59b.js.map",
+>>>>>>> Stashed changes
     "213.b17d87e4.chunk.js.map": "/cross-reference/static/js/213.b17d87e4.chunk.js.map",
     "732.758560b7.chunk.js.map": "/cross-reference/static/js/732.758560b7.chunk.js.map"
   },
   "entrypoints": [
 <<<<<<< Updated upstream
     "static/css/main.ee12a41b.css",
+<<<<<<< Updated upstream
     "static/js/main.84694155.js"
 =======
     "static/css/main.9c7dd0cb.css",
     "static/js/main.67f76ccf.js"
+>>>>>>> Stashed changes
+=======
+    "static/js/main.4ab8e59b.js"
 >>>>>>> Stashed changes
   ]
 }
