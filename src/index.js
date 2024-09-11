@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
 ReactDOM.render(
-  <BrowserRouter basename="/cross-reference">
+  <BrowserRouter basename="/support/resources/tools/cross-reference">
     <App />
   </BrowserRouter>,
   document.getElementById('root')
