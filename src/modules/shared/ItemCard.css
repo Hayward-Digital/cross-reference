@@ -1,0 +1,20 @@
+.card.item {
+    height: 100%;
+    cursor: pointer;
+}
+
+.card.item:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.icon-img {
+    max-width: 100%;
+    max-height: 50px;
+    transition: filter 0.3s ease;
+}
+
+.card.item:hover .icon-img {
+    filter: invert(46%) sepia(71%) saturate(2645%) hue-rotate(155deg) brightness(95%) contrast(105%);
+}

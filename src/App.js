@@ -29,6 +29,7 @@ const App = () => {
   const [categoryName, setCategoryName] = useState('Select One');
   const [seriesName, setSeriesName] = useState('Select One');
   const [modelName, setModelName] = useState('Select One');
+  const [isBannerShrink, setIsBannerShrink] = useState(false); // Estado para controlar el tamaño del banner
 
   useEffect(() => {
     const savedState = localStorage.getItem('appState');
@@ -93,6 +94,13 @@ const App = () => {
     if (seriesParam) setSeries(seriesParam);
     if (modelParam) setModel(modelParam);
     if (skuParam) setSku(skuParam);
+
+    // Controlar el tamaño del banner
+    if (tab && tab !== 'home') {
+      setIsBannerShrink(true);
+    } else {
+      setIsBannerShrink(false);
+    }
   }, [location]);
 
   const handleSelectCategory = (category) => {
@@ -121,9 +129,19 @@ const App = () => {
   };
 
   const handleSelectSeries = (categoryCode, manufacturerCode, seriesId) => {
-    const seriesObj = seriesData.series.find(series => series.id === parseInt(seriesId));
-    setSeries(seriesId);
-    setSeriesName(seriesObj.name);
+    const manufacturer = manufacturersData.manufacturers.find(manufacturer => manufacturer.code === manufacturerCode);
+    const series = seriesData.series.find(series => series.id === parseInt(seriesId));
+
+    if (!manufacturer || !series) {
+      console.error("Manufacturer or series not found");
+      return;
+    }
+
+    setManufacturer(manufacturer.code);
+    setManufacturerName(manufacturer.name);
+    setManufacturerLogo(manufacturer.logo);
+    setSeries(series.id);
+    setSeriesName(series.name);
     setModel('');
     setModelName('Select One');
     setActiveTab('model');
@@ -131,10 +149,26 @@ const App = () => {
   };
 
   const handleSelectModel = (model) => {
-    setModel(model.id);
-    setModelName(model.name);
-    setActiveTab('alternative');
-    navigate(`/?tab=alternative&category=${category}&manufacturer=${manufacturer}&series=${series}&model=${model.id}`);
+    const category = categoriesData.categories.find(category => category.id === model.categoryId);
+    const manufacturer = manufacturersData.manufacturers.find(manufacturer => manufacturer.id === model.manufacturerId);
+    const series = seriesData.series.find(series => series.id === model.seriesId);
+  
+    if (category && manufacturer && series) {
+      setCategory(category.code);
+      setCategoryName(category.name);
+      setManufacturer(manufacturer.code);
+      setManufacturerName(manufacturer.name);
+      setManufacturerLogo(manufacturer.logo);
+      setSeries(series.id);
+      setSeriesName(series.name);
+      setModel(model.id);
+      setModelName(model.name);
+      setSku(model.sku);
+      setActiveTab('alternative');
+      navigate(`/?tab=alternative&category=${category.code}&manufacturer=${manufacturer.code}&series=${series.id}&model=${model.id}&sku=${model.sku}`);
+    } else {
+      console.error("One of the necessary data is missing (category, manufacturer, series)");
+    }
   };
 
   const handleSkuSelectModel = (model) => {
@@ -176,15 +210,19 @@ const App = () => {
       setModel('');
       setModelName('Select One');
       navigate('/?tab=category');
-    } else if (tab === 'manufacturer' && category) {
-      setActiveTab('manufacturer');
-      setManufacturer('');
-      setManufacturerName('Select One');
-      setSeries('');
-      setSeriesName('Select One');
-      setModel('');
-      setModelName('Select One');
-      navigate(`/?tab=manufacturer&category=${category}`);
+    } else if (tab === 'manufacturer') {
+      if (category) {
+        setActiveTab('manufacturer');
+        setManufacturer('');
+        setManufacturerName('Select One');
+        setSeries('');
+        setSeriesName('Select One');
+        setModel('');
+        setModelName('Select One');
+        navigate(`/?tab=manufacturer&category=${category}`);
+      } else {
+        console.error("Category is not selected");
+      }
     } else if (tab === 'series' && manufacturer) {
       setActiveTab('series');
       setSeries('');
@@ -227,42 +265,72 @@ const App = () => {
     switch (activeTab) {
       case 'category':
         return <Category onSelect={handleSelectCategory} />;
-      case 'manufacturer':
-        return <Manufacturer onSelectManufacturer={handleSelectManufacturer} />;
-      case 'series':
-        return <Series manufacturerName={manufacturerName} manufacturerLogo={manufacturerLogo} onSelectSeries={handleSelectSeries} />;
-      case 'model':
-        return <Models onSelectModel={handleSelectModel} />;
-      case 'alternative':
-        return <Alternatives onRestart={resetSelections} />;
-      case 'sku':
-        return <SkuSearchResults onSelectModel={handleSkuSelectModel} />;
-      default:
-        return <Home onSelectCategory={() => { resetSelections(); setActiveTab('category'); navigate('/?tab=category'); }} />;
-    }
+        case 'manufacturer':
+          return <Manufacturer onSelectManufacturer={handleSelectManufacturer} />;
+        case 'series':
+          return (
+            <Series
+              onSelectSeries={handleSelectSeries}
+              manufacturerLogo={manufacturerLogo}
+              manufacturerName={manufacturerName}
+            />
+          );
+        case 'model':
+          return (
+            <Models
+              onSelectModel={handleSelectModel}
+              manufacturerLogo={manufacturerLogo}
+              manufacturerName={manufacturerName}
+            />
+          );
+        case 'alternative':
+          return <Alternatives onRestart={resetSelections} />;
+        case 'sku':
+          return <SkuSearchResults onSelectModel={handleSkuSelectModel} />;
+        default:
+          return <Home onSelectCategory={() => { resetSelections(); setActiveTab('category'); navigate('/?tab=category'); }} />;
+      }
+    };
+  
+    return (
+      <>
+        <header className={`banner ${isBannerShrink ? 'banner-shrink' : ''}`}>
+          <div className="banner-content">
+            <h2 className="text-white">Cross-Reference</h2>
+            {activeTab === 'home' ? (
+              <p className="text-white">
+                Replacing a piece of equipment by another brand? <br></br>
+                Discover the best pool product offering from Hayward that drop into your application!
+              </p>
+            ) : (
+              <button className="btn btn-dark mt-3 px-4 py-2 rounded-pill" onClick={resetSelections}>
+                Start Again
+              </button>
+            )}
+          </div>
+        </header>
+  
+        <div className="content content-with-footer">
+          {isTabNavVisible() && (
+            <TabNav
+              activeTab={activeTab}
+              category={category}
+              manufacturer={manufacturer}
+              series={series}
+              model={model}
+              categoryName={categoryName}
+              manufacturerName={manufacturerName}
+              seriesName={seriesName}
+              modelName={modelName}
+              setActiveTab={setActiveTab}
+              handleTabClick={handleTabClick}
+            />
+          )}
+          {renderComponent()}
+          <Footer onRestart={resetSelections} />
+        </div>
+      </>
+    );
   };
-
-  return (
-    <div className="content-with-footer">
-      {isTabNavVisible() && (
-        <TabNav
-          activeTab={activeTab}
-          category={category}
-          manufacturer={manufacturer}
-          series={series}
-          model={model}
-          categoryName={categoryName}
-          manufacturerName={manufacturerName}
-          seriesName={seriesName}
-          modelName={modelName}
-          setActiveTab={setActiveTab}
-          handleTabClick={handleTabClick}
-        />
-      )}
-      {renderComponent()}
-      <Footer onRestart={resetSelections} />
-    </div>
-  );
-};
-
-export default App;
+  
+  export default App;

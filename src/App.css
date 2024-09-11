@@ -10,3 +10,66 @@
 .text-primary{
   color: var(--primary-color) !important;
 }
+
+/* General layout */
+.content {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Banner styles */
+.banner {
+  width: 100%;
+  padding-top: 100px;
+  max-height: 30vh;
+  background: url('https://hayward.com/media/wysiwyg/faq-hero-back.jpeg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  transition: all 1s ease; /* Suave transición para el cambio de tamaño */
+}
+
+.banner-content {
+  text-align: left;
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Ajustes de la transición del banner */
+.banner-shrink {
+  padding-top: 0px;
+  max-height: 20vh;
+}
+
+
+.banner-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--white); /* Usar variable de color para consistencia */
+}
+
+.banner-content p {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--white); /* Usar variable de color para consistencia */
+}
+
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .banner-content h2 {
+    font-size: 2rem;
+  }
+  
+  .banner-content p {
+    font-size: 1rem;
+  }
+}
+
+
+
