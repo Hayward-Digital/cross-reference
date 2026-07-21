@@ -14,7 +14,7 @@ import { IS_LOCAL } from '../../config';
 const fetchHaywardProduct = async (sku) => {
   try {
     const response = await fetch(
-      `https://hayward.com/rest/default/V1/products/${sku}`, // Simplificado para buscar directamente por SKU
+      `https://www.hayward.com/rest/default/V1/products/${sku}`, // Simplificado para buscar directamente por SKU
       {
         headers: {
           Authorization: "Bearer 3ci73owhvsyvefa3qu5nti1vevqi16d0",
