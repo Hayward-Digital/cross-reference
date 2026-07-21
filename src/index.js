@@ -11,3 +11,5 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById('root')
 );
+//<BrowserRouter basename="/cross-reference">
+//<BrowserRouter basename="/support/resources/tools/cross-reference">

@@ -17,7 +17,7 @@ const fetchHaywardProduct = async (sku) => {
       `https://hayward.com/rest/default/V1/products/${sku}`, // Simplificado para buscar directamente por SKU
       {
         headers: {
-          Authorization: "Bearer 3b5kg5eu34t3gdmkiph3m1aqcgun8cu6",
+          Authorization: "Bearer 3ci73owhvsyvefa3qu5nti1vevqi16d0",
         },
       }
     );

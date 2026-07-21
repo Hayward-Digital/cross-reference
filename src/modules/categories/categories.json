@@ -23,6 +23,14 @@
       "code": "filters",
       "icon": "/media/wysiwyg/cms/tools/cross-reference/filters.png",
       "icon_local": "/cross-reference/assets/logos/filters.png"
+    },
+     {
+      "id": 4,
+      "name": "Lighting",
+      "active": true,
+      "code": "lighting",
+      "icon": "/media/wysiwyg/cms/tools/cross-reference/lighting.png",
+      "icon_local": "/cross-reference/assets/logos/lighting.png"
     }
   ]
 }

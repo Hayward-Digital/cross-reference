@@ -24,6 +24,12 @@
           "name": "Filters",
           "active": true,
           "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": true,
+          "code": "lighting"
         }
       ]
     },
@@ -51,6 +57,12 @@
           "name": "Filters",
           "active": true,
           "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": true,
+          "code": "lighting"
         }
       ]
     },
@@ -58,7 +70,7 @@
       "id": 3,
       "name": "Polaris",
       "logo": "/media/wysiwyg/cms/tools/cross-reference/polaris.jpg",
-      "logo_local": "/assets/logos/polaris.jpg",
+      "logo_local": "/cross-reference/assets/logos/polaris.jpg",
       "code": "polaris",
       "categories": [
         {
@@ -78,6 +90,12 @@
           "name": "Filters",
           "active": true,
           "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": false,
+          "code": "lighting"
         }
       ]
     },
@@ -105,6 +123,12 @@
           "name": "Filters",
           "active": true,
           "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": true,
+          "code": "lighting"
         }
       ]
     },
@@ -132,6 +156,12 @@
           "name": "Filters",
           "active": true,
           "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": false,
+          "code": "lighting"
         }
       ]
     },
@@ -159,6 +189,12 @@
           "name": "Filters",
           "active": false,
           "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": false,
+          "code": "lighting"
         }
       ]
     },
@@ -186,6 +222,12 @@
           "name": "Filters",
           "active": false,
           "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": false,
+          "code": "lighting"
         }
       ]
     },
@@ -213,6 +255,12 @@
           "name": "Filters",
           "active": false,
           "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": false,
+          "code": "lighting"
         }
       ]
     },
@@ -240,6 +288,12 @@
           "name": "Filters",
           "active": false,
           "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": false,
+          "code": "lighting"
         }
       ]
     },
@@ -267,6 +321,12 @@
           "name": "Filters",
           "active": false,
           "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": true,
+          "code": "lighting"
         }
       ]
     },
@@ -294,6 +354,12 @@
           "name": "Filters",
           "active": false,
           "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": false,
+          "code": "lighting"
         }
       ]
     },
@@ -321,6 +387,12 @@
           "name": "Filters",
           "active": false,
           "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": false,
+          "code": "lighting"
         }
       ]
     },
@@ -348,6 +420,12 @@
           "name": "Filters",
           "active": false,
           "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": false,
+          "code": "lighting"
         }
       ]
     },
@@ -375,6 +453,12 @@
           "name": "Filters",
           "active": false,
           "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": false,
+          "code": "lighting"
         }
       ]
     },
@@ -402,6 +486,12 @@
           "name": "Filters",
           "active": false,
           "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": false,
+          "code": "lighting"
         }
       ]
     },
@@ -429,6 +519,12 @@
           "name": "Filters",
           "active": false,
           "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": false,
+          "code": "lighting"
         }
       ]
     },
@@ -456,6 +552,177 @@
           "name": "Filters",
           "active": true,
           "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": false,
+          "code": "lighting"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Anthony Pool Light",
+      "code": "anthony-pool-light",
+      "logo": "",
+      "logo_local": "",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Pumps",
+          "active": false,
+          "code": "pumps"
+        },
+        {
+          "id": 2,
+          "name": "Heaters",
+          "active": false,
+          "code": "heaters"
+        },
+        {
+          "id": 3,
+          "name": "Filters",
+          "active": false,
+          "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": true,
+          "code": "lighting"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Jacuzzi",
+      "code": "jacuzzi",
+      "logo": "",
+      "logo_local": "",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Pumps",
+          "active": false,
+          "code": "pumps"
+        },
+        {
+          "id": 2,
+          "name": "Heaters",
+          "active": false,
+          "code": "heaters"
+        },
+        {
+          "id": 3,
+          "name": "Filters",
+          "active": false,
+          "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": true,
+          "code": "lighting"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Purex",
+      "code": "purex",
+      "logo": "",
+      "logo_local": "",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Pumps",
+          "active": false,
+          "code": "pumps"
+        },
+        {
+          "id": 2,
+          "name": "Heaters",
+          "active": false,
+          "code": "heaters"
+        },
+        {
+          "id": 3,
+          "name": "Filters",
+          "active": false,
+          "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": true,
+          "code": "lighting"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Hyrdel",
+      "code": "hyrdel",
+      "logo": "",
+      "logo_local": "",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Pumps",
+          "active": false,
+          "code": "pumps"
+        },
+        {
+          "id": 2,
+          "name": "Heaters",
+          "active": false,
+          "code": "heaters"
+        },
+        {
+          "id": 3,
+          "name": "Filters",
+          "active": false,
+          "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": true,
+          "code": "lighting"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "American Products",
+      "code": "american-products",
+      "logo": "",
+      "logo_local": "",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Pumps",
+          "active": false,
+          "code": "pumps"
+        },
+        {
+          "id": 2,
+          "name": "Heaters",
+          "active": false,
+          "code": "heaters"
+        },
+        {
+          "id": 3,
+          "name": "Filters",
+          "active": false,
+          "code": "filters"
+        },
+        {
+          "id": 4,
+          "name": "Lighting",
+          "active": true,
+          "code": "lighting"
         }
       ]
     }

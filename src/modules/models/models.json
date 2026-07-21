@@ -2893,7 +2893,7 @@
       "relatedModels": {
         "good": " ",
         "better": " ",
-        "best": " "
+        "best": "HSP30060"
       }
     },
     {
@@ -3884,8 +3884,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP1591",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -3900,8 +3900,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP1591TL",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -3916,8 +3916,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP1592",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -3932,8 +3932,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP1592TL",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -3948,8 +3948,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP1593",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -3964,8 +3964,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP1593TL",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -3981,7 +3981,7 @@
       "relatedModels": {
         "good": "SP1580H",
         "better": "SP1592",
-        "best": " "
+        "best": "\u00a0"
       }
     },
     {
@@ -3997,7 +3997,7 @@
       "relatedModels": {
         "good": "SP1580",
         "better": "SP1592",
-        "best": " "
+        "best": "\u00a0"
       }
     },
     {
@@ -4013,7 +4013,7 @@
       "relatedModels": {
         "good": "SP1580X15H",
         "better": "SP1593",
-        "best": " "
+        "best": "\u00a0"
       }
     },
     {
@@ -4029,7 +4029,7 @@
       "relatedModels": {
         "good": "SP1580X15",
         "better": "SP1593",
-        "best": " "
+        "best": "\u00a0"
       }
     },
     {
@@ -4045,7 +4045,7 @@
       "relatedModels": {
         "good": "SP1580HTL",
         "better": "SP1592TL",
-        "best": " "
+        "best": "\u00a0"
       }
     },
     {
@@ -4061,7 +4061,7 @@
       "relatedModels": {
         "good": "SP1580TL",
         "better": "SP1592TL",
-        "best": " "
+        "best": "\u00a0"
       }
     },
     {
@@ -4077,7 +4077,7 @@
       "relatedModels": {
         "good": "SP1580X15HTL",
         "better": "SP1593TL",
-        "best": " "
+        "best": "\u00a0"
       }
     },
     {
@@ -4093,7 +4093,7 @@
       "relatedModels": {
         "good": "SP1580X15TL",
         "better": "SP1593TL",
-        "best": " "
+        "best": "\u00a0"
       }
     },
     {
@@ -4109,7 +4109,7 @@
       "relatedModels": {
         "good": "SP1580",
         "better": "SP1592",
-        "best": " "
+        "best": "\u00a0"
       }
     },
     {
@@ -4125,7 +4125,7 @@
       "relatedModels": {
         "good": "SP1580X15",
         "better": "SP1593",
-        "best": " "
+        "best": "\u00a0"
       }
     },
     {
@@ -4141,7 +4141,7 @@
       "relatedModels": {
         "good": "SP1580TL",
         "better": "SP1592TL",
-        "best": " "
+        "best": "\u00a0"
       }
     },
     {
@@ -4157,7 +4157,7 @@
       "relatedModels": {
         "good": "SP1580X15TL",
         "better": "SP1593TL",
-        "best": " "
+        "best": "\u00a0"
       }
     },
     {
@@ -4173,7 +4173,7 @@
       "relatedModels": {
         "good": "SP1580TL",
         "better": "SP1592TL",
-        "best": " "
+        "best": "\u00a0"
       }
     },
     {
@@ -4189,7 +4189,7 @@
       "relatedModels": {
         "good": "SP1580X15TL",
         "better": "SP1593TL",
-        "best": " "
+        "best": "\u00a0"
       }
     },
     {
@@ -4205,7 +4205,7 @@
       "relatedModels": {
         "good": "SP1580",
         "better": "SP1592",
-        "best": " "
+        "best": "\u00a0"
       }
     },
     {
@@ -4221,7 +4221,7 @@
       "relatedModels": {
         "good": "SP1580X15",
         "better": "SP1593",
-        "best": " "
+        "best": "\u00a0"
       }
     },
     {
@@ -4236,8 +4236,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP1591TL",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -4252,8 +4252,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP1592TL",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -4268,8 +4268,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP1593TL",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -4284,8 +4284,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP1591",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -4300,8 +4300,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP1592",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -4316,8 +4316,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP1593",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -4332,8 +4332,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP15922S",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -4348,8 +4348,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP15932S",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -4364,8 +4364,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP1592",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -4380,8 +4380,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP1593",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -4396,8 +4396,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP1592TL",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -4412,8 +4412,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP1593TL",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -4428,8 +4428,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP1591",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -4444,8 +4444,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP1592",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -4460,8 +4460,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP1593",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -4476,8 +4476,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP15922S",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -4492,8 +4492,8 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "SP15932S",
-        "better": " ",
-        "best": " "
+        "better": "\u00a0",
+        "best": "\u00a0"
       }
     },
     {
@@ -4509,7 +4509,7 @@
       "relatedModels": {
         "good": "SP1580",
         "better": "SP1580X15",
-        "best": " "
+        "best": "\u00a0"
       }
     },
     {
@@ -4525,7 +4525,7 @@
       "relatedModels": {
         "good": "SP1580",
         "better": "SP1580X15",
-        "best": " "
+        "best": "\u00a0"
       }
     },
     {
@@ -4541,7 +4541,7 @@
       "relatedModels": {
         "good": "SP1580",
         "better": "SP1580X15",
-        "best": " "
+        "best": "\u00a0"
       }
     },
     {
@@ -4557,7 +4557,7 @@
       "relatedModels": {
         "good": "SP1580",
         "better": "SP1580X15",
-        "best": " "
+        "best": "\u00a0"
       }
     },
     {
@@ -11148,7 +11148,7 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "S166T1580S",
-        "better": " S166T92S",
+        "better": "\u00a0S166T92S",
         "best": " "
       }
     },
@@ -11164,7 +11164,7 @@
       "additionalAttribute": {},
       "relatedModels": {
         "good": "S166T1580S",
-        "better": " S166T92S",
+        "better": "\u00a0S166T92S",
         "best": " "
       }
     },
@@ -13118,6 +13118,4956 @@
         "good": "",
         "better": " ",
         "best": "S210T93STL"
+      }
+    },
+    {
+      "id": 821,
+      "name": "78411100",
+      "sku": "78411100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 822,
+      "name": "78411102",
+      "sku": "78411102",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 823,
+      "name": "78415100",
+      "sku": "78415100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 824,
+      "name": "78417100",
+      "sku": "78417100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11150"
+      }
+    },
+    {
+      "id": 825,
+      "name": "78418100",
+      "sku": "78418100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 826,
+      "name": "78421100",
+      "sku": "78421100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 827,
+      "name": "78428100",
+      "sku": "78428100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 828,
+      "name": "78431100",
+      "sku": "78431100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 829,
+      "name": "78435100",
+      "sku": "78435100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 830,
+      "name": "78437100",
+      "sku": "78437100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11150"
+      }
+    },
+    {
+      "id": 831,
+      "name": "78438100",
+      "sku": "78438100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 832,
+      "name": "78928500",
+      "sku": "78928500",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 833,
+      "name": "78927000",
+      "sku": "78927000",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11150"
+      }
+    },
+    {
+      "id": 834,
+      "name": "78458100",
+      "sku": "78458100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11050"
+      }
+    },
+    {
+      "id": 835,
+      "name": "78456300",
+      "sku": "78456300",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11100"
+      }
+    },
+    {
+      "id": 836,
+      "name": "78457100",
+      "sku": "78457100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11150"
+      }
+    },
+    {
+      "id": 837,
+      "name": "78441100",
+      "sku": "78441100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11030"
+      }
+    },
+    {
+      "id": 838,
+      "name": "78447100",
+      "sku": "78447100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11150"
+      }
+    },
+    {
+      "id": 839,
+      "name": "78448100",
+      "sku": "78448100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11050"
+      }
+    },
+    {
+      "id": 840,
+      "name": "78949100",
+      "sku": "78949100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11100"
+      }
+    },
+    {
+      "id": 841,
+      "name": "78451100",
+      "sku": "78451100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11030"
+      }
+    },
+    {
+      "id": 842,
+      "name": "78453102",
+      "sku": "78453102",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 22,
+      "seriesId": 167,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11030"
+      }
+    },
+    {
+      "id": 843,
+      "name": "1470200",
+      "sku": "1470200",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 18,
+      "seriesId": 168,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 844,
+      "name": "1470400",
+      "sku": "1470400",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 18,
+      "seriesId": 168,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 845,
+      "name": "4800",
+      "sku": "4800",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 21,
+      "seriesId": 169,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 846,
+      "name": "6800",
+      "sku": "6800",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 21,
+      "seriesId": 169,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11100"
+      }
+    },
+    {
+      "id": 847,
+      "name": "94133010100",
+      "sku": "94133010100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 19,
+      "seriesId": 170,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 848,
+      "name": "941351200100",
+      "sku": "941351200100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 19,
+      "seriesId": 170,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11100"
+      }
+    },
+    {
+      "id": 849,
+      "name": "CPHVLEDP100",
+      "sku": "CPHVLEDP100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11100"
+      }
+    },
+    {
+      "id": 850,
+      "name": "CPHVLEDS100",
+      "sku": "CPHVLEDS100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11100"
+      }
+    },
+    {
+      "id": 851,
+      "name": "CPHV150WS30",
+      "sku": "CPHV150WS30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11030"
+      }
+    },
+    {
+      "id": 852,
+      "name": "CPHV150WS50",
+      "sku": "CPHV150WS50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11050"
+      }
+    },
+    {
+      "id": 853,
+      "name": "CPHVLEDS30",
+      "sku": "CPHVLEDS30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11030"
+      }
+    },
+    {
+      "id": 854,
+      "name": "CPHVLEDS50",
+      "sku": "CPHVLEDS50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11050"
+      }
+    },
+    {
+      "id": 855,
+      "name": "CPLV150WS30",
+      "sku": "CPLV150WS30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11030"
+      }
+    },
+    {
+      "id": 856,
+      "name": "CPLV150WS50",
+      "sku": "CPLV150WS50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11050"
+      }
+    },
+    {
+      "id": 857,
+      "name": "CPLVLEDP100",
+      "sku": "CPLVLEDP100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11100"
+      }
+    },
+    {
+      "id": 858,
+      "name": "CPLVLEDS100",
+      "sku": "CPLVLEDS100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11100"
+      }
+    },
+    {
+      "id": 859,
+      "name": "CPLVLEDS30",
+      "sku": "CPLVLEDS30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11030"
+      }
+    },
+    {
+      "id": 860,
+      "name": "CPLVLEDS50",
+      "sku": "CPLVLEDS50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11050"
+      }
+    },
+    {
+      "id": 861,
+      "name": "CSHVLEDP100",
+      "sku": "CSHVLEDP100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11100"
+      }
+    },
+    {
+      "id": 862,
+      "name": "CSHVLEDS100",
+      "sku": "CSHVLEDS100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11100"
+      }
+    },
+    {
+      "id": 863,
+      "name": "CSLVLEDS30",
+      "sku": "CSLVLEDS30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11030"
+      }
+    },
+    {
+      "id": 864,
+      "name": "CSHVLEDS50",
+      "sku": "CSHVLEDS50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11050"
+      }
+    },
+    {
+      "id": 865,
+      "name": "CSLVLEDP100",
+      "sku": "CSLVLEDP100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11100"
+      }
+    },
+    {
+      "id": 866,
+      "name": "CSLVLEDS100",
+      "sku": "CSLVLEDS100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11100"
+      }
+    },
+    {
+      "id": 867,
+      "name": "CSLVLEDS30",
+      "sku": "CSLVLEDS30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11030"
+      }
+    },
+    {
+      "id": 868,
+      "name": "CSLVLEDS50",
+      "sku": "CSLVLEDS50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11050"
+      }
+    },
+    {
+      "id": 869,
+      "name": "JPL12050",
+      "sku": "JPL12050",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11050"
+      }
+    },
+    {
+      "id": 870,
+      "name": "JSL120100",
+      "sku": "JSL120100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11100"
+      }
+    },
+    {
+      "id": 871,
+      "name": "JSL12030",
+      "sku": "JSL12030",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11030"
+      }
+    },
+    {
+      "id": 872,
+      "name": "JSL12050",
+      "sku": "JSL12050",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11050"
+      }
+    },
+    {
+      "id": 873,
+      "name": "JSL12100",
+      "sku": "JSL12100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11100"
+      }
+    },
+    {
+      "id": 874,
+      "name": "JSL1230",
+      "sku": "JSL1230",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11030"
+      }
+    },
+    {
+      "id": 875,
+      "name": "JSL1250",
+      "sku": "JSL1250",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 171,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11050"
+      }
+    },
+    {
+      "id": 876,
+      "name": "JLU4C20W100",
+      "sku": "JLU4C20W100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LACUS11100"
+      }
+    },
+    {
+      "id": 877,
+      "name": "JLU4C20W150",
+      "sku": "JLU4C20W150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LACUS11150"
+      }
+    },
+    {
+      "id": 878,
+      "name": "JLU4C20W50",
+      "sku": "JLU4C20W50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LACUS11050"
+      }
+    },
+    {
+      "id": 879,
+      "name": "JLU4C30W100",
+      "sku": "JLU4C30W100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LACUS11100"
+      }
+    },
+    {
+      "id": 880,
+      "name": "JLU4C30W150",
+      "sku": "JLU4C30W150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LACUS11150"
+      }
+    },
+    {
+      "id": 881,
+      "name": "JLU4C30W50",
+      "sku": "JLU4C30W50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LACUS11050"
+      }
+    },
+    {
+      "id": 882,
+      "name": "JLU4C9W100",
+      "sku": "JLU4C9W100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYCUS11100"
+      }
+    },
+    {
+      "id": 883,
+      "name": "JLU4C9W150",
+      "sku": "JLU4C9W150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYCUS11150"
+      }
+    },
+    {
+      "id": 884,
+      "name": "JLU4C9W50",
+      "sku": "JLU4C9W50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYCUS11050"
+      }
+    },
+    {
+      "id": 885,
+      "name": "JLUB10-100",
+      "sku": "JLUB10-100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYCUS11100"
+      }
+    },
+    {
+      "id": 886,
+      "name": "JLUB10-150",
+      "sku": "JLUB10-150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYCUS11150"
+      }
+    },
+    {
+      "id": 887,
+      "name": "JLUB10-50",
+      "sku": "JLUB10-50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYCUS11050"
+      }
+    },
+    {
+      "id": 888,
+      "name": "JLUB15-100",
+      "sku": "JLUB15-100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYCUS11100"
+      }
+    },
+    {
+      "id": 889,
+      "name": "JLUB15-150",
+      "sku": "JLUB15-150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYCUS11150"
+      }
+    },
+    {
+      "id": 890,
+      "name": "JLUB15-50",
+      "sku": "JLUB15-50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYCUS11050"
+      }
+    },
+    {
+      "id": 891,
+      "name": "JLUC10-100",
+      "sku": "JLUC10-100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYCUS11100"
+      }
+    },
+    {
+      "id": 892,
+      "name": "JLUC10-150",
+      "sku": "JLUC10-150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYCUS11150"
+      }
+    },
+    {
+      "id": 893,
+      "name": "JLUC10-50",
+      "sku": "JLUC10-50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYCUS11050"
+      }
+    },
+    {
+      "id": 894,
+      "name": "JLUW10-100",
+      "sku": "JLUW10-100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYWUS11100"
+      }
+    },
+    {
+      "id": 895,
+      "name": "JLUW10-150",
+      "sku": "JLUW10-150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYWUS11150"
+      }
+    },
+    {
+      "id": 896,
+      "name": "JLUW10-50",
+      "sku": "JLUW10-50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYWUS11050"
+      }
+    },
+    {
+      "id": 897,
+      "name": "JLUW15-100",
+      "sku": "JLUW15-100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYWUS11100"
+      }
+    },
+    {
+      "id": 898,
+      "name": "JLUW15-150",
+      "sku": "JLUW15-150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYWUS11150"
+      }
+    },
+    {
+      "id": 899,
+      "name": "JLUW15-50",
+      "sku": "JLUW15-50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYWUS11050"
+      }
+    },
+    {
+      "id": 900,
+      "name": "JLUW20W100",
+      "sku": "JLUW20W100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LAWUS11100"
+      }
+    },
+    {
+      "id": 901,
+      "name": "JLUW20W150",
+      "sku": "JLUW20W150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LAWUS11150"
+      }
+    },
+    {
+      "id": 902,
+      "name": "JLUW20W50",
+      "sku": "JLUW20W50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LAWUS11050"
+      }
+    },
+    {
+      "id": 903,
+      "name": "JLUW30W100",
+      "sku": "JLUW30W100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LAWUS11100"
+      }
+    },
+    {
+      "id": 904,
+      "name": "JLUW30W150",
+      "sku": "JLUW30W150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LAWUS11150"
+      }
+    },
+    {
+      "id": 905,
+      "name": "JLUW30W50",
+      "sku": "JLUW30W50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LAWUS11050"
+      }
+    },
+    {
+      "id": 906,
+      "name": "JLUW9W100",
+      "sku": "JLUW9W100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYWUS11100"
+      }
+    },
+    {
+      "id": 907,
+      "name": "JLUW9W150",
+      "sku": "JLUW9W150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYWUS11150"
+      }
+    },
+    {
+      "id": 908,
+      "name": "JLUW9W50",
+      "sku": "JLUW9W50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYWUS11050"
+      }
+    },
+    {
+      "id": 909,
+      "name": "WPHV300WP100",
+      "sku": "WPHV300WP100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 910,
+      "name": "WPHV300WS100",
+      "sku": "WPHV300WS100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 911,
+      "name": "WPHV500WP100",
+      "sku": "WPHV500WP100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11100"
+      }
+    },
+    {
+      "id": 912,
+      "name": "WPHV500WS100",
+      "sku": "WPHV500WS100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11100"
+      }
+    },
+    {
+      "id": 913,
+      "name": "WPHV500WS150",
+      "sku": "WPHV500WS150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11150"
+      }
+    },
+    {
+      "id": 914,
+      "name": "WPHV500WS30",
+      "sku": "WPHV500WS30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11030"
+      }
+    },
+    {
+      "id": 915,
+      "name": "WPHV500WS50",
+      "sku": "WPHV500WS50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11050"
+      }
+    },
+    {
+      "id": 916,
+      "name": "WPLV100WP100",
+      "sku": "WPLV100WP100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 917,
+      "name": "WPLV100WS100",
+      "sku": "WPLV100WS100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 918,
+      "name": "WPLV300WP100",
+      "sku": "WPLV300WP100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 919,
+      "name": "WPLV300WS100",
+      "sku": "WPLV300WS100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 920,
+      "name": "WSHV100WP100",
+      "sku": "WSHV100WP100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 921,
+      "name": "WSHV100WS100",
+      "sku": "WSHV100WS100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 922,
+      "name": "WSHV100WS150",
+      "sku": "WSHV100WS150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11150"
+      }
+    },
+    {
+      "id": 923,
+      "name": "WSHV100WS30",
+      "sku": "WSHV100WS30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11030"
+      }
+    },
+    {
+      "id": 924,
+      "name": "WSHV100WS50",
+      "sku": "WSHV100WS50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11050"
+      }
+    },
+    {
+      "id": 925,
+      "name": "WSLV100WP100",
+      "sku": "WSLV100WP100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 926,
+      "name": "WSLV100WS100",
+      "sku": "WSLV100WS100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 927,
+      "name": "WSLV100WS30",
+      "sku": "WSLV100WS30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11030"
+      }
+    },
+    {
+      "id": 928,
+      "name": "WSLV100WS50",
+      "sku": "WSLV100WS50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11050"
+      }
+    },
+    {
+      "id": 929,
+      "name": "WPHV300WS150",
+      "sku": "WPHV300WS150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11150"
+      }
+    },
+    {
+      "id": 930,
+      "name": "WPHV300WS30",
+      "sku": "WPHV300WS30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 931,
+      "name": "WPHV300WS50",
+      "sku": "WPHV300WS50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 932,
+      "name": "WPLV300WS30",
+      "sku": "WPLV300WS30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 933,
+      "name": "WPLV100WS30",
+      "sku": "WPLV100WS30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 934,
+      "name": "WPLV100WS50",
+      "sku": "WPLV100WS50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 935,
+      "name": "WPLV300WS50",
+      "sku": "WPLV300WS50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 172,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 936,
+      "name": "SAVMEL100H",
+      "sku": "SAVMEL100H",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 173,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LACUS11100"
+      }
+    },
+    {
+      "id": 937,
+      "name": "SAVMEL150H",
+      "sku": "SAVMEL150H",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 173,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LACUS11150"
+      }
+    },
+    {
+      "id": 938,
+      "name": "SAVMEL50H",
+      "sku": "SAVMEL50H",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 173,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LACUS11050"
+      }
+    },
+    {
+      "id": 939,
+      "name": "SAVMIN100H",
+      "sku": "SAVMIN100H",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 173,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYCUS11100"
+      }
+    },
+    {
+      "id": 940,
+      "name": "SAVMIN150H",
+      "sku": "SAVMIN150H",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 173,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYCUS11150"
+      }
+    },
+    {
+      "id": 941,
+      "name": "SAVMIN50H",
+      "sku": "SAVMIN50H",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 173,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LYCUS11050"
+      }
+    },
+    {
+      "id": 942,
+      "name": "SAVSOL100H",
+      "sku": "SAVSOL100H",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 173,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LACUS11100"
+      }
+    },
+    {
+      "id": 943,
+      "name": "SAVSOL150H",
+      "sku": "SAVSOL150H",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 173,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LACUS11150"
+      }
+    },
+    {
+      "id": 944,
+      "name": "SAVSOL50H",
+      "sku": "SAVSOL50H",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 1,
+      "seriesId": 173,
+      "additionalAttribute": {
+        "type": "1.5in./12V"
+      },
+      "relatedModels": {
+        "best": "LACUS11050"
+      }
+    },
+    {
+      "id": 945,
+      "name": "600015",
+      "sku": "600015",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 174,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11030"
+      }
+    },
+    {
+      "id": 946,
+      "name": "600016",
+      "sku": "600016",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 174,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11050"
+      }
+    },
+    {
+      "id": 947,
+      "name": "600017",
+      "sku": "600017",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 174,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11100"
+      }
+    },
+    {
+      "id": 948,
+      "name": "600019",
+      "sku": "600019",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 174,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11030"
+      }
+    },
+    {
+      "id": 949,
+      "name": "600020",
+      "sku": "600020",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 174,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11050"
+      }
+    },
+    {
+      "id": 950,
+      "name": "600021",
+      "sku": "600021",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 174,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11100"
+      }
+    },
+    {
+      "id": 951,
+      "name": "640000",
+      "sku": "640000",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 174,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11030"
+      }
+    },
+    {
+      "id": 952,
+      "name": "640001",
+      "sku": "640001",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 174,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11050"
+      }
+    },
+    {
+      "id": 953,
+      "name": "640002",
+      "sku": "640002",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 174,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11100"
+      }
+    },
+    {
+      "id": 954,
+      "name": "640011",
+      "sku": "640011",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 174,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11100"
+      }
+    },
+    {
+      "id": 955,
+      "name": "640012",
+      "sku": "640012",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 174,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11050"
+      }
+    },
+    {
+      "id": 956,
+      "name": "640013",
+      "sku": "640013",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 174,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11100"
+      }
+    },
+    {
+      "id": 957,
+      "name": "640120",
+      "sku": "640120",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11100"
+      }
+    },
+    {
+      "id": 958,
+      "name": "640121",
+      "sku": "640121",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11050"
+      }
+    },
+    {
+      "id": 959,
+      "name": "640122",
+      "sku": "640122",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11100"
+      }
+    },
+    {
+      "id": 960,
+      "name": "640130",
+      "sku": "640130",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11100"
+      }
+    },
+    {
+      "id": 961,
+      "name": "640131",
+      "sku": "640131",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11050"
+      }
+    },
+    {
+      "id": 962,
+      "name": "640132",
+      "sku": "640132",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSCUS11100"
+      }
+    },
+    {
+      "id": 963,
+      "name": "640140",
+      "sku": "640140",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11030"
+      }
+    },
+    {
+      "id": 964,
+      "name": "640141",
+      "sku": "640141",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11050"
+      }
+    },
+    {
+      "id": 965,
+      "name": "640142",
+      "sku": "640142",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 966,
+      "name": "640143",
+      "sku": "640143",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11150"
+      }
+    },
+    {
+      "id": 967,
+      "name": "640150",
+      "sku": "640150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11030"
+      }
+    },
+    {
+      "id": 968,
+      "name": "640151",
+      "sku": "640151",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11050"
+      }
+    },
+    {
+      "id": 969,
+      "name": "640152",
+      "sku": "640152",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 970,
+      "name": "640153",
+      "sku": "640153",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11150"
+      }
+    },
+    {
+      "id": 971,
+      "name": "601000",
+      "sku": "601000",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11030"
+      }
+    },
+    {
+      "id": 972,
+      "name": "601001",
+      "sku": "601001",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11050"
+      }
+    },
+    {
+      "id": 973,
+      "name": "601002",
+      "sku": "601002",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11100"
+      }
+    },
+    {
+      "id": 974,
+      "name": "601010",
+      "sku": "601010",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11030"
+      }
+    },
+    {
+      "id": 975,
+      "name": "601011",
+      "sku": "601011",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11050"
+      }
+    },
+    {
+      "id": 976,
+      "name": "601012",
+      "sku": "601012",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11100"
+      }
+    },
+    {
+      "id": 977,
+      "name": "601102",
+      "sku": "601102",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 978,
+      "name": "601107",
+      "sku": "601107",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 979,
+      "name": "601200",
+      "sku": "601200",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11030"
+      }
+    },
+    {
+      "id": 980,
+      "name": "601201",
+      "sku": "601201",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11050"
+      }
+    },
+    {
+      "id": 981,
+      "name": "601202",
+      "sku": "601202",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11100"
+      }
+    },
+    {
+      "id": 982,
+      "name": "601203",
+      "sku": "601203",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11150"
+      }
+    },
+    {
+      "id": 983,
+      "name": "601205",
+      "sku": "601205",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11030"
+      }
+    },
+    {
+      "id": 984,
+      "name": "601206",
+      "sku": "601206",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11050"
+      }
+    },
+    {
+      "id": 985,
+      "name": "601207",
+      "sku": "601207",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11100"
+      }
+    },
+    {
+      "id": 986,
+      "name": "601208",
+      "sku": "601208",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11150"
+      }
+    },
+    {
+      "id": 987,
+      "name": "601300",
+      "sku": "601300",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11030"
+      }
+    },
+    {
+      "id": 988,
+      "name": "601301",
+      "sku": "601301",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11050"
+      }
+    },
+    {
+      "id": 989,
+      "name": "601302",
+      "sku": "601302",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11100"
+      }
+    },
+    {
+      "id": 990,
+      "name": "601303",
+      "sku": "601303",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11150"
+      }
+    },
+    {
+      "id": 991,
+      "name": "601305",
+      "sku": "601305",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11030"
+      }
+    },
+    {
+      "id": 992,
+      "name": "601306",
+      "sku": "601306",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11050"
+      }
+    },
+    {
+      "id": 993,
+      "name": "601307",
+      "sku": "601307",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11100"
+      }
+    },
+    {
+      "id": 994,
+      "name": "601308",
+      "sku": "601308",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11150"
+      }
+    },
+    {
+      "id": 995,
+      "name": "602000",
+      "sku": "602000",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11030"
+      }
+    },
+    {
+      "id": 996,
+      "name": "602001",
+      "sku": "602001",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11050"
+      }
+    },
+    {
+      "id": 997,
+      "name": "602002",
+      "sku": "602002",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11100"
+      }
+    },
+    {
+      "id": 998,
+      "name": "602010",
+      "sku": "602010",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11030"
+      }
+    },
+    {
+      "id": 999,
+      "name": "602011",
+      "sku": "602011",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11050"
+      }
+    },
+    {
+      "id": 1000,
+      "name": "602012",
+      "sku": "602012",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPCUS11100"
+      }
+    },
+    {
+      "id": 1001,
+      "name": "601100",
+      "sku": "601100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1002,
+      "name": "601101",
+      "sku": "601101",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 1003,
+      "name": "601103",
+      "sku": "601103",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11150"
+      }
+    },
+    {
+      "id": 1004,
+      "name": "601105",
+      "sku": "601105",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1005,
+      "name": "601106",
+      "sku": "601106",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 1006,
+      "name": "601108",
+      "sku": "601108",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 175,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11150"
+      }
+    },
+    {
+      "id": 1007,
+      "name": "77111100",
+      "sku": "77111100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 176,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11030"
+      }
+    },
+    {
+      "id": 1008,
+      "name": "77118100",
+      "sku": "77118100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 176,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11050"
+      }
+    },
+    {
+      "id": 1009,
+      "name": "77161100",
+      "sku": "77161100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 176,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11030"
+      }
+    },
+    {
+      "id": 1010,
+      "name": "77168100",
+      "sku": "77168100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 176,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11050"
+      }
+    },
+    {
+      "id": 1011,
+      "name": "77182500",
+      "sku": "77182500",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 176,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 1012,
+      "name": "77188100",
+      "sku": "77188100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 176,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11050"
+      }
+    },
+    {
+      "id": 1013,
+      "name": "77310100",
+      "sku": "77310100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 176,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 1014,
+      "name": "77360300",
+      "sku": "77360300",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 176,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 1015,
+      "name": "77365000",
+      "sku": "77365000",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 176,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11150"
+      }
+    },
+    {
+      "id": 1016,
+      "name": "78101200",
+      "sku": "78101200",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 177,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11030"
+      }
+    },
+    {
+      "id": 1017,
+      "name": "78106000",
+      "sku": "78106000",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 177,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11030"
+      }
+    },
+    {
+      "id": 1018,
+      "name": "78106100",
+      "sku": "78106100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 177,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11050"
+      }
+    },
+    {
+      "id": 1019,
+      "name": "78106200",
+      "sku": "78106200",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 177,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 1020,
+      "name": "78106300",
+      "sku": "78106300",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 177,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11150"
+      }
+    },
+    {
+      "id": 1021,
+      "name": "78107500",
+      "sku": "78107500",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 177,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 1022,
+      "name": "78108200",
+      "sku": "78108200",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 177,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11050"
+      }
+    },
+    {
+      "id": 1023,
+      "name": "05086-0100",
+      "sku": "05086-0100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 178,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1024,
+      "name": "05082-0025",
+      "sku": "05082-0025",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 178,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1025,
+      "name": "05082-0050",
+      "sku": "05082-0050",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 178,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 1026,
+      "name": "05086-0025",
+      "sku": "05086-0025",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 178,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1027,
+      "name": "05086-0050",
+      "sku": "05086-0050",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 178,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 1028,
+      "name": "05086-0150",
+      "sku": "05086-0150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 2,
+      "seriesId": 178,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11150"
+      }
+    },
+    {
+      "id": 1029,
+      "name": "C55",
+      "sku": "C55",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 20,
+      "seriesId": 179,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1030,
+      "name": "05507-3100",
+      "sku": "05507-3100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 4,
+      "seriesId": 180,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1031,
+      "name": "055503-3100",
+      "sku": "055503-3100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 4,
+      "seriesId": 180,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1032,
+      "name": "055505-3100",
+      "sku": "055505-3100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 4,
+      "seriesId": 180,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1033,
+      "name": "05607-3100",
+      "sku": "05607-3100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 4,
+      "seriesId": 180,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1034,
+      "name": "056503-3030",
+      "sku": "056503-3030",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 4,
+      "seriesId": 180,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11030"
+      }
+    },
+    {
+      "id": 1035,
+      "name": "056503-3050",
+      "sku": "056503-3050",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 4,
+      "seriesId": 180,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11050"
+      }
+    },
+    {
+      "id": 1036,
+      "name": "056503-3100",
+      "sku": "056503-3100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 4,
+      "seriesId": 180,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 1037,
+      "name": "056505-3030",
+      "sku": "056505-3030",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 4,
+      "seriesId": 180,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11030"
+      }
+    },
+    {
+      "id": 1038,
+      "name": "056505-3050",
+      "sku": "056505-3050",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 4,
+      "seriesId": 180,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11050"
+      }
+    },
+    {
+      "id": 1039,
+      "name": "056505-3100",
+      "sku": "056505-3100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 4,
+      "seriesId": 180,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 1040,
+      "name": "05607-3030",
+      "sku": "05607-3030",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 4,
+      "seriesId": 180,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1041,
+      "name": "05607-3050",
+      "sku": "05607-3050",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 4,
+      "seriesId": 180,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 1042,
+      "name": "055505-3030",
+      "sku": "055505-3030",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 4,
+      "seriesId": 180,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1043,
+      "name": "055505-3050",
+      "sku": "055505-3050",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 4,
+      "seriesId": 180,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 1044,
+      "name": "055503-3030",
+      "sku": "055503-3030",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 4,
+      "seriesId": 180,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1045,
+      "name": "055503-3050",
+      "sku": "055503-3050",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 4,
+      "seriesId": 180,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 1046,
+      "name": "05507-3030",
+      "sku": "05507-3030",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 4,
+      "seriesId": 180,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1047,
+      "name": "05507-3050",
+      "sku": "05507-3050",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 4,
+      "seriesId": 180,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 1048,
+      "name": "SP050250",
+      "sku": "SP050250",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 181,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 1049,
+      "name": "SP0503100",
+      "sku": "SP0503100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 181,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1050,
+      "name": "SP0570N100",
+      "sku": "SP0570N100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 181,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1051,
+      "name": "SP0570N50",
+      "sku": "SP0570N50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 181,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 1052,
+      "name": "SP057130",
+      "sku": "SP057130",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 181,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1053,
+      "name": "SP0571N100",
+      "sku": "SP0571N100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 181,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1054,
+      "name": "SP0571N150",
+      "sku": "SP0571N150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 181,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11150"
+      }
+    },
+    {
+      "id": 1055,
+      "name": "SP0571N30",
+      "sku": "SP0571N30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 181,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1056,
+      "name": "SP0571N50",
+      "sku": "SP0571N50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 181,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 1057,
+      "name": "SP0572LN100",
+      "sku": "SP0572LN100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 181,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1058,
+      "name": "SP0572LN50",
+      "sku": "SP0572LN50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 181,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 1059,
+      "name": "SP0573LN100",
+      "sku": "SP0573LN100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 181,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1060,
+      "name": "SP0573LN50",
+      "sku": "SP0573LN50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 181,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 1061,
+      "name": "SP0580100",
+      "sku": "SP0580100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1062,
+      "name": "SP058015",
+      "sku": "SP058015",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1063,
+      "name": "SP0580150",
+      "sku": "SP0580150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11150"
+      }
+    },
+    {
+      "id": 1064,
+      "name": "SP058030",
+      "sku": "SP058030",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1065,
+      "name": "SP058050",
+      "sku": "SP058050",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 1066,
+      "name": "SP058075",
+      "sku": "SP058075",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1067,
+      "name": "SP0580S100",
+      "sku": "SP0580S100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1068,
+      "name": "SP0580S15",
+      "sku": "SP0580S15",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1069,
+      "name": "SP0580S15U",
+      "sku": "SP0580S15U",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1070,
+      "name": "SP0580S30",
+      "sku": "SP0580S30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1071,
+      "name": "SP0580S50",
+      "sku": "SP0580S50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 1072,
+      "name": "SP0580S75",
+      "sku": "SP0580S75",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1073,
+      "name": "SP0581100",
+      "sku": "SP0581100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1074,
+      "name": "SP058115",
+      "sku": "SP058115",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1075,
+      "name": "SP0581150",
+      "sku": "SP0581150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11150"
+      }
+    },
+    {
+      "id": 1076,
+      "name": "SP058130",
+      "sku": "SP058130",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1077,
+      "name": "SP058150",
+      "sku": "SP058150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 1078,
+      "name": "SP058175",
+      "sku": "SP058175",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1079,
+      "name": "SP0581S100",
+      "sku": "SP0581S100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1080,
+      "name": "SP0581S15",
+      "sku": "SP0581S15",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1081,
+      "name": "SP0581S150",
+      "sku": "SP0581S150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11150"
+      }
+    },
+    {
+      "id": 1082,
+      "name": "SP0581S30",
+      "sku": "SP0581S30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1083,
+      "name": "SP0581S50",
+      "sku": "SP0581S50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 1084,
+      "name": "SP0581S75",
+      "sku": "SP0581S75",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1085,
+      "name": "SP0581S75U",
+      "sku": "SP0581S75U",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/12V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1086,
+      "name": "SP0582L100",
+      "sku": "SP0582L100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1087,
+      "name": "SP0582L15",
+      "sku": "SP0582L15",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1088,
+      "name": "SP0582L150",
+      "sku": "SP0582L150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11150"
+      }
+    },
+    {
+      "id": 1089,
+      "name": "SP0582L30",
+      "sku": "SP0582L30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1090,
+      "name": "SP0582L50",
+      "sku": "SP0582L50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 1091,
+      "name": "SP0582L75",
+      "sku": "SP0582L75",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1092,
+      "name": "SP0582SL100",
+      "sku": "SP0582SL100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1093,
+      "name": "SP0582SL15",
+      "sku": "SP0582SL15",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1094,
+      "name": "SP0582SL15",
+      "sku": "SP0582SL15",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11150"
+      }
+    },
+    {
+      "id": 1095,
+      "name": "SP0582SL30",
+      "sku": "SP0582SL30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11030"
+      }
+    },
+    {
+      "id": 1096,
+      "name": "SP0582SL50",
+      "sku": "SP0582SL50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11050"
+      }
+    },
+    {
+      "id": 1097,
+      "name": "SP0582SL75",
+      "sku": "SP0582SL75",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPLUS11100"
+      }
+    },
+    {
+      "id": 1098,
+      "name": "SP0583L100",
+      "sku": "SP0583L100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11100"
+      }
+    },
+    {
+      "id": 1099,
+      "name": "SP0583L15",
+      "sku": "SP0583L15",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11030"
+      }
+    },
+    {
+      "id": 1100,
+      "name": "SP0583L150",
+      "sku": "SP0583L150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11150"
+      }
+    },
+    {
+      "id": 1101,
+      "name": "SP0583L30",
+      "sku": "SP0583L30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11030"
+      }
+    },
+    {
+      "id": 1102,
+      "name": "SP0583L50",
+      "sku": "SP0583L50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11050"
+      }
+    },
+    {
+      "id": 1103,
+      "name": "SP0583L75",
+      "sku": "SP0583L75",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11100"
+      }
+    },
+    {
+      "id": 1104,
+      "name": "SP0583SL100",
+      "sku": "SP0583SL100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11100"
+      }
+    },
+    {
+      "id": 1105,
+      "name": "SP0583SL15",
+      "sku": "SP0583SL15",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11030"
+      }
+    },
+    {
+      "id": 1106,
+      "name": "SP0583SL150",
+      "sku": "SP0583SL150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11150"
+      }
+    },
+    {
+      "id": 1107,
+      "name": "SP0583SL30",
+      "sku": "SP0583SL30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11030"
+      }
+    },
+    {
+      "id": 1108,
+      "name": "SP0583SL50",
+      "sku": "SP0583SL50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11050"
+      }
+    },
+    {
+      "id": 1109,
+      "name": "SP0583SL75",
+      "sku": "SP0583SL75",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11100"
+      }
+    },
+    {
+      "id": 1110,
+      "name": "SP0584SL100",
+      "sku": "SP0584SL100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11100"
+      }
+    },
+    {
+      "id": 1111,
+      "name": "SP0584SL150",
+      "sku": "SP0584SL150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11150"
+      }
+    },
+    {
+      "id": 1112,
+      "name": "SP0584SL30",
+      "sku": "SP0584SL30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11030"
+      }
+    },
+    {
+      "id": 1113,
+      "name": "SP0584SL50",
+      "sku": "SP0584SL50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11050"
+      }
+    },
+    {
+      "id": 1114,
+      "name": "SP0584SL75",
+      "sku": "SP0584SL75",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11100"
+      }
+    },
+    {
+      "id": 1115,
+      "name": "SP0584SLB100",
+      "sku": "SP0584SLB100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11100"
+      }
+    },
+    {
+      "id": 1116,
+      "name": "SP0584SLB30",
+      "sku": "SP0584SLB30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11030"
+      }
+    },
+    {
+      "id": 1117,
+      "name": "SP0584SLB50",
+      "sku": "SP0584SLB50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11050"
+      }
+    },
+    {
+      "id": 1118,
+      "name": "SP0584SLB75",
+      "sku": "SP0584SLB75",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Pool/120V"
+      },
+      "relatedModels": {
+        "best": "LPWUS11100"
+      }
+    },
+    {
+      "id": 1119,
+      "name": "SP0591HSL100",
+      "sku": "SP0591HSL100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 1120,
+      "name": "SP0591HSL150",
+      "sku": "SP0591HSL150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11150"
+      }
+    },
+    {
+      "id": 1121,
+      "name": "SP0591HSL30",
+      "sku": "SP0591HSL30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11030"
+      }
+    },
+    {
+      "id": 1122,
+      "name": "SP0591HSL50",
+      "sku": "SP0591HSL50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11050"
+      }
+    },
+    {
+      "id": 1123,
+      "name": "SP0591HSL75",
+      "sku": "SP0591HSL75",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 1124,
+      "name": "SP0591SL100",
+      "sku": "SP0591SL100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 1125,
+      "name": "SP0591SL125",
+      "sku": "SP0591SL125",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11150"
+      }
+    },
+    {
+      "id": 1126,
+      "name": "SP0591SL150",
+      "sku": "SP0591SL150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11150"
+      }
+    },
+    {
+      "id": 1127,
+      "name": "SP0591SL30",
+      "sku": "SP0591SL30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11030"
+      }
+    },
+    {
+      "id": 1128,
+      "name": "SP0591SL50",
+      "sku": "SP0591SL50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11050"
+      }
+    },
+    {
+      "id": 1129,
+      "name": "SP0591SL75",
+      "sku": "SP0591SL75",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 1130,
+      "name": "SP0592HSL100",
+      "sku": "SP0592HSL100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 1131,
+      "name": "SP0592HSL150",
+      "sku": "SP0592HSL150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11150"
+      }
+    },
+    {
+      "id": 1132,
+      "name": "SP0592HSL30",
+      "sku": "SP0592HSL30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11030"
+      }
+    },
+    {
+      "id": 1133,
+      "name": "SP0592HSL50",
+      "sku": "SP0592HSL50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11050"
+      }
+    },
+    {
+      "id": 1134,
+      "name": "SP0592HSL75",
+      "sku": "SP0592HSL75",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 182,
+      "additionalAttribute": {
+        "type": "Spa/120V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 1135,
+      "name": "SP0590HSL100",
+      "sku": "SP0590HSL100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 183,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 1136,
+      "name": "SP0590HSL15",
+      "sku": "SP0590HSL15",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 183,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11030"
+      }
+    },
+    {
+      "id": 1137,
+      "name": "SP0590HSL150",
+      "sku": "SP0590HSL150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 183,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11150"
+      }
+    },
+    {
+      "id": 1138,
+      "name": "SP0590HSL30",
+      "sku": "SP0590HSL30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 183,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11030"
+      }
+    },
+    {
+      "id": 1139,
+      "name": "SP0590HSL50",
+      "sku": "SP0590HSL50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 183,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11050"
+      }
+    },
+    {
+      "id": 1140,
+      "name": "SP0590HSL75",
+      "sku": "SP0590HSL75",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 183,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 1141,
+      "name": "SP0590HSLC100",
+      "sku": "SP0590HSLC100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 183,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 1142,
+      "name": "SP0590HSLC25",
+      "sku": "SP0590HSLC25",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 183,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 1143,
+      "name": "SP0590SL100",
+      "sku": "SP0590SL100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 183,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 1144,
+      "name": "SP0590SL15",
+      "sku": "SP0590SL15",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 183,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11030"
+      }
+    },
+    {
+      "id": 1145,
+      "name": "SP0590SL150",
+      "sku": "SP0590SL150",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 183,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11150"
+      }
+    },
+    {
+      "id": 1146,
+      "name": "SP0590SL30",
+      "sku": "SP0590SL30",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 183,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11030"
+      }
+    },
+    {
+      "id": 1147,
+      "name": "SP0590SL50",
+      "sku": "SP0590SL50",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 183,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11050"
+      }
+    },
+    {
+      "id": 1148,
+      "name": "SP0590SL75",
+      "sku": "SP0590SL75",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 183,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 1149,
+      "name": "SP0590SLC100",
+      "sku": "SP0590SLC100",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 183,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11100"
+      }
+    },
+    {
+      "id": 1150,
+      "name": "SP0590SLC25",
+      "sku": "SP0590SLC25",
+      "description": "",
+      "categoryId": 4,
+      "manufacturerId": 10,
+      "seriesId": 183,
+      "additionalAttribute": {
+        "type": "Spa/12V"
+      },
+      "relatedModels": {
+        "best": "LSLUS11030"
       }
     }
   ]

@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Hayward Cross-Reference Tool
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive React single-page application (SPA) that functions as a "Cross Reference" tool for displaying equivalent Hayward products and recommended upgrades. It integrates directly with Hayward's Magento REST API to fetch real-time catalog and product details.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Deployment Architecture
 
-### `npm start`
+The application uses relative routing controlled via React Router's `basename`. **You must configure `src/index.js` before running or building the application.**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Environment Setup Matrix
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| Environment | Router Basename (in `src/index.js`) | Target Magento Path / URL | Purpose |
+| :--- | :--- | :--- | :--- |
+| **Production** | `/support/resources/tools/cross-reference` | `https://hayward.com/support/resources/tools/cross-reference` | Public Production Environment |
+| **Staging / QA** | `/support/resources/tools/cross-reference-2` | `https://hayward.com/support/resources/tools/cross-reference-2` | Sandbox/Test Environment |
+| **Development** | `/support/resources/tools/cross-reference` | `http://localhost:3000/support/resources/tools/cross-reference` | Local testing (Requires full path) |
 
-### `npm test`
+> [!WARNING]
+> If you run the project locally with `npm start` and attempt to navigate to `http://localhost:3000/` directly without appending the configured `basename` (e.g. `/support/resources/tools/cross-reference`), the page **will render completely blank** because the router fails to match the root URL.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Step-by-Step Deployment Guide
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Follow these steps to build and publish updates to Magento:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Configure Environment**  
+   Open `src/index.js` and set the correct `basename` string inside the `<BrowserRouter>` component matching your target environment.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Generate Optimized Bundle**  
+   Compile the React production build:
+   ```bash
+   npm run build
+   ```
+   This generates static assets in the `/build` directory.
 
-### `npm run eject`
+3. **Deploy Assets**  
+   Upload the compiled `/build` directory assets to the web server path mapping to `/cross-reference/` on the Magento server.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Update Magento CMS Block / Page**  
+   Integrate the application inside the target Magento page by embedding the following structure:
+   * **HTML Container**:
+     ```html
+     <div id="root"></div>
+     ```
+   * **JS Script Tag** (Find the compiled JS filename from `build/static/js/`):
+     ```html
+     <script defer="defer" src="/cross-reference/static/js/main.[hash].js"></script>
+     ```
+   * **CSS Stylesheet Tag** (Find the compiled CSS filename from `build/static/css/`):
+     ```html
+     <link href="/cross-reference/static/css/main.[hash].css" rel="stylesheet">
+     ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🔑 Magento API Integration
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The application pulls technical details and media (images, specifications) for recommended Hayward SKUs directly from the Magento V1 REST endpoint.
 
-## Learn More
+* **Configuration File**: `src/modules/models/Alternatives.js`
+* **API Endpoint**: `https://hayward.com/rest/default/V1/products/${sku}`
+* **Headers**:
+  ```http
+  Authorization: Bearer 3ci73owhvsyvefa3qu5nti1vevqi16d0
+  ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 💻 Local Development
 
-### Code Splitting
+### Prerequisites
+* **Node.js**: `v18.x` or higher (Recommended)
+* **Package Manager**: `npm`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Installation
+Clone the repository and install project dependencies:
+```bash
+npm install
+```
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Running the App
+Start the local development server:
+```bash
+npm start
+```
+*The React development server runs on port `3000` by default. If port `3000` is already in use, you can bind it to a different port by running:*
+```bash
+PORT=3002 npm start
+```
+*Ensure you access the app with the basename prefix:* `http://localhost:3002/support/resources/tools/cross-reference`
