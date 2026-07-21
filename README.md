@@ -60,10 +60,10 @@ Follow these steps to build and publish updates to Magento:
 The application pulls technical details and media (images, specifications) for recommended Hayward SKUs directly from the Magento V1 REST endpoint.
 
 * **Configuration File**: `src/modules/models/Alternatives.js`
-* **API Endpoint**: `https://hayward.com/rest/default/V1/products/${sku}`
+* **API Endpoint**: `https://www.hayward.com/rest/default/V1/products/${sku}`
 * **Headers**:
   ```http
-  Authorization: Bearer 3ci73owhvsyvefa3qu5nti1vevqi16d0
+  Authorization: Bearer [YOUR_MAGENTO_API_TOKEN]
   ```
 
 ---
