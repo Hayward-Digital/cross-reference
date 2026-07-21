@@ -9,9 +9,6 @@ import SkuSearchResults from './modules/sku/SkuSearchResults';
 import TabNav from './components/tabnav/TabNav';
 import Footer from './components/footer/Footer';
 import Home from './pages/Home';
-import categoriesData from './modules/categories/categories.json';
-import manufacturersData from './modules/manufacturers/manufacturers.json';
-import seriesData from './modules/series/series.json';
 import './App.css';
 
 const App = () => {
@@ -21,7 +18,7 @@ const App = () => {
   const [activeTab, setActiveTab] = useState('home');
   const [category, setCategory] = useState('');
   const [manufacturer, setManufacturer] = useState('');
-  const [manufacturerName, setManufacturerName] = useState('');
+  const [manufacturerName, setManufacturerName] = useState('Select One');
   const [manufacturerLogo, setManufacturerLogo] = useState('');
   const [series, setSeries] = useState('');
   const [model, setModel] = useState('');
@@ -31,10 +28,38 @@ const App = () => {
   const [modelName, setModelName] = useState('Select One');
   const [isBannerShrink, setIsBannerShrink] = useState(false); // Estado para controlar el tamaño del banner
 
+  const [modelData, setModelData] = useState([]);
+  const [manufacturerData, setManufacturerData] = useState(null);
+  const [categoryData, setCategoryData] = useState(null);
+  const [seriesData, setSeriesData] = useState(null);
+
   useEffect(() => {
+    console.log('Loading state from localStorage');
     const savedState = localStorage.getItem('appState');
+    console.log(savedState);
+
     if (savedState) {
-      const {
+      console.log('Loading state from localStorage');
+      const parsedState = JSON.parse(savedState);
+
+      setActiveTab(parsedState.activeTab || 'home');
+      setCategory(parsedState.category || '');
+      setCategoryName(parsedState.categoryName || 'Select One');
+      setManufacturer(parsedState.manufacturer || '');
+      setManufacturerName(parsedState.manufacturerName || 'Select One');
+      setManufacturerLogo(parsedState.manufacturerLogo || '');
+      setSeries(parsedState.series || '');
+      setSeriesName(parsedState.seriesName || 'Select One');
+      setModel(parsedState.model || '');
+      setModelName(parsedState.modelName || 'Select One');
+      setSku(parsedState.sku || '');
+    }else{
+      console.log(' from localStorage');
+    }
+  }, []);
+
+  useEffect(() => {
+      const state = {
         activeTab,
         category,
         manufacturer,
@@ -46,37 +71,8 @@ const App = () => {
         seriesName,
         modelName,
         sku,
-      } = JSON.parse(savedState);
-
-      setActiveTab(activeTab);
-      setCategory(category);
-      setManufacturer(manufacturer);
-      setManufacturerName(manufacturerName);
-      setManufacturerLogo(manufacturerLogo);
-      setSeries(series);
-      setModel(model);
-      setCategoryName(categoryName);
-      setSeriesName(seriesName);
-      setModelName(modelName);
-      setSku(sku);
-    }
-  }, []);
-
-  useEffect(() => {
-    const state = {
-      activeTab,
-      category,
-      manufacturer,
-      manufacturerName,
-      manufacturerLogo,
-      series,
-      model,
-      categoryName,
-      seriesName,
-      modelName,
-      sku,
-    };
-    localStorage.setItem('appState', JSON.stringify(state));
+      };
+      localStorage.setItem('appState', JSON.stringify(state));
   }, [activeTab, category, manufacturer, manufacturerName, manufacturerLogo, series, model, categoryName, seriesName, modelName, sku]);
 
   useEffect(() => {
@@ -103,6 +99,7 @@ const App = () => {
     }
   }, [location]);
 
+
   const handleSelectCategory = (category) => {
     setCategory(category.code);
     setCategoryName(category.name);
@@ -114,6 +111,8 @@ const App = () => {
     setModelName('Select One');
     setActiveTab('manufacturer');
     navigate(`/?tab=manufacturer&category=${category.code}`);
+
+   
   };
 
   const handleSelectManufacturer = (categoryCode, manufacturer) => {
@@ -126,12 +125,11 @@ const App = () => {
     setModelName('Select One');
     setActiveTab('series');
     navigate(`/?tab=series&category=${categoryCode}&manufacturer=${manufacturer.code}`);
+
+   
   };
 
-  const handleSelectSeries = (categoryCode, manufacturerCode, seriesId) => {
-    const manufacturer = manufacturersData.manufacturers.find(manufacturer => manufacturer.code === manufacturerCode);
-    const series = seriesData.series.find(series => series.id === parseInt(seriesId));
-
+  const handleSelectSeries = (categoryCode, manufacturerCode, series, manufacturer) => {
     if (!manufacturer || !series) {
       console.error("Manufacturer or series not found");
       return;
@@ -145,15 +143,19 @@ const App = () => {
     setModel('');
     setModelName('Select One');
     setActiveTab('model');
-    navigate(`/?tab=model&category=${categoryCode}&manufacturer=${manufacturerCode}&series=${seriesId}`);
+    navigate(`/?tab=model&category=${categoryCode}&manufacturer=${manufacturerCode}&series=${series.id}`);
+
+ 
   };
 
-  const handleSelectModel = (model) => {
-    const category = categoriesData.categories.find(category => category.id === model.categoryId);
-    const manufacturer = manufacturersData.manufacturers.find(manufacturer => manufacturer.id === model.manufacturerId);
-    const series = seriesData.series.find(series => series.id === model.seriesId);
+  const handleSelectModel = (model,category,manufacturer,series) => {
   
     if (category && manufacturer && series) {
+      setModelData(model);
+      setCategoryData(category);
+      setManufacturerData(manufacturer);
+      setSeriesData(series);
+
       setCategory(category.code);
       setCategoryName(category.name);
       setManufacturer(manufacturer.code);
@@ -166,21 +168,17 @@ const App = () => {
       setSku(model.sku);
       setActiveTab('alternative');
       navigate(`/?tab=alternative&category=${category.code}&manufacturer=${manufacturer.code}&series=${series.id}&model=${model.id}&sku=${model.sku}`);
+
     } else {
       console.error("One of the necessary data is missing (category, manufacturer, series)");
     }
   };
 
-  const handleSkuSelectModel = (model) => {
-    const category = categoriesData.categories.find(category =>
-      category.id === model.categoryId
-    );
-    const manufacturer = manufacturersData.manufacturers.find(manufacturer =>
-      manufacturer.id === model.manufacturerId
-    );
-    const series = seriesData.series.find(series =>
-      series.id === model.seriesId
-    );
+  const handleSkuSelectModel = (model, categoriesData,manufacturersData, seriesData) => {
+
+    const category = categoriesData.find(category => parseInt(category.id) === parseInt(model.categoryId));
+    const manufacturer = manufacturersData.find(manufacturer => parseInt(manufacturer.id) === parseInt(model.manufacturerId));
+    const series = seriesData.find(series => parseInt(series.id) === parseInt(model.seriesId));
 
     if (category && manufacturer && series) {
       setCategory(category.code);
@@ -195,6 +193,7 @@ const App = () => {
       setSku(model.sku);
       setActiveTab('alternative');
       navigate(`/?tab=alternative&category=${category.code}&manufacturer=${manufacturer.code}&series=${series.id}&model=${model.id}&sku=${model.sku}`);
+
     }
   };
 
@@ -284,7 +283,8 @@ const App = () => {
             />
           );
         case 'alternative':
-          return <Alternatives onRestart={resetSelections} />;
+          return <Alternatives 
+           onRestart={resetSelections} />;
         case 'sku':
           return <SkuSearchResults onSelectModel={handleSkuSelectModel} />;
         default:

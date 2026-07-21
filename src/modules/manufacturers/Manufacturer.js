@@ -1,23 +1,59 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import manufacturersData from './manufacturers.json';
-import categoriesData from '../categories/categories.json';
 import SelectionList from '../shared/SelectionList';
+import { dataPromise } from '../../utils/api';
 
 const Manufacturer = ({ onSelectManufacturer }) => {
   const { search } = useLocation();
   const params = new URLSearchParams(search);
   const categoryCode = params.get('category');
 
-  // Obtener la categoría seleccionada
-  const selectedCategory = categoriesData.categories.find(category => category.code === categoryCode);
+  // States for fetched data
+  const [categories, setCategories] = useState([]);
+  const [manufacturers, setManufacturers] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  // Fetch categories and manufacturers data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        setLoading(true);
+        
+        // Fetch categories
+        const preloadedData = await dataPromise; // Access preloaded data
+        setCategories(preloadedData.categories || []);
+        // Fetch manufacturers
+        setManufacturers(preloadedData.manufacturers || []);
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []); // Empty dependency array ensures the effect runs once on mount
+
+  // Get selected category
+  const selectedCategory = categories.find(category => category.code === categoryCode);
+
+  if (loading) {
+    return <div class="text-center">Loading...</div>;
+  }
+
+  if (error) {
+    return <div class="text-center">Error: {error}</div>;
+  }
 
   if (!selectedCategory) {
     console.error("Category not found");
     return <div>Category not found.</div>;
   }
 
-  const filteredManufacturers = manufacturersData.manufacturers
+  
+  // Filter manufacturers based on the selected category
+  const filteredManufacturers = manufacturers
     .filter(manufacturer =>
       manufacturer.categories.some(cat => cat.code === categoryCode && cat.active)
     )
@@ -27,13 +63,13 @@ const Manufacturer = ({ onSelectManufacturer }) => {
     <div className="container-fluid mb-5">
       <div className="row">
         <div className="col-10 d-flex align-items-center">
-          <h4>Select {selectedCategory.name} <span className='fw-bold'>Manufacturers</span></h4>
+          <h4>Select {selectedCategory?.name} <span className='fw-bold'>Manufacturers</span></h4>
         </div>
       </div>
       <SelectionList
         data={filteredManufacturers}
         onSelect={(manufacturer) => onSelectManufacturer(categoryCode, manufacturer)}
-        title={null}  // Eliminar el título "Select Manufacturers"
+        title={null}  // Remove "Select Manufacturers" title
       />
     </div>
   );

@@ -1,33 +1,28 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import './Alternatives.css';
-import modelsData from './models.json';
-import mockData from './mockData.json';
-import categoriesData from '../categories/categories.json';
-import manufacturersData from '../manufacturers/manufacturers.json';
-import seriesData from '../series/series.json';
 import { jsPDF } from 'jspdf';
 import html2canvas from 'html2canvas';
 import QRious from 'qrious';
 import { IS_LOCAL } from '../../config';
+import { dataPromise } from '../../utils/api';
+import { fetchAPI } from '../../utils/fetchApi';
 
 const fetchHaywardProduct = async (sku) => {
   try {
     const response = await fetch(
-      `https://hayward.com/rest/default/V1/products/${sku}`, // Simplificado para buscar directamente por SKU
+      `/rest/default/V1/products/${sku}`,
       {
         headers: {
-          Authorization: "Bearer 3b5kg5eu34t3gdmkiph3m1aqcgun8cu6",
+          Authorization: "Bearer iufd84gliclfk6nqi0dy68agkcc2in52",
         },
       }
     );
-
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
-
     const result = await response.json();
-    return result; // Devuelve el resultado completo en lugar de `result.items[0]`
+    return result;
   } catch (error) {
     console.error("Fetch error: ", error);
     throw error;
@@ -43,25 +38,48 @@ const Alternatives = ({ onRestart }) => {
   const { search } = useLocation();
   const params = new URLSearchParams(search);
   const modelId = params.get('model');
+  const seriesId = params.get('series');
   const navigate = useNavigate();
+
   const [relatedModels, setRelatedModels] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [model, setModel] = useState(null);
+  const [series, setSeries] = useState(null);
+  const [category, setCategory] = useState(null);
+  const [manufacturer, setManufacturer] = useState(null);
 
-  const model = modelsData.models.find(model => model.id === parseInt(modelId));
 
   useEffect(() => {
-    if (!model) {
-      setLoading(false);
-      setError('Model not found');
-      return;
-    }
-
-    const fetchRelatedModels = async () => {
+    const fetchData = async () => {
       try {
+        setLoading(true);
+
+        const preloadedData = await dataPromise;
+        // Fetch categories
+       
+      
+        // Find the selected model
+        const query = buildQuery([
+          { field: "model_id", value: modelId, condition_type: "eq" },
+        ]);
+        const modelsResponse = await fetchAPI('models', query);
+        const selectedModel = modelsResponse.models?.[0];
+        setModel(selectedModel);
+
+        const category = preloadedData.categories.find(category => parseInt(category.id) === parseInt(selectedModel.categoryId));
+        setCategory(category || []);
+        
+        const manufacturer = preloadedData.manufacturers.find(manufacturer => parseInt(manufacturer.id) === parseInt(selectedModel.manufacturerId));
+        setManufacturer(manufacturer || []);
+        
+        const selectedSeries= preloadedData.series.find(series => parseInt(series.id) === parseInt(seriesId));
+        setSeries(selectedSeries);
+
+
         const results = await Promise.all(
           ['best', 'better', 'good'].map(async key => {
-            const sku = model.relatedModels[key];
+            const sku = selectedModel.relatedModels[key];
             if (sku && sku.trim()) {
               try {
                 if (IS_LOCAL) {
@@ -116,22 +134,28 @@ const Alternatives = ({ onRestart }) => {
         }
 
         setRelatedModels([finalResults.best, finalResults.better].filter(item => item !== null));
-      } catch (error) {
-        setError(error.message);
+      } catch (err) {
+        setError(err.message);
       } finally {
         setLoading(false);
       }
     };
 
-    fetchRelatedModels();
-  }, [model]);
+    fetchData();
+  }, [modelId]);
 
+  const buildQuery = (params) => {
+    const searchParams = new URLSearchParams();
+    params.forEach(({ field, value, condition_type }, index) => {
+      searchParams.append(`searchCriteria[filterGroups][${index}][filters][0][field]`, field);
+      searchParams.append(`searchCriteria[filterGroups][${index}][filters][0][value]`, value);
+      searchParams.append(`searchCriteria[filterGroups][${index}][filters][0][condition_type]`, condition_type);
+    });
+    return searchParams.toString();
+  };
+  
   useEffect(() => {
     if (model) {
-      const category = categoriesData.categories.find(category => category.id === model.categoryId);
-      const manufacturer = manufacturersData.manufacturers.find(manufacturer => manufacturer.id === model.manufacturerId);
-      const series = seriesData.series.find(series => series.id === model.seriesId);
-
       if (category && manufacturer && series) {
         navigate(`/?tab=alternative&category=${category.code}&manufacturer=${manufacturer.code}&series=${series.id}&model=${model.id}&sku=${model.sku}`);
       }
@@ -167,16 +191,12 @@ const Alternatives = ({ onRestart }) => {
   };
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div class="text-center">Loading...</div>;
   }
 
   if (error) {
-    return <div>Error: {error}</div>;
+    return <div class="text-center">Error: {error}</div>;
   }
-
-  const category = categoriesData.categories.find(category => category.id === model.categoryId);
-  const manufacturer = manufacturersData.manufacturers.find(manufacturer => manufacturer.id === model.manufacturerId);
-  const series = seriesData.series.find(series => series.id === model.seriesId);
 
   return (
     <div className="alternatives-container">
@@ -197,7 +217,7 @@ const Alternatives = ({ onRestart }) => {
             const descriptionAttribute = result.custom_attributes.find(attr => attr.attribute_code === 'marketing_short_description');
             const description = descriptionAttribute ? descriptionAttribute.value : 'No description available';
             const truncatedDescription = truncateDescription(description, 150);
-            const productUrl = `${window.location.origin}/${result.custom_attributes.find(attr => attr.attribute_code === 'url_key')?.value || '#'}-${result.sku}.html`;
+            const productUrl = `${window.location.origin}/${result.custom_attributes.find(attr => attr.attribute_code === 'url_key')?.value || '#'}.html`;
 
             return (
               <div key={index} className={`col-12 col-md-3 model-card ${key} d-flex flex-wrap justify-content-center`}>
