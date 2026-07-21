@@ -11,10 +11,10 @@ import { fetchAPI } from '../../utils/fetchApi';
 const fetchHaywardProduct = async (sku) => {
   try {
     const response = await fetch(
-      `/rest/default/V1/products/${sku}`,
+      `https://www.hayward.com/rest/default/V1/products/${sku}`, // Simplificado para buscar directamente por SKU
       {
         headers: {
-          Authorization: "Bearer iufd84gliclfk6nqi0dy68agkcc2in52",
+          Authorization: "Bearer 2ybnsdi9kyu87h97ze850fq1kb607888",
         },
       }
     );
