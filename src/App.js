@@ -294,9 +294,9 @@ const App = () => {
   
     return (
       <>
-        <header className={`banner ${isBannerShrink ? 'banner-shrink' : ''}`}>
+        <header id="cross-reference-header" className={`banner ${isBannerShrink ? 'banner-shrink' : ''}`}>
           <div className="banner-content">
-            <h2 className="text-white">Cross-Reference</h2>
+            <h2 className="text-white" style={{color: '#ffffff !important'}}>Cross-Reference</h2>
             {activeTab === 'home' ? (
               <p className="text-white">
                 Replacing a piece of equipment by another brand? <br></br>
