@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/support/resources/tools/cross-reference/static/css/main.44603a56.css",
-    "main.js": "/support/resources/tools/cross-reference/static/js/main.959ddfa2.js",
+    "main.js": "/support/resources/tools/cross-reference/static/js/main.26ddfa4e.js",
     "static/js/213.b17d87e4.chunk.js": "/support/resources/tools/cross-reference/static/js/213.b17d87e4.chunk.js",
     "static/js/732.758560b7.chunk.js": "/support/resources/tools/cross-reference/static/js/732.758560b7.chunk.js",
     "index.html": "/support/resources/tools/cross-reference/index.html",
     "main.44603a56.css.map": "/support/resources/tools/cross-reference/static/css/main.44603a56.css.map",
-    "main.959ddfa2.js.map": "/support/resources/tools/cross-reference/static/js/main.959ddfa2.js.map",
+    "main.26ddfa4e.js.map": "/support/resources/tools/cross-reference/static/js/main.26ddfa4e.js.map",
     "213.b17d87e4.chunk.js.map": "/support/resources/tools/cross-reference/static/js/213.b17d87e4.chunk.js.map",
     "732.758560b7.chunk.js.map": "/support/resources/tools/cross-reference/static/js/732.758560b7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44603a56.css",
-    "static/js/main.959ddfa2.js"
+    "static/js/main.26ddfa4e.js"
   ]
 }
