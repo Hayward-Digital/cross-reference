@@ -1,33 +1,23 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import './Alternatives.css';
-import modelsData from './models.json';
-import mockData from './mockData.json';
-import categoriesData from '../categories/categories.json';
-import manufacturersData from '../manufacturers/manufacturers.json';
-import seriesData from '../series/series.json';
 import { jsPDF } from 'jspdf';
 import html2canvas from 'html2canvas';
 import QRious from 'qrious';
-import { IS_LOCAL } from '../../config';
+import { IS_LOCAL, STORE_SUFFIX } from '../../config';
+import { dataPromise } from '../../utils/api';
+import { fetchAPI } from '../../utils/fetchApi';
 
 const fetchHaywardProduct = async (sku) => {
   try {
     const response = await fetch(
-      `https://www.hayward.com/rest/default/V1/products/${sku}`, // Simplificado para buscar directamente por SKU
-      {
-        headers: {
-          Authorization: "Bearer 2ybnsdi9kyu87h97ze850fq1kb607888",
-        },
-      }
+      `https://commerce.hayward-pool-assets.com/haywardProducts?sku=${sku}`
     );
-
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
-
     const result = await response.json();
-    return result; // Devuelve el resultado completo en lugar de `result.items[0]`
+    return result;
   } catch (error) {
     console.error("Fetch error: ", error);
     throw error;
@@ -43,35 +33,62 @@ const Alternatives = ({ onRestart }) => {
   const { search } = useLocation();
   const params = new URLSearchParams(search);
   const modelId = params.get('model');
+  const seriesId = params.get('series');
   const navigate = useNavigate();
+
   const [relatedModels, setRelatedModels] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [model, setModel] = useState(null);
+  const [series, setSeries] = useState(null);
+  const [category, setCategory] = useState(null);
+  const [manufacturer, setManufacturer] = useState(null);
 
-  const model = modelsData.models.find(model => model.id === parseInt(modelId));
 
   useEffect(() => {
-    if (!model) {
-      setLoading(false);
-      setError('Model not found');
-      return;
-    }
-
-    const fetchRelatedModels = async () => {
+    const fetchData = async () => {
       try {
+        setLoading(true);
+
+        const preloadedData = await dataPromise;
+        // Fetch categories
+
+
+        // Find the selected model
+        const query = buildQuery([
+          { field: "model_id", value: modelId, condition_type: "eq" },
+        ]);
+        const modelsResponse = await fetchAPI('models', query);
+        const selectedModel = modelsResponse.models?.[0];
+        setModel(selectedModel);
+
+        const category = preloadedData.categories.find(category => parseInt(category.id) === parseInt(selectedModel.categoryId));
+        setCategory(category || []);
+
+        const manufacturer = preloadedData.manufacturers.find(manufacturer => parseInt(manufacturer.id) === parseInt(selectedModel.manufacturerId));
+        setManufacturer(manufacturer || []);
+
+        const selectedSeries = preloadedData.series.find(series => parseInt(series.id) === parseInt(seriesId));
+        setSeries(selectedSeries);
+
+
         const results = await Promise.all(
           ['best', 'better', 'good'].map(async key => {
-            const sku = model.relatedModels[key];
+            const sku = selectedModel.relatedModels[key];
             if (sku && sku.trim()) {
+              let skuTarget = sku.trim();
+              if (STORE_SUFFIX && !skuTarget.toUpperCase().endsWith(STORE_SUFFIX.toUpperCase())) {
+                skuTarget = `${skuTarget}${STORE_SUFFIX}`;
+              }
               try {
                 if (IS_LOCAL) {
-                  const result = mockData[sku.trim()];
+                  const result = mockData[skuTarget];
                   if (!result) {
                     throw new Error('Please try other product');
                   }
                   return { key, result };
                 } else {
-                  const result = await fetchHaywardProduct(sku.trim());
+                  const result = await fetchHaywardProduct(skuTarget);
                   if (!result) {
                     throw new Error('Please try other product');
                   }
@@ -116,22 +133,28 @@ const Alternatives = ({ onRestart }) => {
         }
 
         setRelatedModels([finalResults.best, finalResults.better].filter(item => item !== null));
-      } catch (error) {
-        setError(error.message);
+      } catch (err) {
+        setError(err.message);
       } finally {
         setLoading(false);
       }
     };
 
-    fetchRelatedModels();
-  }, [model]);
+    fetchData();
+  }, [modelId]);
+
+  const buildQuery = (params) => {
+    const searchParams = new URLSearchParams();
+    params.forEach(({ field, value, condition_type }, index) => {
+      searchParams.append(`searchCriteria[filterGroups][${index}][filters][0][field]`, field);
+      searchParams.append(`searchCriteria[filterGroups][${index}][filters][0][value]`, value);
+      searchParams.append(`searchCriteria[filterGroups][${index}][filters][0][condition_type]`, condition_type);
+    });
+    return searchParams.toString();
+  };
 
   useEffect(() => {
     if (model) {
-      const category = categoriesData.categories.find(category => category.id === model.categoryId);
-      const manufacturer = manufacturersData.manufacturers.find(manufacturer => manufacturer.id === model.manufacturerId);
-      const series = seriesData.series.find(series => series.id === model.seriesId);
-
       if (category && manufacturer && series) {
         navigate(`/?tab=alternative&category=${category.code}&manufacturer=${manufacturer.code}&series=${series.id}&model=${model.id}&sku=${model.sku}`);
       }
@@ -167,21 +190,17 @@ const Alternatives = ({ onRestart }) => {
   };
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div class="text-center">Loading...</div>;
   }
 
   if (error) {
-    return <div>Error: {error}</div>;
+    return <div class="text-center">Error: {error}</div>;
   }
-
-  const category = categoriesData.categories.find(category => category.id === model.categoryId);
-  const manufacturer = manufacturersData.manufacturers.find(manufacturer => manufacturer.id === model.manufacturerId);
-  const series = seriesData.series.find(series => series.id === model.seriesId);
 
   return (
     <div className="alternatives-container">
       <h2 className='title mt-3 mb-5'>Our Best-in-Class Options</h2>
-      
+
       <div id="pdf-content">
         <div className="flex-container">
           {relatedModels.map(({ key, result, error }, index) => {
@@ -197,19 +216,23 @@ const Alternatives = ({ onRestart }) => {
             const descriptionAttribute = result.custom_attributes.find(attr => attr.attribute_code === 'marketing_short_description');
             const description = descriptionAttribute ? descriptionAttribute.value : 'No description available';
             const truncatedDescription = truncateDescription(description, 150);
-            const productUrl = `${window.location.origin}/${result.custom_attributes.find(attr => attr.attribute_code === 'url_key')?.value || '#'}-${result.sku}.html`;
+            const productUrl = `https://commerce.hayward-pool-assets.com/product-details/${result.sku}`;
 
             return (
               <div key={index} className={`col-12 col-md-3 model-card ${key} d-flex flex-wrap justify-content-center`}>
                 <h3 className='d-flex justify-content-center align-items-center'>{key.charAt(0).toUpperCase() + key.slice(1)}</h3>
-                <img src={`/media/catalog/product/${result.media_gallery_entries[0]?.file}`} alt={result.name} className="img-fluid" />
+                <img 
+                  src={`https://commerce.hayward-pool-assets.com/${result.media_gallery_entries[0]?.file.replace(/^\//, '')}`} 
+                  alt={result.name} 
+                  className="img-fluid" 
+                />
                 <h4>{result.name}</h4>
                 <p>SKU: {result.sku}</p>
                 <p className='description'>{truncatedDescription}</p>
-                <a 
-                  className='rounded-pill' 
-                  href={productUrl} 
-                  target="_blank" 
+                <a
+                  className='rounded-pill'
+                  href={productUrl}
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   View Details
@@ -225,10 +248,10 @@ const Alternatives = ({ onRestart }) => {
           </button>
         </div>
         <div className="col-12 p-5 mt-4 bg-light d-flex flex-wrap">
-        <h3 className='w-100'>Current Product to Replace</h3>
+          <h3 className='w-100'>Current Product to Replace</h3>
           <p className='w-100'>The product you wish to replace is shown below. We have listed on top the alternatives for your selection</p>
           <div className='d-flex align-items-center'>
-            <img src={manufacturer?.logo} alt={manufacturer?.name} className="manufacturer-logo p-3 bg-white rounded shadow-sm mb-3"/>
+            <img src={manufacturer?.logo} alt={manufacturer?.name} className="manufacturer-logo p-3 bg-white rounded shadow-sm mb-3" />
           </div>
           <div className='d-flex flex-column justify-content-center ps-3 flex-fill'>
             <p className='m-0'><strong>Category:</strong> {category?.name}</p>

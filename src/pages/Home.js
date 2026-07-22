@@ -1,15 +1,19 @@
 import React, { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import SkuSearch from '../modules/sku/SkuSearch';
 import './Home.css';
 
 const Home = ({ onSelectCategory }) => {
-  const navigate = useNavigate();
-  
+const navigate = useNavigate();
+const location = useLocation();
 
   useEffect(() => {
-    localStorage.removeItem('appState');
-  }, []);
+    const params = new URLSearchParams(location.search);
+    if (!Array.from(params.keys()).length) {
+      console.log('No URL parameters found. Removing appState...');
+      localStorage.removeItem('appState');
+    }
+  }, [location]);
 
   const handleCategoryClick = () => {
     onSelectCategory();
