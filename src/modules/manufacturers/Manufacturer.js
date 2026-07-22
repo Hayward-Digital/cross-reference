@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import SelectionList from '../shared/SelectionList';
 import { dataPromise } from '../../utils/api';
+import { STORE_SUFFIX, ALL_STORE_SUFFIXES } from '../../config';
 
 const Manufacturer = ({ onSelectManufacturer }) => {
   const { search } = useLocation();
@@ -39,11 +40,11 @@ const Manufacturer = ({ onSelectManufacturer }) => {
   const selectedCategory = categories.find(category => category.code === categoryCode);
 
   if (loading) {
-    return <div class="text-center">Loading...</div>;
+    return <div className="text-center">Loading...</div>;
   }
 
   if (error) {
-    return <div class="text-center">Error: {error}</div>;
+    return <div className="text-center">Error: {error}</div>;
   }
 
   if (!selectedCategory) {
@@ -51,19 +52,27 @@ const Manufacturer = ({ onSelectManufacturer }) => {
     return <div>Category not found.</div>;
   }
 
-  
-  // Filter manufacturers based on the selected category
-  const filteredManufacturers = manufacturers
-    .filter(manufacturer =>
-      manufacturer.categories.some(cat => cat.code === categoryCode && cat.active)
-    )
-    .sort((a, b) => a.name.localeCompare(b.name));
+  // Filter manufacturers based on the selected category and store suffix
+  let filteredManufacturers = manufacturers.filter(manufacturer => {
+    // 1. Check store suffix match
+    let isStoreMatch = false;
+    if (STORE_SUFFIX) {
+      isStoreMatch = manufacturer.code && manufacturer.code.toUpperCase().endsWith(STORE_SUFFIX.toUpperCase());
+    } else {
+      isStoreMatch = manufacturer.code && !ALL_STORE_SUFFIXES.some(suffix => manufacturer.code.toUpperCase().endsWith(suffix.toUpperCase()));
+    }
+    
+    if (!isStoreMatch) return false;
+    
+    // 2. Check category association match
+    return manufacturer.categories.some(cat => cat.code === categoryCode && cat.active);
+  }).sort((a, b) => a.name.localeCompare(b.name));
 
   return (
     <div className="container-fluid mb-5">
       <div className="row">
         <div className="col-10 d-flex align-items-center">
-          <h4>Select {selectedCategory?.name} <span className='fw-bold'>Manufacturers</span></h4>
+          <h4>Select {selectedCategory?.name} <span className="fw-bold">Manufacturers</span></h4>
         </div>
       </div>
       <SelectionList

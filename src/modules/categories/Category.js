@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import SelectionList from '../shared/SelectionList';
 import { dataPromise } from '../../utils/api';
+import { STORE_SUFFIX, ALL_STORE_SUFFIXES } from '../../config';
 
 const Category = ({ onSelect }) => {
   const [categories, setCategories] = useState([]); // State to hold categories data
@@ -12,7 +13,16 @@ const Category = ({ onSelect }) => {
       try {
         setLoading(true); // Start loading
         const preloadedData = await dataPromise; // Access preloaded data
-        setCategories(preloadedData.categories || []); // Set categories data
+        let fetchedCategories = preloadedData.categories || [];
+        
+        let filtered = [];
+        if (STORE_SUFFIX) {
+          filtered = fetchedCategories.filter(c => c.code && c.code.toUpperCase().endsWith(STORE_SUFFIX.toUpperCase()));
+        } else {
+          filtered = fetchedCategories.filter(c => c.code && !ALL_STORE_SUFFIXES.some(suffix => c.code.toUpperCase().endsWith(suffix.toUpperCase())));
+        }
+        
+        setCategories(filtered); // Set categories data
       } catch (err) {
         setError(err.message); // Handle errors
       } finally {
@@ -24,11 +34,11 @@ const Category = ({ onSelect }) => {
   }, []); // Empty dependency array ensures the effect runs once on mount
 
   if (loading) {
-    return <div class="text-center">Loading categories...</div>;
+    return <div className="text-center">Loading categories...</div>;
   }
 
   if (error) {
-    return <div class="text-center">Error: {error}</div>;
+    return <div className="text-center">Error: {error}</div>;
   }
 
   return (

@@ -4,6 +4,7 @@ import ItemCard from '../shared/ItemCard';
 import Pagination from '../../components/pagination/Pagination';
 import { dataPromise } from '../../utils/api';
 import { fetchAPI } from '../../utils/fetchApi';
+import { STORE_SUFFIX, ALL_STORE_SUFFIXES } from '../../config';
 
 const Models = ({ manufacturerName, manufacturerLogo, onSelectModel }) => {
   const { search } = useLocation();
@@ -44,7 +45,7 @@ const Models = ({ manufacturerName, manufacturerLogo, onSelectModel }) => {
         const modelsResponse = await fetchAPI('models', query);
         const modelData = await modelsResponse;
 
-        const sortedModels = modelData ? modelData.models.sort((a, b) => a.name.localeCompare(b.name)) : [];
+        const sortedModels = modelData && modelData.models ? modelData.models.sort((a, b) => a.name.localeCompare(b.name)) : [];
 
         setModels(sortedModels || []);
 

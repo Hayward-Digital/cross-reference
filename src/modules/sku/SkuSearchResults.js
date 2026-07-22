@@ -4,6 +4,7 @@ import ItemCard from '../shared/ItemCard';
 import Pagination from '../../components/pagination/Pagination';
 import { dataPromise } from '../../utils/api';
 import { fetchAPI } from '../../utils/fetchApi';
+import { STORE_SUFFIX, ALL_STORE_SUFFIXES } from '../../config';
 import './SkuSearch.css';
 
 const SkuSearchResults = ({ onSelectModel }) => {
@@ -35,7 +36,7 @@ const SkuSearchResults = ({ onSelectModel }) => {
         const modelData = await modelsResponse;
 
         // Set models in state
-        setModels(modelData.models);
+        setModels(modelData.models ?? []);
         setFilteredModels(modelData.models ?? []);
         setSeries(preloadedData.series  ?? []);
         setCategory(preloadedData.categories  ?? []);

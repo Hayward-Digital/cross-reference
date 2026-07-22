@@ -1,7 +1,4 @@
-const BASE_URL = "/rest/V1/";
-const HEADERS = {
-  Authorization: "Bearer 3ci73owhvsyvefa3qu5nti1vevqi16d0",
-};
+const BASE_URL = "https://commerce.hayward-pool-assets.com/haywardProducts";
 
 /**
  * Fetch data from the API with a given endpoint.
@@ -9,7 +6,7 @@ const HEADERS = {
  * @returns {Promise<any>} - The JSON data from the response.
  */
 const fetchAPI = async (endpoint) => {
-  const response = await fetch(`${BASE_URL}${endpoint}`, { headers: HEADERS });
+  const response = await fetch(`${BASE_URL}?path=${endpoint}`);
   if (!response.ok) throw new Error(`Failed to fetch ${endpoint}`);
   return response.json();
 };
